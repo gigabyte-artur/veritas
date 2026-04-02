@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Enum uuid="2e760843-e342-4fd6-a7f0-331c5fa4f40c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Достижения" category="Ref">
+				<xr:TypeId>aa4b2b78-da93-4451-b107-27ae145f570b</xr:TypeId>
+				<xr:ValueId>36462157-0654-42ac-a96e-62fb74b349fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Достижения" category="Manager">
+				<xr:TypeId>b615dc3f-57bb-448c-8e60-09572b530f20</xr:TypeId>
+				<xr:ValueId>70b23a71-6c7e-434c-9b7f-a9a7c9a35a2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Достижения" category="List">
+				<xr:TypeId>82de8fc8-4413-4486-86f7-0cfca76e0d56</xr:TypeId>
+				<xr:ValueId>fdf1523b-2b08-4682-9d78-ceef134089d6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Достижения</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Достижения</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ecdf34ef-f2c9-43f9-ba04-c22bd0e437fc">
+				<Properties>
+					<Name>СтоВопросовСыграно</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сыграно 100 вопросов за одну серию</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6d3bcd9a-6930-486c-9cc0-58a92a19fdeb">
+				<Properties>
+					<Name>ТридцатьВопросовБезОшибок</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отвечено на 30 вопросов без ошибок</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="320ab6fa-56ab-4a49-acfe-cb7e6e759289">
+				<Properties>
+					<Name>СерияДвадцатьПравильных</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Серия из двадцати правильных ответов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ed8ccd9f-4a59-40d2-86a1-622bac623554">
+				<Properties>
+					<Name>УстановленоПятнадцатьСборников</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установлено пятнадцать сборников</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2dea022d-0818-472a-ac0b-5167181de4b1">
+				<Properties>
+					<Name>ДвадцатьВопросовЗаШестьдесятСекунд</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Двадцать вопросов за шестьдесят секунд</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

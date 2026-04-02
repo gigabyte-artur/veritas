@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ГруппаСтраницы" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="8"/>
+			<ChildItems>
+				<Page name="ГруппаСтраницаВыгрузка" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа страница выгрузка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСтраницаВыгрузкаРасширеннаяПодсказка" id="10"/>
+					<ChildItems>
+						<InputField name="ИмяФайла" id="1">
+							<DataPath>ИмяФайлаВыгрузка</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Имя файла</v8:content>
+								</v8:item>
+							</Title>
+							<ChoiceButton>true</ChoiceButton>
+							<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="3"/>
+							<Events>
+								<Event name="OnChange">ИмяФайлаПриИзменении</Event>
+								<Event name="StartChoice">ИмяФайлаНачалоВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="Сборник" id="4">
+							<DataPath>Сборник</DataPath>
+							<ContextMenu name="СборникКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="СборникРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<Button name="ВыгрузитьСборник" id="11">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ВыгрузитьСборник</CommandName>
+							<ExtendedTooltip name="ВыгрузитьСборникРасширеннаяПодсказка" id="12"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаСтраницаЗагрузка" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа страница загрузка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСтраницаЗагрузкаРасширеннаяПодсказка" id="14"/>
+					<ChildItems>
+						<InputField name="ИмяФайлаЗагрузка" id="15">
+							<DataPath>ИмяФайлаЗагрузка</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Имя файла</v8:content>
+								</v8:item>
+							</Title>
+							<ChoiceButton>true</ChoiceButton>
+							<ContextMenu name="ИмяФайлаЗагрузкаКонтекстноеМеню" id="16"/>
+							<ExtendedTooltip name="ИмяФайлаЗагрузкаРасширеннаяПодсказка" id="17"/>
+							<Events>
+								<Event name="StartChoice">ИмяФайлаЗагрузкаНачалоВыбора</Event>
+							</Events>
+						</InputField>
+						<CheckBoxField name="ИзCSV" id="20">
+							<DataPath>ИзCSV</DataPath>
+							<CheckBoxType>Tumbler</CheckBoxType>
+							<ContextMenu name="ИзCSVКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="ИзCSVРасширеннаяПодсказка" id="22"/>
+							<Events>
+								<Event name="OnChange">ИзCSVПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<InputField name="НовоеИмяСборника" id="23">
+							<DataPath>НовоеИмяСборника</DataPath>
+							<ContextMenu name="НовоеИмяСборникаКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="НовоеИмяСборникаРасширеннаяПодсказка" id="25"/>
+						</InputField>
+						<Button name="ЗагрузитьСборник" id="18">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗагрузитьСборник</CommandName>
+							<ExtendedTooltip name="ЗагрузитьСборникРасширеннаяПодсказка" id="19"/>
+						</Button>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПереносСборников</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ИмяФайлаВыгрузка" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя файла выгрузка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Сборник" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сборник</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Сборники</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИмяФайлаЗагрузка" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя файла загрузка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИзCSV" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Из CSV</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НовоеИмяСборника" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новое имя сборника</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыгрузитьСборник" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить сборник</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить сборник</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыгрузитьСборник</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ЗагрузитьСборник" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить сборник</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить сборник</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьСборник</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;h1&gt;Викторина&lt;/h1&gt;
+	На этой странице отображаются вопросы викторины по выбранному сборнику. Прочитайте текст вопроса, либо рассмотрите картинку вопроса - а после выберите один из предложенных вариантов ответов. В случае успеха будет задан следующий вопрос, а в случае неудачи - показан номер правильного варианта ответа.
+	&lt;h2&gt;Статистика&lt;/h2&gt;
+	В игровом поле отображается количество верных ответов и количество заданных вопросов, разделённых косой чертой ( / ).
+	&lt;h2&gt;Настройки&lt;/h2&gt;
+	Выберите команду &lt;strong&gt;Открыть настройки&lt;/strong&gt; для изменения таких настроек викторины как: Сборник, Режим викторины, Пользователь. Выбранный сборник отображается в заголовке страницы.
+	&lt;h2&gt;Подсказки&lt;/h2&gt;
+	Если Вы затрудняетесь в ответе, Вы можете воспользоваться одной из следующих подсказок:
+	&lt;ul&gt;
+		&lt;li&gt;&lt;strong&gt;Искать вопрос в Интернете&lt;/strong&gt; - искать в сети Интернет текст предложенного вопроса&lt;/li&gt;
+		&lt;li&gt;&lt;strong&gt;Подсказка&lt;/strong&gt; - система предложит мнемоническую подсказку, которая поможет верно ответить на заданный вопрос&lt;/li&gt;	
+	&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>2</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<format>
+		<width>351</width>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+</document>

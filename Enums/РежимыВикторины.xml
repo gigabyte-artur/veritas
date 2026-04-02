@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Enum uuid="9417347f-811e-4400-8b06-e240572ef6fe">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.РежимыВикторины" category="Ref">
+				<xr:TypeId>7e3d602d-4bfe-4420-8940-6eeb0c764e14</xr:TypeId>
+				<xr:ValueId>8a4446e4-57b3-4684-942f-4cc43a12fb37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.РежимыВикторины" category="Manager">
+				<xr:TypeId>9f05fc35-80ce-4778-bcb6-2818d8d441da</xr:TypeId>
+				<xr:ValueId>f947bff0-f3d7-43cb-b23d-c8df1e861347</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.РежимыВикторины" category="List">
+				<xr:TypeId>d0b6f522-f829-4f06-b32f-efda4a36662d</xr:TypeId>
+				<xr:ValueId>5a2968f0-a455-4710-935f-906e0d9c4b9c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РежимыВикторины</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Режимы викторины</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="0394f8b4-5163-4280-a737-c96ea4e2ac76">
+				<Properties>
+					<Name>ОдинСборникБезОстановки</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Один сборник</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Бесконечные вопросы по одному сборнику</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="220989dc-fe73-4126-94d2-18aa4a576f94">
+				<Properties>
+					<Name>СлучайныйСборник</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Случайный сборник</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Бесконечные вопросы по случайным сборникам на каждый вопрос</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9957069a-b8c7-459b-85e4-d7be6e45ebca">
+				<Properties>
+					<Name>Испытание</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Испытание</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>100 вопросов по одному сборнику</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="107ded6b-7161-4864-af23-76ba6e351602">
+				<Properties>
+					<Name>Восхождение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Восхождение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

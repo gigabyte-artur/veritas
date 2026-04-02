@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;h1&gt;Настройки викторины&lt;/h1&gt;
+	На этом экране пользователю предлагается указать настройки проведения текущей викторины. Команда &lt;strong&gt;Применить&lt;/strong&gt; фиксирует выбранные настройки.
+	&lt;h2&gt;Пользователь&lt;/h2&gt;
+	Выберите пользователя, от имени которого будет проходить викторина, и на имя которого будут записаны результаты.
+	&lt;h2&gt;Режим викторины&lt;/h2&gt;
+	Выберите режим, в котором будет проходить викторина:
+	&lt;ul&gt;
+		&lt;li&gt;&lt;strong&gt;Один сборник&lt;/strong&gt; - все вопросы будут задаваться только в рамках одного выбранного сборника. Количество вопросов при этом не ограничено.&lt;/li&gt;
+		&lt;li&gt;&lt;strong&gt;Случайный сборник&lt;/strong&gt; - после каждого ответа сборник для нового вопроса будет выбран случайным образом среди имеющихся. Количество вопросов при этом не ограничено.&lt;/li&gt;
+		&lt;li&gt;&lt;strong&gt;Испытание&lt;/strong&gt; - будет задано фиксированное количество вопросов в рамках одного сборника. По окончанию будет подведена статистика ответов.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;h2&gt;Сборник&lt;/h2&gt;
+	Выберите сборник, по которому будут заданы вопросы. В режиме &lt;strong&gt;случайный сборник&lt;/strong&gt; сборники будут меняться после каждого ответа вне зависимости от выбранного сборника в этой настройке.
+&lt;/body&gt;
+&lt;/html&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>1</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<format>
+		<width>72</width>
+	</format>
+</document>
