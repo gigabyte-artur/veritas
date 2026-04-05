@@ -328,6 +328,58 @@
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
+						<Table name="ПараметрыИгрока" id="113">
+							<Representation>List</Representation>
+							<HeightInTableRows>3</HeightInTableRows>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ПараметрыИгрока</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПараметрыИгрокаКонтекстноеМеню" id="114"/>
+							<AutoCommandBar name="ПараметрыИгрокаКоманднаяПанель" id="115"/>
+							<ExtendedTooltip name="ПараметрыИгрокаРасширеннаяПодсказка" id="116"/>
+							<SearchStringAddition name="ПараметрыИгрокаСтрокаПоиска" id="117">
+								<AdditionSource>
+									<Item>ПараметрыИгрока</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПараметрыИгрокаСтрокаПоискаКонтекстноеМеню" id="118"/>
+								<ExtendedTooltip name="ПараметрыИгрокаСтрокаПоискаРасширеннаяПодсказка" id="119"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПараметрыИгрокаСостояниеПросмотра" id="120">
+								<AdditionSource>
+									<Item>ПараметрыИгрока</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПараметрыИгрокаСостояниеПросмотраКонтекстноеМеню" id="121"/>
+								<ExtendedTooltip name="ПараметрыИгрокаСостояниеПросмотраРасширеннаяПодсказка" id="122"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПараметрыИгрокаУправлениеПоиском" id="123">
+								<AdditionSource>
+									<Item>ПараметрыИгрока</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПараметрыИгрокаУправлениеПоискомКонтекстноеМеню" id="124"/>
+								<ExtendedTooltip name="ПараметрыИгрокаУправлениеПоискомРасширеннаяПодсказка" id="125"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ПараметрыИгрокаВидПараметра" id="126">
+									<DataPath>ПараметрыИгрока.ВидПараметра</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПараметрыИгрокаВидПараметраКонтекстноеМеню" id="127"/>
+									<ExtendedTooltip name="ПараметрыИгрокаВидПараметраРасширеннаяПодсказка" id="128"/>
+								</InputField>
+								<InputField name="ПараметрыИгрокаЗначениеПараметра" id="129">
+									<DataPath>ПараметрыИгрока.ЗначениеПараметра</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПараметрыИгрокаЗначениеПараметраКонтекстноеМеню" id="130"/>
+									<ExtendedTooltip name="ПараметрыИгрокаЗначениеПараметраРасширеннаяПодсказка" id="131"/>
+								</InputField>
+							</ChildItems>
+						</Table>
 						<UsualGroup name="ГруппаПротивник" id="102">
 							<Title>
 								<v8:item>
@@ -355,6 +407,58 @@
 								</LabelField>
 							</ChildItems>
 						</UsualGroup>
+						<Table name="ПараметрыПротивника" id="132">
+							<Representation>List</Representation>
+							<HeightInTableRows>3</HeightInTableRows>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ПараметрыПротивника</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПараметрыПротивникаКонтекстноеМеню" id="133"/>
+							<AutoCommandBar name="ПараметрыПротивникаКоманднаяПанель" id="134"/>
+							<ExtendedTooltip name="ПараметрыПротивникаРасширеннаяПодсказка" id="135"/>
+							<SearchStringAddition name="ПараметрыПротивникаСтрокаПоиска" id="136">
+								<AdditionSource>
+									<Item>ПараметрыПротивника</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПараметрыПротивникаСтрокаПоискаКонтекстноеМеню" id="137"/>
+								<ExtendedTooltip name="ПараметрыПротивникаСтрокаПоискаРасширеннаяПодсказка" id="138"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПараметрыПротивникаСостояниеПросмотра" id="139">
+								<AdditionSource>
+									<Item>ПараметрыПротивника</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПараметрыПротивникаСостояниеПросмотраКонтекстноеМеню" id="140"/>
+								<ExtendedTooltip name="ПараметрыПротивникаСостояниеПросмотраРасширеннаяПодсказка" id="141"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПараметрыПротивникаУправлениеПоиском" id="142">
+								<AdditionSource>
+									<Item>ПараметрыПротивника</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПараметрыПротивникаУправлениеПоискомКонтекстноеМеню" id="143"/>
+								<ExtendedTooltip name="ПараметрыПротивникаУправлениеПоискомРасширеннаяПодсказка" id="144"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ПараметрыПротивникаВидПараметра" id="145">
+									<DataPath>ПараметрыПротивника.ВидПараметра</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПараметрыПротивникаВидПараметраКонтекстноеМеню" id="146"/>
+									<ExtendedTooltip name="ПараметрыПротивникаВидПараметраРасширеннаяПодсказка" id="147"/>
+								</InputField>
+								<InputField name="ПараметрыПротивникаЗначениеПараметра" id="148">
+									<DataPath>ПараметрыПротивника.ЗначениеПараметра</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПараметрыПротивникаЗначениеПараметраКонтекстноеМеню" id="149"/>
+									<ExtendedTooltip name="ПараметрыПротивникаЗначениеПараметраРасширеннаяПодсказка" id="150"/>
+								</InputField>
+							</ChildItems>
+						</Table>
 						<Table name="Модификаторы" id="67">
 							<Representation>List</Representation>
 							<ReadOnly>true</ReadOnly>
@@ -972,11 +1076,47 @@
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:EnumRef.ВидыПараметровИгроков</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ЗначениеПараметра" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение параметра</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ПараметрыПротивника" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры противника</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ВидПараметра" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид параметра</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыПараметровИгроков</v8:Type>
 					</Type>
 				</Column>
 				<Column name="ЗначениеПараметра" id="2">
