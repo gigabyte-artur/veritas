@@ -49,6 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Модификаторы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Противники</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВариантыДействийПротивников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыПараметровИгроков</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
