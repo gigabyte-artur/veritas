@@ -24,4 +24,10 @@
 		<Description>Перекус</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="059466f7-4301-4c0d-b8fa-fa9c353dd649">
+		<Name>Подсечка</Name>
+		<Code>000000005</Code>
+		<Description>Подсечка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>
