@@ -6,4 +6,10 @@
 		<Description>Интуиция</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="4e9fad5b-2121-48c1-9782-4c9b5e6c811e">
+		<Name>Перекус</Name>
+		<Code>000000002</Code>
+		<Description>Перекус</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>
