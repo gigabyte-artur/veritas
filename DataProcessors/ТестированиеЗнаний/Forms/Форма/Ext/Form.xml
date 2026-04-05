@@ -330,6 +330,7 @@
 						</UsualGroup>
 						<Table name="ПараметрыИгрока" id="113">
 							<Representation>List</Representation>
+							<ReadOnly>true</ReadOnly>
 							<HeightInTableRows>3</HeightInTableRows>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
@@ -409,6 +410,7 @@
 						</UsualGroup>
 						<Table name="ПараметрыПротивника" id="132">
 							<Representation>List</Representation>
+							<ReadOnly>true</ReadOnly>
 							<HeightInTableRows>3</HeightInTableRows>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
