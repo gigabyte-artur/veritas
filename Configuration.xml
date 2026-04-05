@@ -286,6 +286,7 @@
 			<CommonPicture>ПятьЗвезд</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
+			<CommonTemplate>Противники_Предопределенный</CommonTemplate>
 			<CommonTemplate>Сборник_Предопределенный</CommonTemplate>
 			<CommonModule>ДостиженияКлиентСервер</CommonModule>
 			<CommonModule>ОбменССайтом</CommonModule>
