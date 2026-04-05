@@ -12,6 +12,12 @@
 		<Description>Кожаные пластины</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="728643eb-4cd1-43c6-97a5-b24fe069fb5e">
+		<Name>КровьГидры</Name>
+		<Code>000000004</Code>
+		<Description>Кровь гидры</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="4e9fad5b-2121-48c1-9782-4c9b5e6c811e">
 		<Name>Перекус</Name>
 		<Code>000000002</Code>
