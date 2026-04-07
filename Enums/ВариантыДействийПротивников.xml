@@ -38,6 +38,18 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
+			<EnumValue uuid="f71faad6-ea35-4873-b28a-07338d90d832">
+				<Properties>
+					<Name>АктивироватьБомбу</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Активировать бомбу</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="c61e4adf-2fcf-44d3-94e7-23447f19dd44">
 				<Properties>
 					<Name>Атака</Name>
