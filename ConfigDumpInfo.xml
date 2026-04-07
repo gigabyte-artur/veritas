@@ -162,10 +162,10 @@
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПросмотраКартинки" id="32960b60-6fe8-4a22-8c7c-80057ab16cf6" configVersion="bb3fca0d1ffebc4eb8784cfd0bb4731c00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПросмотраКартинки.Form" id="32960b60-6fe8-4a22-8c7c-80057ab16cf6.0" configVersion="2ffd89e0b6906f41aae22c34ef5a622e00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.ManagerModule" id="2999ecc1-a473-4398-8d48-3351ae5887e9.2" configVersion="41f023b51c530b4aa0c599d4d91746fc00000000"/>
-		<Metadata name="Enum.ВариантыДействийПротивников" id="93287cb5-98f1-43c6-8a33-46765c76592a" configVersion="41c141ce235c004e8414e6598146c19c00000000">
+		<Metadata name="Enum.ВариантыДействийПротивников" id="93287cb5-98f1-43c6-8a33-46765c76592a" configVersion="caefb667400e044f93f07184391860ab00000000">
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.НаложитьЩит" id="7f149983-0cf1-4e77-8ced-f9a60cd56ed3"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.НаложитьПроклятие" id="8183503e-1658-4607-bbee-db53cb73a498"/>
-			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.МощныйУдар" id="b4ccb06c-d774-4e9a-96cf-3fb3f8ae040a"/>
+			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.УдарНаУдачу" id="b4ccb06c-d774-4e9a-96cf-3fb3f8ae040a"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.Атака" id="c61e4adf-2fcf-44d3-94e7-23447f19dd44"/>
 		</Metadata>
 		<Metadata name="Enum.ВидыПараметровИгроков" id="222c7963-ce05-499e-9722-b1116b79f434" configVersion="5a138d58dea7a1458d6b75f76f7eb10c00000000">

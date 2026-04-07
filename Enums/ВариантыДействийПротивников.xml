@@ -50,18 +50,6 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="b4ccb06c-d774-4e9a-96cf-3fb3f8ae040a">
-				<Properties>
-					<Name>МощныйУдар</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Мощный удар</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
 			<EnumValue uuid="8183503e-1658-4607-bbee-db53cb73a498">
 				<Properties>
 					<Name>НаложитьПроклятие</Name>
@@ -81,6 +69,18 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наложить щит</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b4ccb06c-d774-4e9a-96cf-3fb3f8ae040a">
+				<Properties>
+					<Name>УдарНаУдачу</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Удар на удачу</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
