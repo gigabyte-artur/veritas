@@ -5,10 +5,10 @@ __pycache__/
 *.o
 *.obj
 *.class
-*.exe
 *.dll
 *.so
 *.a
+*.exe
 *.out
 
 # Dependencies
@@ -17,7 +17,7 @@ venv/
 .venv/
 .env
 .env.local
-.env.*
+*.env.*
 
 # Logs and temp files
 *.log
@@ -45,6 +45,40 @@ target/
 .gradle/
 
 # Python specific
-.mypy_cache/
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
 .pytest_cache/
+.mypy_cache/
+.tox/
+.coverage*
+
+# Compression
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
