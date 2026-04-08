@@ -86,6 +86,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="82a2fe9b-120d-43f1-bb54-48b91244e072">
+				<Properties>
+					<Name>УвеличитьСилу</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Увеличить силу</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="b4ccb06c-d774-4e9a-96cf-3fb3f8ae040a">
 				<Properties>
 					<Name>УдарНаУдачу</Name>

@@ -28,13 +28,14 @@
 		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента.Form" id="5078837e-c2a4-4224-a5ae-e34cc0eb7db6.0" configVersion="e7637510542752469710ea0a4ac90b9900000000"/>
 		<Metadata name="Catalog.Пользователи.ManagerModule" id="68af3996-2fe3-4f80-8642-565bf2147b8e.3" configVersion="0ab9b4fb0d8cc94081b7d273845577d100000000"/>
 		<Metadata name="Catalog.Пользователи.ObjectModule" id="68af3996-2fe3-4f80-8642-565bf2147b8e.0" configVersion="0813168985c3c644be4649dbf589b8a400000000"/>
-		<Metadata name="Catalog.Противники" id="7d9f83dc-bbcc-42e6-81be-87eeca7fba9f" configVersion="a1da6ecd94c3ac4c90968202ffe18fd100000000">
+		<Metadata name="Catalog.Противники" id="7d9f83dc-bbcc-42e6-81be-87eeca7fba9f" configVersion="d5f28d156a09414998f4957a93be26c000000000">
 			<Metadata name="Catalog.Противники.TabularSection.ДействияЦикла.Attribute.ДействиеЦикла" id="12ceda76-1449-42de-9583-76c396d8b292"/>
 			<Metadata name="Catalog.Противники.Attribute.МаксимальноеЗдоровье" id="3ccee6ba-c735-4e5a-9230-c8429fffb742"/>
 			<Metadata name="Catalog.Противники.TabularSection.ДействияЦикла.Attribute.МинимальнаяСила" id="3ee02358-ff34-441a-8d33-916848097132"/>
 			<Metadata name="Catalog.Противники.Attribute.ВнешнийID" id="4847ac64-2908-42d9-9a40-8916a2de5442"/>
 			<Metadata name="Catalog.Противники.TabularSection.ДействияЦикла" id="484fc8e7-d2dd-43e8-8379-466b92fbcc97"/>
 			<Metadata name="Catalog.Противники.TabularSection.ДействияЦикла.Attribute.МаксимальнаяСила" id="a59ddc46-2e50-4efa-9d87-7d5e2c2e8401"/>
+			<Metadata name="Catalog.Противники.Attribute.Описание" id="ff3c1554-67ee-430b-9901-3adc060a4b4c"/>
 		</Metadata>
 		<Metadata name="Catalog.Противники.ManagerModule" id="7d9f83dc-bbcc-42e6-81be-87eeca7fba9f.3" configVersion="ec05d69b70a6db45ba2cb8e58138658100000000"/>
 		<Metadata name="Catalog.Сборники" id="52c44cc3-5d26-4684-b79e-464958bf1145" configVersion="3ca5a1e4c0bf564d9759db71f2bf814700000000">
@@ -153,8 +154,8 @@
 		<Metadata name="DataProcessor.ПереносСборников.Form.Форма.Form" id="66555246-f217-4b23-a0d8-1e6086b9c25f.0" configVersion="7a9f69ab6fc3324dabe314ee9974cd3500000000"/>
 		<Metadata name="DataProcessor.ПереносСборников.ManagerModule" id="d630b1f1-0971-4494-bf41-db69eeb8077f.2" configVersion="8ccd7c13198d68459f4e16b258fd303400000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний" id="2999ecc1-a473-4398-8d48-3351ae5887e9" configVersion="e6b1febcd2e7bf4db572f2218235b75e00000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21" configVersion="40ee6cad525fa74f9e6614d380f809d500000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма.Form" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21.0" configVersion="18632d7040dd204d9bb53a2225c0299f00000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21" configVersion="f8054764ec310a488b86a8be25e3ddaa00000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма.Form" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21.0" configVersion="e2b1328e78927147a7f4627b5b4f6a5d00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНастроекВикторины" id="9493a178-85ce-40c1-af73-559f37a5fc71" configVersion="5132f72ef97dd142a6291e8d9965bf8800000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНастроекВикторины.Form" id="9493a178-85ce-40c1-af73-559f37a5fc71.0" configVersion="51bbe00b42addc40b79ed7c1a16ea87800000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНачальныхНастроек" id="d11683ae-9f7d-4a9c-9cbf-c8447be83bff" configVersion="a4be61c5b4ad7b45912d0c33a72e215600000000"/>
@@ -162,17 +163,19 @@
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПросмотраКартинки" id="32960b60-6fe8-4a22-8c7c-80057ab16cf6" configVersion="c8ffcf86ce80514c98096a7416a9986b00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПросмотраКартинки.Form" id="32960b60-6fe8-4a22-8c7c-80057ab16cf6.0" configVersion="ca85dbddb9946f45b60fed200819e34700000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.ManagerModule" id="2999ecc1-a473-4398-8d48-3351ae5887e9.2" configVersion="e3fe629561878b47befe63a4cb3dc57f00000000"/>
-		<Metadata name="Enum.ВариантыДействийПротивников" id="93287cb5-98f1-43c6-8a33-46765c76592a" configVersion="fb08f816d79bfa42b1d1a2063c3f5e4e00000000">
+		<Metadata name="Enum.ВариантыДействийПротивников" id="93287cb5-98f1-43c6-8a33-46765c76592a" configVersion="aa88ef2baa827049b50528b34f67b73b00000000">
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.НаложитьЩит" id="7f149983-0cf1-4e77-8ced-f9a60cd56ed3"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.НаложитьПроклятие" id="8183503e-1658-4607-bbee-db53cb73a498"/>
+			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.УвеличитьСилу" id="82a2fe9b-120d-43f1-bb54-48b91244e072"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.УдарНаУдачу" id="b4ccb06c-d774-4e9a-96cf-3fb3f8ae040a"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.Атака" id="c61e4adf-2fcf-44d3-94e7-23447f19dd44"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.АктивироватьБомбу" id="f71faad6-ea35-4873-b28a-07338d90d832"/>
 		</Metadata>
-		<Metadata name="Enum.ВидыПараметровИгроков" id="222c7963-ce05-499e-9722-b1116b79f434" configVersion="8ac80baa9bd6a34d8bbe61b6fffd779300000000">
+		<Metadata name="Enum.ВидыПараметровИгроков" id="222c7963-ce05-499e-9722-b1116b79f434" configVersion="bb3bcab4587dd344876ab06c6a0a3b5d00000000">
 			<Metadata name="Enum.ВидыПараметровИгроков.EnumValue.Проклятие" id="2cf6810f-f09e-44b2-a452-e05e9e40a1e0"/>
 			<Metadata name="Enum.ВидыПараметровИгроков.EnumValue.Щит" id="8ff27a38-19f6-4833-a00b-c4fc9bc3bfc2"/>
 			<Metadata name="Enum.ВидыПараметровИгроков.EnumValue.Бомба" id="9d2e09a3-6c28-4687-b277-2fa1050dd713"/>
+			<Metadata name="Enum.ВидыПараметровИгроков.EnumValue.Сила" id="aa869f49-bd28-45a6-935f-aa3a112b7974"/>
 			<Metadata name="Enum.ВидыПараметровИгроков.EnumValue.ТекущееЗдоровье" id="bdfaa716-8559-4228-9d88-2f93bf3f007e"/>
 			<Metadata name="Enum.ВидыПараметровИгроков.EnumValue.МаксимальноеЗдоровье" id="c5e3d8f2-4a1b-4c9e-8f7d-3b2a1e0d9c8b"/>
 		</Metadata>

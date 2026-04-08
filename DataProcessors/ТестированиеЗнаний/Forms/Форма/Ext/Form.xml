@@ -393,6 +393,7 @@
 							<ChildItems>
 								<LabelField name="Противник" id="104">
 									<DataPath>Противник</DataPath>
+									<Hiperlink>true</Hiperlink>
 									<ContextMenu name="ПротивникКонтекстноеМеню" id="105"/>
 									<ExtendedTooltip name="ПротивникРасширеннаяПодсказка" id="106"/>
 								</LabelField>

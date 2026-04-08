@@ -74,6 +74,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="aa869f49-bd28-45a6-935f-aa3a112b7974">
+				<Properties>
+					<Name>Сила</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сила</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="bdfaa716-8559-4228-9d88-2f93bf3f007e">
 				<Properties>
 					<Name>ТекущееЗдоровье</Name>
