@@ -45,7 +45,7 @@
                 &lt;MaxPower&gt;6&lt;/MaxPower&gt;
             &lt;/Action&gt;
             &lt;Action&gt;
-                &lt;Type&gt;Проклятие&lt;/Type&gt;
+                &lt;Type&gt;НаложитьПроклятие&lt;/Type&gt;
                 &lt;MinPower&gt;25&lt;/MinPower&gt;
                 &lt;MaxPower&gt;25&lt;/MaxPower&gt;
             &lt;/Action&gt;
@@ -88,7 +88,7 @@
         &lt;MaxHealth&gt;50&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
-                &lt;Type&gt;Проклятие&lt;/Type&gt;
+                &lt;Type&gt;НаложитьПроклятие&lt;/Type&gt;
                 &lt;MinPower&gt;25&lt;/MinPower&gt;
                 &lt;MaxPower&gt;25&lt;/MaxPower&gt;
             &lt;/Action&gt;
