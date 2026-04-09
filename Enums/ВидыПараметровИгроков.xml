@@ -62,6 +62,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="c12a5198-30f4-4e85-9dbe-f375208b1dd2">
+				<Properties>
+					<Name>Неуклюжесть</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Неуклюжесть</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="2cf6810f-f09e-44b2-a452-e05e9e40a1e0">
 				<Properties>
 					<Name>Проклятие</Name>
