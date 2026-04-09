@@ -62,6 +62,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="39b5081a-8629-4548-870e-f0ebab35525c">
+				<Properties>
+					<Name>Вампиризм</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вампиризм</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="33b08f34-d71c-4d5d-a61c-49349583a33d">
 				<Properties>
 					<Name>Лечение</Name>
