@@ -230,6 +230,64 @@
 			&lt;/Action&gt;
 		&lt;/ActionCycle&gt;
 	&lt;/Enemy&gt;
+	
+    &lt;!-- 8. Кровавая Ведунья --&gt;
+    &lt;Enemy id="blood_seer_01"&gt;
+        &lt;Name&gt;Кровавая Ведунья&lt;/Name&gt;
+        &lt;Description&gt;Хрупкая, но опасная жрица темных культов. Она избегает прямого столкновения, ослабляя героя проклятиями и лишая его возможности действовать.&lt;/Description&gt;
+        &lt;MaxHealth&gt;80&lt;/MaxHealth&gt;
+        &lt;ActionCycle&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;НаложитьПроклятие&lt;/Type&gt;
+                &lt;MinPower&gt;2&lt;/MinPower&gt;
+                &lt;MaxPower&gt;3&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;Вампиризм&lt;/Type&gt;
+                &lt;MinPower&gt;10&lt;/MinPower&gt;
+                &lt;MaxPower&gt;14&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;НаложитьНеуклюжесть&lt;/Type&gt;
+                &lt;MinPower&gt;1&lt;/MinPower&gt;
+                &lt;MaxPower&gt;2&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;УдарНаУдачу&lt;/Type&gt;
+                &lt;MinPower&gt;14&lt;/MinPower&gt;
+                &lt;MaxPower&gt;18&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+        &lt;/ActionCycle&gt;
+    &lt;/Enemy&gt;
+
+    &lt;!-- 9. Мутант-Пиявка --&gt;
+    &lt;Enemy id="mutant_leech_01"&gt;
+        &lt;Name&gt;Мутант-Пиявка&lt;/Name&gt;
+        &lt;Description&gt;Огромное бесформенное существо, результат темных экспериментов. Оно медленно накапливает силу и покрывает себя защитной слизью, делая его трудной мишенью.&lt;/Description&gt;
+        &lt;MaxHealth&gt;100&lt;/MaxHealth&gt;
+        &lt;ActionCycle&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;УвеличитьСилу&lt;/Type&gt;
+                &lt;MinPower&gt;2&lt;/MinPower&gt;
+                &lt;MaxPower&gt;4&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;НаложитьЩит&lt;/Type&gt;
+                &lt;MinPower&gt;10&lt;/MinPower&gt;
+                &lt;MaxPower&gt;15&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;Вампиризм&lt;/Type&gt;
+                &lt;MinPower&gt;12&lt;/MinPower&gt;
+                &lt;MaxPower&gt;18&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;Атака&lt;/Type&gt;
+                &lt;MinPower&gt;10&lt;/MinPower&gt;
+                &lt;MaxPower&gt;14&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+        &lt;/ActionCycle&gt;
+    &lt;/Enemy&gt;
 &lt;/Enemies&gt;</v8:content>
 						</v8:item>
 					</tl>
