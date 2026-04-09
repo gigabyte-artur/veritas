@@ -4,6 +4,7 @@
 __pycache__/
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
@@ -14,8 +15,8 @@ __pycache__/
 .venv/
 venv/
 node_modules/
-dist/
-build/
+.mypy_cache/
+.pytest_cache/
 target/
 .gradle/
 
@@ -28,7 +29,7 @@ target/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
@@ -42,23 +43,6 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-.Python
-*.egg-info/
-.eggs/
-
-# Backup files
-*~
-*.bak
-*.orig
-*.rej
 
 # Compressed files
 *.zip
