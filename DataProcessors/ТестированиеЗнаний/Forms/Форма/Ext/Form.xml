@@ -397,16 +397,47 @@
 									<ContextMenu name="ПротивникКонтекстноеМеню" id="105"/>
 									<ExtendedTooltip name="ПротивникРасширеннаяПодсказка" id="106"/>
 								</LabelField>
-								<LabelField name="МаксимальноеЗдоровьеПротивника" id="107">
-									<DataPath>МаксимальноеЗдоровьеПротивника</DataPath>
-									<ContextMenu name="МаксимальноеЗдоровьеПротивникаКонтекстноеМеню" id="108"/>
-									<ExtendedTooltip name="МаксимальноеЗдоровьеПротивникаРасширеннаяПодсказка" id="109"/>
-								</LabelField>
-								<LabelField name="ТекущееЗдоровьеПротивника" id="110">
-									<DataPath>ТекущееЗдоровьеПротивника</DataPath>
-									<ContextMenu name="ТекущееЗдоровьеПротивникаКонтекстноеМеню" id="111"/>
-									<ExtendedTooltip name="ТекущееЗдоровьеПротивникаРасширеннаяПодсказка" id="112"/>
-								</LabelField>
+								<UsualGroup name="ГруппаЗдоровьеПротивника" id="151">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа здоровье противника</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа здоровье противника</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЗдоровьеПротивникаРасширеннаяПодсказка" id="152"/>
+									<ChildItems>
+										<LabelField name="ТекущееЗдоровьеПротивника" id="110">
+											<DataPath>ТекущееЗдоровьеПротивника</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Здоровье</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ТекущееЗдоровьеПротивникаКонтекстноеМеню" id="111"/>
+											<ExtendedTooltip name="ТекущееЗдоровьеПротивникаРасширеннаяПодсказка" id="112"/>
+										</LabelField>
+										<LabelField name="МаксимальноеЗдоровьеПротивника" id="107">
+											<DataPath>МаксимальноеЗдоровьеПротивника</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>из</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="МаксимальноеЗдоровьеПротивникаКонтекстноеМеню" id="108"/>
+											<ExtendedTooltip name="МаксимальноеЗдоровьеПротивникаРасширеннаяПодсказка" id="109"/>
+										</LabelField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<Table name="ПараметрыПротивника" id="132">
