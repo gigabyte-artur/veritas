@@ -118,7 +118,7 @@
 		<Metadata name="CommonTemplate.Противники_Предопределенный.Template" id="3e97d02d-2084-4f2a-986f-7582a0a0bb2b.0" configVersion="2d8f6c8781dff7479e2d6e7bb1be83e100000000"/>
 		<Metadata name="CommonTemplate.Сборник_Предопределенный" id="07d7d3c9-9d83-4ef3-9dc5-17ea60bbd63c" configVersion="3c8f4a01ba2ee04a8632046beee9772100000000"/>
 		<Metadata name="CommonTemplate.Сборник_Предопределенный.Template" id="07d7d3c9-9d83-4ef3-9dc5-17ea60bbd63c.0" configVersion="f56271b4eefe214784759f099fdfd9ed00000000"/>
-		<Metadata name="Configuration.Veritas" id="7509fd66-4f60-4f39-a099-52202f991049" configVersion="6168dea5cf043e4eb61665369f0a581f00000000"/>
+		<Metadata name="Configuration.Veritas" id="7509fd66-4f60-4f39-a099-52202f991049" configVersion="d9576d5aeece6842b6d8b1858b8ed2a900000000"/>
 		<Metadata name="Configuration.Veritas.CommandInterface" id="0b9e596f-64ab-4534-9194-db0f43f0a494.a" configVersion="d4f88ebef79a0a49a16d4f999c1a588d00000000"/>
 		<Metadata name="Configuration.Veritas.HomePageWorkArea" id="0b9e596f-64ab-4534-9194-db0f43f0a494.8" configVersion="3bc290c4d5211d4da6eef2fcde8ee94500000000"/>
 		<Metadata name="Configuration.Veritas.Logo" id="0b9e596f-64ab-4534-9194-db0f43f0a494.1" configVersion="28cddcf9fdc3574caa15fff0e4df186800000000"/>
@@ -185,6 +185,11 @@
 			<Metadata name="Enum.ВидыПараметровИгроков.EnumValue.МаксимальноеЗдоровье" id="c5e3d8f2-4a1b-4c9e-8f7d-3b2a1e0d9c8b"/>
 		</Metadata>
 		<Metadata name="Enum.ВидыПараметровИгроков.ManagerModule" id="222c7963-ce05-499e-9722-b1116b79f434.0" configVersion="950939d91f2bc94f8e17e37a53d30d9f00000000"/>
+		<Metadata name="Enum.ВидыЭтаповВосхождения" id="ee6cb465-b3cd-4910-badf-72b611428002" configVersion="04a34f6171311d4185b2d1da0f74507500000000">
+			<Metadata name="Enum.ВидыЭтаповВосхождения.EnumValue.Противник" id="1a889bd8-ed61-42db-b715-c6c845ce71f1"/>
+			<Metadata name="Enum.ВидыЭтаповВосхождения.EnumValue.Отдых" id="223778b7-6545-441b-af35-33039de2a936"/>
+			<Metadata name="Enum.ВидыЭтаповВосхождения.EnumValue.Сокровище" id="22ff96e7-b96c-46c8-bcee-803f0ecb87cf"/>
+		</Metadata>
 		<Metadata name="Enum.Достижения" id="2e760843-e342-4fd6-a7f0-331c5fa4f40c" configVersion="3a5c30b73f980b4babb27b079f90115d00000000">
 			<Metadata name="Enum.Достижения.EnumValue.ДвадцатьВопросовЗаШестьдесятСекунд" id="2dea022d-0818-472a-ac0b-5167181de4b1"/>
 			<Metadata name="Enum.Достижения.EnumValue.СерияДвадцатьПравильных" id="320ab6fa-56ab-4a49-acfe-cb7e6e759289"/>
@@ -231,6 +236,14 @@
 		<Metadata name="InformationRegister.РезультатыТестированияЗнаний.Form.ФормаНабораЗаписей.Form" id="d36bbeaf-e3d2-494e-abe3-ec8432002dd6.0" configVersion="0955aa1b69787b4996e170bf7499f07200000000"/>
 		<Metadata name="InformationRegister.РезультатыТестированияЗнаний.Form.ФормаСписка" id="fabfe366-e73c-4f68-a2f2-3f724d90406e" configVersion="c35fb9da385fd245857c5d853561cbb500000000"/>
 		<Metadata name="InformationRegister.РезультатыТестированияЗнаний.Form.ФормаСписка.Form" id="fabfe366-e73c-4f68-a2f2-3f724d90406e.0" configVersion="f7e7fe2f22f7b745b2896610916abd8700000000"/>
+		<Metadata name="InformationRegister.ЭтапыВосхождения" id="21a0f363-4655-4c12-81d7-3c9bfbc20ec8" configVersion="fe51785f3b254542a78b0115a5de788b00000000">
+			<Metadata name="InformationRegister.ЭтапыВосхождения.Attribute.ДанныеИгрока" id="3301d532-9786-4056-bc2c-a819ca0db908"/>
+			<Metadata name="InformationRegister.ЭтапыВосхождения.Attribute.ВидЭтапа" id="51706c5a-bb50-456f-a7a1-8c7604b00e0f"/>
+			<Metadata name="InformationRegister.ЭтапыВосхождения.Attribute.Противник" id="6ed74d61-c818-4c41-9028-28bd26730cc4"/>
+			<Metadata name="InformationRegister.ЭтапыВосхождения.Resource.НомерЭтажа" id="a96fda2f-f05e-4a49-a7c3-a13bc9c5cb39"/>
+			<Metadata name="InformationRegister.ЭтапыВосхождения.Dimension.ИдентфикаторВосхождения" id="bda6b38f-d8eb-4ab0-90cd-84dc154ec50f"/>
+			<Metadata name="InformationRegister.ЭтапыВосхождения.Dimension.Пользователь" id="c86ba467-b128-4756-a75a-f73441b80e7b"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="40b938ea-e2bf-45d7-a2b6-d93fa4e9c766" configVersion="443d7bf86743b748bc54e994b346b29200000000"/>
 		<Metadata name="Report.ПрогрессОбучения" id="c9073def-6c38-4a15-931e-a5d42084937b" configVersion="9e1ba9133002884381e238f59d60d28f00000000"/>
 		<Metadata name="Report.ПрогрессОбучения.Form.ФормаОтчета" id="db5664d9-a574-4c51-8344-b2d674da1728" configVersion="eb1ac2520a6ab24ea3924b7c9c29689b00000000"/>
@@ -241,7 +254,7 @@
 		<Metadata name="Role.ПолныеПрава.Rights" id="37835172-0434-4026-8a8b-1f7b142b0ed8.0" configVersion="077dad69cd12cb42be79234eab3ebb4500000000"/>
 		<Metadata name="SessionParameter.ТекущийПользователь" id="91e1beda-4c3e-4c17-a74c-8aa64568171e" configVersion="c3787259b084744e8b069c7dfb68201100000000"/>
 		<Metadata name="Subsystem.Администрирование" id="46ded32f-39be-4f32-a713-87a66e3e9d5c" configVersion="cc03a1bf50569142a7ab47786ce6f0a800000000"/>
-		<Metadata name="Subsystem.Обучение" id="15059f44-9929-4a5c-8d2b-02fff6f8c126" configVersion="031cff6272f14a449bac343178357b9700000000"/>
+		<Metadata name="Subsystem.Обучение" id="15059f44-9929-4a5c-8d2b-02fff6f8c126" configVersion="5f7e319bc33b124d8548f761a1bce2a400000000"/>
 		<Metadata name="Subsystem.Обучение.CommandInterface" id="15059f44-9929-4a5c-8d2b-02fff6f8c126.1" configVersion="ef2860b620881542913d10a828deb0f700000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

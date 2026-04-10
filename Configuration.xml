@@ -308,6 +308,7 @@
 			<Enum>Достижения</Enum>
 			<Enum>РежимыВикторины</Enum>
 			<Enum>СложностиСборников</Enum>
+			<Enum>ВидыЭтаповВосхождения</Enum>
 			<Report>ПрогрессОбучения</Report>
 			<DataProcessor>ЛучшиеТестированные</DataProcessor>
 			<DataProcessor>ОбновлениеСборников</DataProcessor>
@@ -317,6 +318,7 @@
 			<InformationRegister>ДанныеПользователей</InformationRegister>
 			<InformationRegister>ДостиженияПользователей</InformationRegister>
 			<InformationRegister>РезультатыТестированияЗнаний</InformationRegister>
+			<InformationRegister>ЭтапыВосхождения</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
