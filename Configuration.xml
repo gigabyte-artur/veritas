@@ -305,10 +305,10 @@
 			<Catalog>Сборники</Catalog>
 			<Enum>ВариантыДействийПротивников</Enum>
 			<Enum>ВидыПараметровИгроков</Enum>
+			<Enum>ВидыЭтаповВосхождения</Enum>
 			<Enum>Достижения</Enum>
 			<Enum>РежимыВикторины</Enum>
 			<Enum>СложностиСборников</Enum>
-			<Enum>ВидыЭтаповВосхождения</Enum>
 			<Report>ПрогрессОбучения</Report>
 			<DataProcessor>ЛучшиеТестированные</DataProcessor>
 			<DataProcessor>ОбновлениеСборников</DataProcessor>
