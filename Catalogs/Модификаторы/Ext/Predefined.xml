@@ -42,4 +42,10 @@
 		<Description>Подсечка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="d9da97ce-68d3-4b65-8ee7-508ed2f3c9e9">
+		<Name>Туман</Name>
+		<Code>000000008</Code>
+		<Description>Туман</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>
