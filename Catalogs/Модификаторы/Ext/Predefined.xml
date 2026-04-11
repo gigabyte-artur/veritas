@@ -30,6 +30,12 @@
 		<Description>Кровь гидры</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="b36bba9b-9f1d-4474-86d0-a1c63e0fe981">
+		<Name>ЛатныйНаплечник</Name>
+		<Code>000000011</Code>
+		<Description>Латный наплечник</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="253a0f84-de1e-4b58-a237-aaf4f73ed299">
 		<Name>ЛетучаяМышь</Name>
 		<Code>000000009</Code>
