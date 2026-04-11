@@ -12,6 +12,12 @@
 		<Description>Кожаные пластины</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="8c947d98-e2fd-4a26-b38a-70720577cde0">
+		<Name>Кольчуга</Name>
+		<Code>000000006</Code>
+		<Description>Кольчуга</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="728643eb-4cd1-43c6-97a5-b24fe069fb5e">
 		<Name>КровьГидры</Name>
 		<Code>000000004</Code>
