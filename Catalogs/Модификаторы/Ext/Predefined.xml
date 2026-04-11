@@ -54,4 +54,10 @@
 		<Description>Туман</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="d9fb8a7e-6fe0-4698-aa71-3f8e368be8ef">
+		<Name>ЦепкийКрюк</Name>
+		<Code>000000010</Code>
+		<Description>Цепкий крюк</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>
