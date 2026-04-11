@@ -30,6 +30,12 @@
 		<Description>Кровь гидры</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="253a0f84-de1e-4b58-a237-aaf4f73ed299">
+		<Name>ЛетучаяМышь</Name>
+		<Code>000000009</Code>
+		<Description>Летучая мышь</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="4e9fad5b-2121-48c1-9782-4c9b5e6c811e">
 		<Name>Перекус</Name>
 		<Code>000000002</Code>
