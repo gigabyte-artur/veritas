@@ -265,6 +265,153 @@
 								<Event name="Click">АдресКартинкиНажатие</Event>
 							</Events>
 						</PictureField>
+						<UsualGroup name="ГруппаКолонки" id="7">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа колонки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа колонки</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаКолонкиРасширеннаяПодсказка" id="8"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаКолонкаЛевая" id="9">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа колонка левая</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа колонка левая</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>Vertical</Group>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаКолонкаЛеваяРасширеннаяПодсказка" id="10"/>
+									<ChildItems>
+										<Button name="ВыбратьВариант1" id="13">
+											<Type>UsualButton</Type>
+											<Height>3</Height>
+											<HorizontalStretch>true</HorizontalStretch>
+											<CommandName>Form.Command.ВыбратьВариант1</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>-</v8:content>
+												</v8:item>
+											</Title>
+											<Shape>Usual</Shape>
+											<ExtendedTooltip name="ВыбратьВариант1РасширеннаяПодсказка" id="14"/>
+										</Button>
+										<Button name="ВыбратьВариант2" id="15">
+											<Type>UsualButton</Type>
+											<Height>3</Height>
+											<HorizontalStretch>true</HorizontalStretch>
+											<CommandName>Form.Command.ВыбратьВариант2</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>-</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ВыбратьВариант2РасширеннаяПодсказка" id="16"/>
+										</Button>
+										<Button name="ВыбратьВариант3" id="17">
+											<Type>UsualButton</Type>
+											<Height>3</Height>
+											<HorizontalStretch>true</HorizontalStretch>
+											<CommandName>Form.Command.ВыбратьВариант3</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>-</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ВыбратьВариант3РасширеннаяПодсказка" id="18"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаКолонкаПравая" id="11">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа колонка правая</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа колонка правая</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>Vertical</Group>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаКолонкаПраваяРасширеннаяПодсказка" id="12"/>
+									<ChildItems>
+										<Button name="ВыбратьВариант4" id="19">
+											<Type>UsualButton</Type>
+											<Height>3</Height>
+											<HorizontalStretch>true</HorizontalStretch>
+											<CommandName>Form.Command.ВыбратьВариант4</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>-</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ВыбратьВариант4РасширеннаяПодсказка" id="20"/>
+										</Button>
+										<Button name="ВыбратьВариант5" id="21">
+											<Type>UsualButton</Type>
+											<Height>3</Height>
+											<HorizontalStretch>true</HorizontalStretch>
+											<CommandName>Form.Command.ВыбратьВариант5</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>-</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ВыбратьВариант5РасширеннаяПодсказка" id="22"/>
+										</Button>
+										<Button name="ВыбратьВариант6" id="23">
+											<Type>UsualButton</Type>
+											<Height>3</Height>
+											<HorizontalStretch>true</HorizontalStretch>
+											<CommandName>Form.Command.ВыбратьВариант6</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>-</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ВыбратьВариант6РасширеннаяПодсказка" id="24"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаСтраницаОбИгре" id="65">
@@ -563,153 +710,6 @@
 				</Page>
 			</ChildItems>
 		</Pages>
-		<UsualGroup name="ГруппаКолонки" id="7">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа колонки</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа колонки</v8:content>
-				</v8:item>
-			</ToolTip>
-			<HorizontalStretch>true</HorizontalStretch>
-			<Group>Horizontal</Group>
-			<Behavior>Usual</Behavior>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаКолонкиРасширеннаяПодсказка" id="8"/>
-			<ChildItems>
-				<UsualGroup name="ГруппаКолонкаЛевая" id="9">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа колонка левая</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа колонка левая</v8:content>
-						</v8:item>
-					</ToolTip>
-					<HorizontalStretch>true</HorizontalStretch>
-					<Group>Vertical</Group>
-					<HorizontalAlign>Center</HorizontalAlign>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаКолонкаЛеваяРасширеннаяПодсказка" id="10"/>
-					<ChildItems>
-						<Button name="ВыбратьВариант1" id="13">
-							<Type>UsualButton</Type>
-							<Height>3</Height>
-							<HorizontalStretch>true</HorizontalStretch>
-							<CommandName>Form.Command.ВыбратьВариант1</CommandName>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>-</v8:content>
-								</v8:item>
-							</Title>
-							<Shape>Usual</Shape>
-							<ExtendedTooltip name="ВыбратьВариант1РасширеннаяПодсказка" id="14"/>
-						</Button>
-						<Button name="ВыбратьВариант2" id="15">
-							<Type>UsualButton</Type>
-							<Height>3</Height>
-							<HorizontalStretch>true</HorizontalStretch>
-							<CommandName>Form.Command.ВыбратьВариант2</CommandName>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>-</v8:content>
-								</v8:item>
-							</Title>
-							<ExtendedTooltip name="ВыбратьВариант2РасширеннаяПодсказка" id="16"/>
-						</Button>
-						<Button name="ВыбратьВариант3" id="17">
-							<Type>UsualButton</Type>
-							<Height>3</Height>
-							<HorizontalStretch>true</HorizontalStretch>
-							<CommandName>Form.Command.ВыбратьВариант3</CommandName>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>-</v8:content>
-								</v8:item>
-							</Title>
-							<ExtendedTooltip name="ВыбратьВариант3РасширеннаяПодсказка" id="18"/>
-						</Button>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="ГруппаКолонкаПравая" id="11">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа колонка правая</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа колонка правая</v8:content>
-						</v8:item>
-					</ToolTip>
-					<HorizontalStretch>true</HorizontalStretch>
-					<Group>Vertical</Group>
-					<HorizontalAlign>Center</HorizontalAlign>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаКолонкаПраваяРасширеннаяПодсказка" id="12"/>
-					<ChildItems>
-						<Button name="ВыбратьВариант4" id="19">
-							<Type>UsualButton</Type>
-							<Height>3</Height>
-							<HorizontalStretch>true</HorizontalStretch>
-							<CommandName>Form.Command.ВыбратьВариант4</CommandName>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>-</v8:content>
-								</v8:item>
-							</Title>
-							<ExtendedTooltip name="ВыбратьВариант4РасширеннаяПодсказка" id="20"/>
-						</Button>
-						<Button name="ВыбратьВариант5" id="21">
-							<Type>UsualButton</Type>
-							<Height>3</Height>
-							<HorizontalStretch>true</HorizontalStretch>
-							<CommandName>Form.Command.ВыбратьВариант5</CommandName>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>-</v8:content>
-								</v8:item>
-							</Title>
-							<ExtendedTooltip name="ВыбратьВариант5РасширеннаяПодсказка" id="22"/>
-						</Button>
-						<Button name="ВыбратьВариант6" id="23">
-							<Type>UsualButton</Type>
-							<Height>3</Height>
-							<HorizontalStretch>true</HorizontalStretch>
-							<CommandName>Form.Command.ВыбратьВариант6</CommandName>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>-</v8:content>
-								</v8:item>
-							</Title>
-							<ExtendedTooltip name="ВыбратьВариант6РасширеннаяПодсказка" id="24"/>
-						</Button>
-					</ChildItems>
-				</UsualGroup>
-			</ChildItems>
-		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

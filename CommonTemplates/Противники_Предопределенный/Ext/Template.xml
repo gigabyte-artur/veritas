@@ -27,7 +27,7 @@
     &lt;Enemy id="goblin_marauder_01"&gt;
         &lt;Name&gt;Гоблин-мародёр&lt;/Name&gt;
         &lt;Description&gt;Маленький, но хитрый гоблин, который любит нападать из засады.&lt;/Description&gt;
-        &lt;MaxHealth&gt;40&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;20&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;Атака&lt;/Type&gt;
@@ -56,7 +56,7 @@
     &lt;Enemy id="stone_golem_01"&gt;
         &lt;Name&gt;Каменный голем&lt;/Name&gt;
         &lt;Description&gt;Медлительный, но прочный защитник древних руин.&lt;/Description&gt;
-        &lt;MaxHealth&gt;80&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;30&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;НаложитьЩит&lt;/Type&gt;
@@ -85,7 +85,7 @@
     &lt;Enemy id="dark_mage_01"&gt;
         &lt;Name&gt;Тёмный маг&lt;/Name&gt;
         &lt;Description&gt;Злобный чародей, использующий проклятия и скрытые угрозы.&lt;/Description&gt;
-        &lt;MaxHealth&gt;50&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;25&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;НаложитьПроклятие&lt;/Type&gt;
@@ -114,7 +114,7 @@
     &lt;Enemy id="thunder_goliath_01"&gt;
         &lt;Name&gt;Громовой Голиаф&lt;/Name&gt;
         &lt;Description&gt;Массивное каменное создание, вызванное гневом древнего шторма.&lt;/Description&gt;
-        &lt;MaxHealth&gt;150&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;60&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;Атака&lt;/Type&gt;
@@ -143,7 +143,7 @@
 	&lt;Enemy id="shadow_assassin_01"&gt;
 		&lt;Name&gt;Теневой Ассасин&lt;/Name&gt;
 		&lt;Description&gt;Быстрый и скрытный убийца, специализирующийся на отравлениях и внезапных атаках.&lt;/Description&gt;
-		&lt;MaxHealth&gt;80&lt;/MaxHealth&gt;
+		&lt;MaxHealth&gt;30&lt;/MaxHealth&gt;
 		&lt;ActionCycle&gt;
 			&lt;Action&gt;
 				&lt;Type&gt;УдарНаУдачу&lt;/Type&gt;
@@ -172,7 +172,7 @@
 	&lt;Enemy id="necromancer_zul_tar_01"&gt;
 		&lt;Name&gt;Некромант Зул'Тар&lt;/Name&gt;
 		&lt;Description&gt;Древний колдун, способный поднимать мертвецов и поглощать жизненные силы.&lt;/Description&gt;
-		&lt;MaxHealth&gt;100&lt;/MaxHealth&gt;
+		&lt;MaxHealth&gt;25&lt;/MaxHealth&gt;
 		&lt;ActionCycle&gt;
 			&lt;Action&gt;
 				&lt;Type&gt;НаложитьПроклятие&lt;/Type&gt;
@@ -201,7 +201,7 @@
 	&lt;Enemy id="forest_keeper_01"&gt;
 		&lt;Name&gt;Хранитель Леса&lt;/Name&gt;
 		&lt;Description&gt;Древесный страж, защищающий священные рощи от любого вторжения.&lt;/Description&gt;
-		&lt;MaxHealth&gt;130&lt;/MaxHealth&gt;
+		&lt;MaxHealth&gt;45&lt;/MaxHealth&gt;
 		&lt;ActionCycle&gt;
 			&lt;Action&gt;
 				&lt;Type&gt;НаложитьЩит&lt;/Type&gt;
@@ -235,7 +235,7 @@
     &lt;Enemy id="blood_seer_01"&gt;
         &lt;Name&gt;Кровавая Ведунья&lt;/Name&gt;
         &lt;Description&gt;Хрупкая, но опасная жрица темных культов. Она избегает прямого столкновения, ослабляя героя проклятиями и лишая его возможности действовать.&lt;/Description&gt;
-        &lt;MaxHealth&gt;80&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;35&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;НаложитьПроклятие&lt;/Type&gt;
@@ -264,7 +264,7 @@
     &lt;Enemy id="mutant_leech_01"&gt;
         &lt;Name&gt;Мутант-Пиявка&lt;/Name&gt;
         &lt;Description&gt;Огромное бесформенное существо, результат темных экспериментов. Оно медленно накапливает силу и покрывает себя защитной слизью, делая его трудной мишенью.&lt;/Description&gt;
-        &lt;MaxHealth&gt;100&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;35&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;УвеличитьСилу&lt;/Type&gt;
