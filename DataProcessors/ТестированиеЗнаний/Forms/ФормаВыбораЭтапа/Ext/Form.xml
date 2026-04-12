@@ -5,66 +5,151 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
+		<LabelDecoration name="ДекорацияЭтапЗавершен" id="32">
+			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Этап завершен!</v8:content>
+				</v8:item>
+			</Title>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<ContextMenu name="ДекорацияЭтапЗавершенКонтекстноеМеню" id="33"/>
+			<ExtendedTooltip name="ДекорацияЭтапЗавершенРасширеннаяПодсказка" id="34"/>
+		</LabelDecoration>
+		<LabelDecoration name="ДекорацияНомерЭтапа" id="35">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>0 / 0</v8:content>
+				</v8:item>
+			</Title>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<ContextMenu name="ДекорацияНомерЭтапаКонтекстноеМеню" id="36"/>
+			<ExtendedTooltip name="ДекорацияНомерЭтапаРасширеннаяПодсказка" id="37"/>
+		</LabelDecoration>
+		<UsualGroup name="ГруппаПредыдущийЭтап" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нредыдущий этап</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа предыдущий этап</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаПредыдущийЭтапРасширеннаяПодсказка" id="23"/>
+			<ChildItems>
+				<InputField name="ПредыдущийВидЭтапа" id="24">
+					<DataPath>ПредыдущийВидЭтапа</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид этапа</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПредыдущийВидЭтапаКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="ПредыдущийВидЭтапаРасширеннаяПодсказка" id="26"/>
+				</InputField>
+				<InputField name="ПредыдущийПротивник" id="27">
+					<DataPath>ПредыдущийПротивник</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Противник</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПредыдущийПротивникКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="ПредыдущийПротивникРасширеннаяПодсказка" id="29"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаНовыйЭтап" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новый этап</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа новый этап</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаНовыйЭтапРасширеннаяПодсказка" id="31"/>
+			<ChildItems>
+				<Table name="ТаблицаЭтапов" id="3">
+					<Representation>List</Representation>
+					<ReadOnly>true</ReadOnly>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>ТаблицаЭтапов</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ТаблицаЭтаповКонтекстноеМеню" id="4"/>
+					<AutoCommandBar name="ТаблицаЭтаповКоманднаяПанель" id="5"/>
+					<ExtendedTooltip name="ТаблицаЭтаповРасширеннаяПодсказка" id="6"/>
+					<SearchStringAddition name="ТаблицаЭтаповСтрокаПоиска" id="7">
+						<AdditionSource>
+							<Item>ТаблицаЭтапов</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаЭтаповСтрокаПоискаКонтекстноеМеню" id="8"/>
+						<ExtendedTooltip name="ТаблицаЭтаповСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ТаблицаЭтаповСостояниеПросмотра" id="10">
+						<AdditionSource>
+							<Item>ТаблицаЭтапов</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаЭтаповСостояниеПросмотраКонтекстноеМеню" id="11"/>
+						<ExtendedTooltip name="ТаблицаЭтаповСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ТаблицаЭтаповУправлениеПоиском" id="13">
+						<AdditionSource>
+							<Item>ТаблицаЭтапов</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаЭтаповУправлениеПоискомКонтекстноеМеню" id="14"/>
+						<ExtendedTooltip name="ТаблицаЭтаповУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="ТаблицаЭтаповВидЭтапа" id="16">
+							<DataPath>ТаблицаЭтапов.ВидЭтапа</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТаблицаЭтаповВидЭтапаКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ТаблицаЭтаповВидЭтапаРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="ТаблицаЭтаповПротивник" id="19">
+							<DataPath>ТаблицаЭтапов.Противник</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТаблицаЭтаповПротивникКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ТаблицаЭтаповПротивникРасширеннаяПодсказка" id="21"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
 		<Button name="ВыбратьЭтап" id="1">
 			<Type>UsualButton</Type>
 			<DefaultButton>true</DefaultButton>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 			<CommandName>Form.Command.ВыбратьЭтап</CommandName>
 			<ExtendedTooltip name="ВыбратьЭтапРасширеннаяПодсказка" id="2"/>
 		</Button>
-		<Table name="ТаблицаЭтапов" id="3">
-			<Representation>List</Representation>
-			<ReadOnly>true</ReadOnly>
-			<ChangeRowSet>false</ChangeRowSet>
-			<ChangeRowOrder>false</ChangeRowOrder>
-			<AutoInsertNewRow>true</AutoInsertNewRow>
-			<EnableStartDrag>true</EnableStartDrag>
-			<EnableDrag>true</EnableDrag>
-			<DataPath>ТаблицаЭтапов</DataPath>
-			<RowFilter xsi:nil="true"/>
-			<ContextMenu name="ТаблицаЭтаповКонтекстноеМеню" id="4"/>
-			<AutoCommandBar name="ТаблицаЭтаповКоманднаяПанель" id="5"/>
-			<ExtendedTooltip name="ТаблицаЭтаповРасширеннаяПодсказка" id="6"/>
-			<SearchStringAddition name="ТаблицаЭтаповСтрокаПоиска" id="7">
-				<AdditionSource>
-					<Item>ТаблицаЭтапов</Item>
-					<Type>SearchStringRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="ТаблицаЭтаповСтрокаПоискаКонтекстноеМеню" id="8"/>
-				<ExtendedTooltip name="ТаблицаЭтаповСтрокаПоискаРасширеннаяПодсказка" id="9"/>
-			</SearchStringAddition>
-			<ViewStatusAddition name="ТаблицаЭтаповСостояниеПросмотра" id="10">
-				<AdditionSource>
-					<Item>ТаблицаЭтапов</Item>
-					<Type>ViewStatusRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="ТаблицаЭтаповСостояниеПросмотраКонтекстноеМеню" id="11"/>
-				<ExtendedTooltip name="ТаблицаЭтаповСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
-			</ViewStatusAddition>
-			<SearchControlAddition name="ТаблицаЭтаповУправлениеПоиском" id="13">
-				<AdditionSource>
-					<Item>ТаблицаЭтапов</Item>
-					<Type>SearchControl</Type>
-				</AdditionSource>
-				<ContextMenu name="ТаблицаЭтаповУправлениеПоискомКонтекстноеМеню" id="14"/>
-				<ExtendedTooltip name="ТаблицаЭтаповУправлениеПоискомРасширеннаяПодсказка" id="15"/>
-			</SearchControlAddition>
-			<ChildItems>
-				<InputField name="ТаблицаЭтаповВидЭтапа" id="16">
-					<DataPath>ТаблицаЭтапов.ВидЭтапа</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ТаблицаЭтаповВидЭтапаКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="ТаблицаЭтаповВидЭтапаРасширеннаяПодсказка" id="18"/>
-				</InputField>
-				<InputField name="ТаблицаЭтаповПротивник" id="19">
-					<DataPath>ТаблицаЭтапов.Противник</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ТаблицаЭтаповПротивникКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="ТаблицаЭтаповПротивникРасширеннаяПодсказка" id="21"/>
-				</InputField>
-			</ChildItems>
-		</Table>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -108,6 +193,60 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="ПредыдущийВидЭтапа" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предыдущий вид этапа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.ВидыЭтаповВосхождения</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПредыдущийПротивник" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предыдущий противник</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Противники</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НомерЭтапа" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер этапа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВсегоЭтапов" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Всего этапов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ВыбратьЭтап" id="1">
@@ -126,4 +265,36 @@
 			<Action>ВыбратьЭтап</Action>
 		</Command>
 	</Commands>
+	<Parameters>
+		<Parameter name="ПредыдущийВидЭтапа">
+			<Type>
+				<v8:Type>cfg:EnumRef.ВидыЭтаповВосхождения</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="ПредыдущийПротивник">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Противники</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="НомерЭтапа">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ВсегоЭтапов">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Parameter>
+	</Parameters>
 </Form>
