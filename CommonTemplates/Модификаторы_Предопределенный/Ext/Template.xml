@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;modifiers&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;ВолчийКлык&lt;/name&gt;
+        &lt;description&gt;Ярость накапливается в Вас с каждым ударом. Ярость увеличивает наносимый урон на 10% за каждую свою единицу&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;Заточка&lt;/name&gt;
+        &lt;description&gt;Острая заточка в рукаве. Увеличивает весь урон противнику на 1 единицу&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;Интуиция&lt;/name&gt;
+        &lt;description&gt;Убирает один неверный ответ&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;КожаныеПластины&lt;/name&gt;
+        &lt;description&gt;Лёгкие кожаные пластины. Уменьшает получаемый урон на 1&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;Кольчуга&lt;/name&gt;
+        &lt;description&gt;Лёгкая, но прочная рубашка из стальных колец. Поглощает 25% урона&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;КровьГидры&lt;/name&gt;
+        &lt;description&gt;В ваших жилах течёт кровь гидры. Восстановление здоровья увеличено на 30%&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;ЛатныйНаплечник&lt;/name&gt;
+        &lt;description&gt;Добротный наплечник поможет защититься в бою, увличивает весь полчаемый щит на 1 единицу&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;ЛетучаяМышь&lt;/name&gt;
+        &lt;description&gt;Маленький, но кровожадный зверёк. При нанесении урона, вы излечиваете здоровье в размере 10% от нанесенного урона&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;Перекус&lt;/name&gt;
+        &lt;description&gt;Лёгкий перекус. Восстанавливает 3 единицы здоровья в начале каждого раунда&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;Подсечка&lt;/name&gt;
+        &lt;description&gt;Противники начинают бой с уменьшенным на 10% здоровьем&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;Туман&lt;/name&gt;
+        &lt;description&gt;Густой туман скрывает Вас. После поражения, Вы 1 раз воскресаете с половиной здоровья&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;ЦепкийКрюк&lt;/name&gt;
+        &lt;description&gt;Срывает броню с врагов. Вы получаете Щит в размере 10% от нанесенного урона по щиту врага&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+&lt;/modifiers&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>2</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<format>
+		<width>917</width>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+</document>
