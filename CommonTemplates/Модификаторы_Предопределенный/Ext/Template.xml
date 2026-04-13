@@ -31,7 +31,7 @@
 &lt;modifiers&gt;
     &lt;modifier&gt;
         &lt;name&gt;ВолчийКлык&lt;/name&gt;
-        &lt;description&gt;Ярость накапливается в Вас с каждым ударом. Ярость увеличивает наносимый урон на 10% за каждую свою единицу&lt;/description&gt;
+        &lt;description&gt;Ярость накапливается в Вас с каждым ударом. Она увеличивает наносимый урон на 10% за каждую свою единицу&lt;/description&gt;
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;
