@@ -4,12 +4,12 @@
 __pycache__/
 *.o
 *.obj
-*.out
 *.class
+*.exe
 *.dll
 *.so
 *.a
-*.exe
+*.out
 
 # Dependencies
 node_modules/
@@ -17,7 +17,16 @@ venv/
 .venv/
 .env
 .env.local
-*.env.*
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
 
 # Build directories
 dist/
@@ -25,66 +34,16 @@ build/
 target/
 .gradle/
 
-# Python specific
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-.venv/
-venv/
-ENV/
-.ENV/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-*.tmp
-*.swp
-*.swo
-.DS_Store
-Thumbs.db
-
-# IDE specific
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Testing
-.mypy_cache/
-.pytest_cache/
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Compression and archives
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Python specific
+.mypy_cache/
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
