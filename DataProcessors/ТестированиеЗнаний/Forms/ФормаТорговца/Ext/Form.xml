@@ -184,6 +184,7 @@
 				<xr:Ref>StdPicture.AppearanceCheckBox</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<Action>КупитьМодификатор</Action>
 		</Command>
 	</Commands>
 	<Parameters>
