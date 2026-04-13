@@ -172,5 +172,10 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Parameter>
+		<Parameter name="Модификаторы">
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Parameter>
 	</Parameters>
 </Form>
