@@ -288,6 +288,40 @@
             &lt;/Action&gt;
         &lt;/ActionCycle&gt;
     &lt;/Enemy&gt;
+
+    &lt;!-- 10. Железный Вымогатель --&gt;
+    &lt;Enemy id="iron_extortionist_01"&gt;
+        &lt;Name&gt;Железный Вымогатель&lt;/Name&gt;
+        &lt;Description&gt;Бронированный наёмник, действующий по принципу «выбил щиты – забрал кошель». Тяжёлые удары заставляют игрока выбирать: контратаковать, рискуя пропустить фатальный удар, или держать оборону, постепенно теряя золото.&lt;/Description&gt;
+        &lt;MaxHealth&gt;26&lt;/MaxHealth&gt;
+        &lt;ActionCycle&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;УкрастьЗолото&lt;/Type&gt;
+                &lt;MinPower&gt;4&lt;/MinPower&gt;
+                &lt;MaxPower&gt;7&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;Атака&lt;/Type&gt;
+                &lt;MinPower&gt;10&lt;/MinPower&gt;
+                &lt;MaxPower&gt;14&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;УкрастьЗолото&lt;/Type&gt;
+                &lt;MinPower&gt;4&lt;/MinPower&gt;
+                &lt;MaxPower&gt;7&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;УдарНаУдачу&lt;/Type&gt;
+                &lt;MinPower&gt;15&lt;/MinPower&gt;
+                &lt;MaxPower&gt;22&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;СбежатьИзБоя&lt;/Type&gt;
+                &lt;MinPower&gt;0&lt;/MinPower&gt;
+                &lt;MaxPower&gt;0&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+        &lt;/ActionCycle&gt;
+    &lt;/Enemy&gt;
 &lt;/Enemies&gt;</v8:content>
 						</v8:item>
 					</tl>
