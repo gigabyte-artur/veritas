@@ -33,6 +33,7 @@
 			<Form>ФормаНастроекВикторины</Form>
 			<Form>ФормаПросмотраКартинки</Form>
 			<Form>ФормаВыбораЭтапа</Form>
+			<Form>ФормаТорговца</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

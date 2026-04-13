@@ -38,6 +38,18 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
+			<EnumValue uuid="223778b7-6545-441b-af35-33039de2a936">
+				<Properties>
+					<Name>Отдых</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отдых</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="1a889bd8-ed61-42db-b715-c6c845ce71f1">
 				<Properties>
 					<Name>Противник</Name>
@@ -62,13 +74,13 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="223778b7-6545-441b-af35-33039de2a936">
+			<EnumValue uuid="738a00f2-eb18-4308-8c54-50906037df33">
 				<Properties>
-					<Name>Отдых</Name>
+					<Name>Торговец</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отдых</v8:content>
+							<v8:content>Торговец</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
