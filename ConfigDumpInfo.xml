@@ -114,11 +114,12 @@
 		<Metadata name="CommonPicture.Процент.Picture" id="bc73745c-79d6-4dd2-8685-5d90d6ddfe0f.0" configVersion="a3ed1cefc4b8be4790e892ddd571129f00000000"/>
 		<Metadata name="CommonPicture.ПятьЗвезд" id="69048a3d-5447-4ec9-83a1-71896c042322" configVersion="c6b961bab053d447a2dcf53ece4b23eb00000000"/>
 		<Metadata name="CommonPicture.ПятьЗвезд.Picture" id="69048a3d-5447-4ec9-83a1-71896c042322.0" configVersion="c24f32683de2364b9586ba81e70e31a200000000"/>
+		<Metadata name="CommonTemplate.Модификаторы_Предопределенный" id="0add2756-0386-4389-80fe-a3b7d9400628" configVersion="b5d05cdf6e414f449ebfa48663ac75c500000000"/>
 		<Metadata name="CommonTemplate.Противники_Предопределенный" id="3e97d02d-2084-4f2a-986f-7582a0a0bb2b" configVersion="5cc63f9f420bab45985cfccf6fea978800000000"/>
 		<Metadata name="CommonTemplate.Противники_Предопределенный.Template" id="3e97d02d-2084-4f2a-986f-7582a0a0bb2b.0" configVersion="7635aaae18ff6a41995a3c39da37025d00000000"/>
 		<Metadata name="CommonTemplate.Сборник_Предопределенный" id="07d7d3c9-9d83-4ef3-9dc5-17ea60bbd63c" configVersion="5fcd5f2b3f8d2a4b9fb52ad5306a919200000000"/>
 		<Metadata name="CommonTemplate.Сборник_Предопределенный.Template" id="07d7d3c9-9d83-4ef3-9dc5-17ea60bbd63c.0" configVersion="11d827e00c15484a9b2ff433a59cc22900000000"/>
-		<Metadata name="Configuration.Veritas" id="7509fd66-4f60-4f39-a099-52202f991049" configVersion="46ac90e07459664c99445f445098a60400000000"/>
+		<Metadata name="Configuration.Veritas" id="7509fd66-4f60-4f39-a099-52202f991049" configVersion="fdf39ebbaf60264caec835d37af30cfe00000000"/>
 		<Metadata name="Configuration.Veritas.CommandInterface" id="0b9e596f-64ab-4534-9194-db0f43f0a494.a" configVersion="6c035ec2cae85e4a83001f62f8b8c62800000000"/>
 		<Metadata name="Configuration.Veritas.HomePageWorkArea" id="0b9e596f-64ab-4534-9194-db0f43f0a494.8" configVersion="e4fc8b5f766365478646570cc41af0d000000000"/>
 		<Metadata name="Configuration.Veritas.Logo" id="0b9e596f-64ab-4534-9194-db0f43f0a494.1" configVersion="0066ef9858d9224e83ef3832219f9eed00000000"/>
