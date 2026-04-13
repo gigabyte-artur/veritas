@@ -165,7 +165,7 @@
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПросмотраКартинки" id="32960b60-6fe8-4a22-8c7c-80057ab16cf6" configVersion="2e55723b5437624595bca9147b08cf6000000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПросмотраКартинки.Form" id="32960b60-6fe8-4a22-8c7c-80057ab16cf6.0" configVersion="3d7deff0ae941f4594cd47b9056f7eee00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.ManagerModule" id="2999ecc1-a473-4398-8d48-3351ae5887e9.2" configVersion="df652d657b76a448b1b0f2333a30e7eb00000000"/>
-		<Metadata name="Enum.ВариантыДействийПротивников" id="93287cb5-98f1-43c6-8a33-46765c76592a" configVersion="cee8e3d52591b0459ddda9392b4a06a400000000">
+		<Metadata name="Enum.ВариантыДействийПротивников" id="93287cb5-98f1-43c6-8a33-46765c76592a" configVersion="a60cc8fdd46b3d44b1a269ffc7bd55f400000000">
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.Сон" id="10c62972-d7a6-45ef-9d38-3f76fb0d0d74"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.Лечение" id="33b08f34-d71c-4d5d-a61c-49349583a33d"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.УкрастьЗолото" id="36cf1866-c3ea-46a2-9612-c5ead7be66ab"/>
@@ -174,6 +174,7 @@
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.НаложитьПроклятие" id="8183503e-1658-4607-bbee-db53cb73a498"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.УвеличитьСилу" id="82a2fe9b-120d-43f1-bb54-48b91244e072"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.НаложитьНеуклюжесть" id="8abcaf37-86e2-436e-9d95-2eb294fc658a"/>
+			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.СбежатьИзБоя" id="a8d7b1f4-c1ec-4f8c-9a74-5ee3eddca252"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.УдарНаУдачу" id="b4ccb06c-d774-4e9a-96cf-3fb3f8ae040a"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.Атака" id="c61e4adf-2fcf-44d3-94e7-23447f19dd44"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.АктивироватьБомбу" id="f71faad6-ea35-4873-b28a-07338d90d832"/>

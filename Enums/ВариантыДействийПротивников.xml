@@ -122,6 +122,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="a8d7b1f4-c1ec-4f8c-9a74-5ee3eddca252">
+				<Properties>
+					<Name>СбежатьИзБоя</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сбежать из боя</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="10c62972-d7a6-45ef-9d38-3f76fb0d0d74">
 				<Properties>
 					<Name>Сон</Name>
