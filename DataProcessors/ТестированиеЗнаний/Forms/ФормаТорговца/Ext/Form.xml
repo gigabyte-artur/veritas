@@ -68,7 +68,7 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<InputField name="МодификаторыНаВитринеМодифкатор" id="40">
-					<DataPath>МодификаторыНаВитрине.Модифкатор</DataPath>
+					<DataPath>МодификаторыНаВитрине.Модификатор</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="МодификаторыНаВитринеМодифкаторКонтекстноеМеню" id="41"/>
@@ -137,11 +137,11 @@
 				<v8:Type>v8:ValueTable</v8:Type>
 			</Type>
 			<Columns>
-				<Column name="Модифкатор" id="1">
+				<Column name="Модификатор" id="1">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Модифкатор</v8:content>
+							<v8:content>Модификатор</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
