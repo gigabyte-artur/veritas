@@ -4,26 +4,15 @@
 __pycache__/
 *.o
 *.obj
-*.class
-*.dll
-*.so
-*.a
-*.out
 
 # Dependencies
 .venv/
 venv/
-node_modules/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
@@ -34,16 +23,16 @@ target/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
-
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Archives
 *.zip
 *.gz
 *.tar
