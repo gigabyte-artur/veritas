@@ -4,12 +4,12 @@
 __pycache__/
 *.o
 *.obj
+*.out
 *.class
-*.exe
 *.dll
 *.so
 *.a
-*.out
+*.exe
 
 # Dependencies
 node_modules/
@@ -19,24 +19,6 @@ venv/
 .env.local
 *.env.*
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
 # Build directories
 dist/
 build/
@@ -44,12 +26,45 @@ target/
 .gradle/
 
 # Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+.ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
 .mypy_cache/
 .pytest_cache/
-*.pyo
-*.pyd
+coverage/
+htmlcov/
+.coverage
 
-# Compressed files
+# Compression and archives
 *.zip
 *.gz
 *.tar
