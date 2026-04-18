@@ -48,6 +48,12 @@
 		<Description>Летучая мышь</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="a016debc-ef8d-40f0-80c5-f51f26d9cc33">
+		<Name>ПарныеКлинки</Name>
+		<Code>000000013</Code>
+		<Description>Парные клинки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="4e9fad5b-2121-48c1-9782-4c9b5e6c811e">
 		<Name>Перекус</Name>
 		<Code>000000002</Code>
