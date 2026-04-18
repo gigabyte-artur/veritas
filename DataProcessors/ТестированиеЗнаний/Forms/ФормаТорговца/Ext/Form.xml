@@ -83,6 +83,14 @@
 				</InputField>
 			</ChildItems>
 		</Table>
+		<InputField name="МодификаторыНаВитринеМодификаторОписание" id="48">
+			<DataPath>Items.МодификаторыНаВитрине.CurrentData.Модификатор.Описание</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<MultiLine>true</MultiLine>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="МодификаторыНаВитринеМодификаторОписаниеКонтекстноеМеню" id="49"/>
+			<ExtendedTooltip name="МодификаторыНаВитринеМодификаторОписаниеРасширеннаяПодсказка" id="50"/>
+		</InputField>
 		<Button name="КупитьМодификатор" id="23">
 			<Type>UsualButton</Type>
 			<Representation>PictureAndText</Representation>

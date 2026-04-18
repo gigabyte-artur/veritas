@@ -436,6 +436,7 @@
 									<v8:content>Игрок</v8:content>
 								</v8:item>
 							</Title>
+							<Group>Vertical</Group>
 							<ExtendedTooltip name="ГруппаИгрокРасширеннаяПодсказка" id="101"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаЗдоровьеИгрока" id="92">
@@ -445,6 +446,7 @@
 											<v8:content>Группа здоровье игрока</v8:content>
 										</v8:item>
 									</Title>
+									<Group>AlwaysHorizontal</Group>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаЗдоровьеИгрокаРасширеннаяПодсказка" id="93"/>
@@ -473,61 +475,63 @@
 										</LabelField>
 									</ChildItems>
 								</UsualGroup>
+								<Table name="ПараметрыИгрока" id="113">
+									<Representation>List</Representation>
+									<CommandBarLocation>None</CommandBarLocation>
+									<ReadOnly>true</ReadOnly>
+									<HeightInTableRows>3</HeightInTableRows>
+									<Header>false</Header>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>ПараметрыИгрока</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ПараметрыИгрокаКонтекстноеМеню" id="114"/>
+									<AutoCommandBar name="ПараметрыИгрокаКоманднаяПанель" id="115"/>
+									<ExtendedTooltip name="ПараметрыИгрокаРасширеннаяПодсказка" id="116"/>
+									<SearchStringAddition name="ПараметрыИгрокаСтрокаПоиска" id="117">
+										<AdditionSource>
+											<Item>ПараметрыИгрока</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ПараметрыИгрокаСтрокаПоискаКонтекстноеМеню" id="118"/>
+										<ExtendedTooltip name="ПараметрыИгрокаСтрокаПоискаРасширеннаяПодсказка" id="119"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ПараметрыИгрокаСостояниеПросмотра" id="120">
+										<AdditionSource>
+											<Item>ПараметрыИгрока</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ПараметрыИгрокаСостояниеПросмотраКонтекстноеМеню" id="121"/>
+										<ExtendedTooltip name="ПараметрыИгрокаСостояниеПросмотраРасширеннаяПодсказка" id="122"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ПараметрыИгрокаУправлениеПоиском" id="123">
+										<AdditionSource>
+											<Item>ПараметрыИгрока</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ПараметрыИгрокаУправлениеПоискомКонтекстноеМеню" id="124"/>
+										<ExtendedTooltip name="ПараметрыИгрокаУправлениеПоискомРасширеннаяПодсказка" id="125"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="ПараметрыИгрокаВидПараметра" id="126">
+											<DataPath>ПараметрыИгрока.ВидПараметра</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ПараметрыИгрокаВидПараметраКонтекстноеМеню" id="127"/>
+											<ExtendedTooltip name="ПараметрыИгрокаВидПараметраРасширеннаяПодсказка" id="128"/>
+										</InputField>
+										<InputField name="ПараметрыИгрокаЗначениеПараметра" id="129">
+											<DataPath>ПараметрыИгрока.ЗначениеПараметра</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ПараметрыИгрокаЗначениеПараметраКонтекстноеМеню" id="130"/>
+											<ExtendedTooltip name="ПараметрыИгрокаЗначениеПараметраРасширеннаяПодсказка" id="131"/>
+										</InputField>
+									</ChildItems>
+								</Table>
 							</ChildItems>
 						</UsualGroup>
-						<Table name="ПараметрыИгрока" id="113">
-							<Representation>List</Representation>
-							<ReadOnly>true</ReadOnly>
-							<HeightInTableRows>3</HeightInTableRows>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<DataPath>ПараметрыИгрока</DataPath>
-							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="ПараметрыИгрокаКонтекстноеМеню" id="114"/>
-							<AutoCommandBar name="ПараметрыИгрокаКоманднаяПанель" id="115"/>
-							<ExtendedTooltip name="ПараметрыИгрокаРасширеннаяПодсказка" id="116"/>
-							<SearchStringAddition name="ПараметрыИгрокаСтрокаПоиска" id="117">
-								<AdditionSource>
-									<Item>ПараметрыИгрока</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ПараметрыИгрокаСтрокаПоискаКонтекстноеМеню" id="118"/>
-								<ExtendedTooltip name="ПараметрыИгрокаСтрокаПоискаРасширеннаяПодсказка" id="119"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="ПараметрыИгрокаСостояниеПросмотра" id="120">
-								<AdditionSource>
-									<Item>ПараметрыИгрока</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ПараметрыИгрокаСостояниеПросмотраКонтекстноеМеню" id="121"/>
-								<ExtendedTooltip name="ПараметрыИгрокаСостояниеПросмотраРасширеннаяПодсказка" id="122"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="ПараметрыИгрокаУправлениеПоиском" id="123">
-								<AdditionSource>
-									<Item>ПараметрыИгрока</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="ПараметрыИгрокаУправлениеПоискомКонтекстноеМеню" id="124"/>
-								<ExtendedTooltip name="ПараметрыИгрокаУправлениеПоискомРасширеннаяПодсказка" id="125"/>
-							</SearchControlAddition>
-							<ChildItems>
-								<InputField name="ПараметрыИгрокаВидПараметра" id="126">
-									<DataPath>ПараметрыИгрока.ВидПараметра</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ПараметрыИгрокаВидПараметраКонтекстноеМеню" id="127"/>
-									<ExtendedTooltip name="ПараметрыИгрокаВидПараметраРасширеннаяПодсказка" id="128"/>
-								</InputField>
-								<InputField name="ПараметрыИгрокаЗначениеПараметра" id="129">
-									<DataPath>ПараметрыИгрока.ЗначениеПараметра</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ПараметрыИгрокаЗначениеПараметраКонтекстноеМеню" id="130"/>
-									<ExtendedTooltip name="ПараметрыИгрокаЗначениеПараметраРасширеннаяПодсказка" id="131"/>
-								</InputField>
-							</ChildItems>
-						</Table>
 						<UsualGroup name="ГруппаПротивник" id="102">
 							<Title>
 								<v8:item>
@@ -557,6 +561,7 @@
 											<v8:content>Группа здоровье противника</v8:content>
 										</v8:item>
 									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаЗдоровьеПротивникаРасширеннаяПодсказка" id="152"/>
@@ -585,127 +590,148 @@
 										</LabelField>
 									</ChildItems>
 								</UsualGroup>
+								<Table name="ПараметрыПротивника" id="132">
+									<Representation>List</Representation>
+									<CommandBarLocation>None</CommandBarLocation>
+									<ReadOnly>true</ReadOnly>
+									<HeightInTableRows>3</HeightInTableRows>
+									<Header>false</Header>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>ПараметрыПротивника</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ПараметрыПротивникаКонтекстноеМеню" id="133"/>
+									<AutoCommandBar name="ПараметрыПротивникаКоманднаяПанель" id="134"/>
+									<ExtendedTooltip name="ПараметрыПротивникаРасширеннаяПодсказка" id="135"/>
+									<SearchStringAddition name="ПараметрыПротивникаСтрокаПоиска" id="136">
+										<AdditionSource>
+											<Item>ПараметрыПротивника</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ПараметрыПротивникаСтрокаПоискаКонтекстноеМеню" id="137"/>
+										<ExtendedTooltip name="ПараметрыПротивникаСтрокаПоискаРасширеннаяПодсказка" id="138"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ПараметрыПротивникаСостояниеПросмотра" id="139">
+										<AdditionSource>
+											<Item>ПараметрыПротивника</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ПараметрыПротивникаСостояниеПросмотраКонтекстноеМеню" id="140"/>
+										<ExtendedTooltip name="ПараметрыПротивникаСостояниеПросмотраРасширеннаяПодсказка" id="141"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ПараметрыПротивникаУправлениеПоиском" id="142">
+										<AdditionSource>
+											<Item>ПараметрыПротивника</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ПараметрыПротивникаУправлениеПоискомКонтекстноеМеню" id="143"/>
+										<ExtendedTooltip name="ПараметрыПротивникаУправлениеПоискомРасширеннаяПодсказка" id="144"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="ПараметрыПротивникаВидПараметра" id="145">
+											<DataPath>ПараметрыПротивника.ВидПараметра</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ПараметрыПротивникаВидПараметраКонтекстноеМеню" id="146"/>
+											<ExtendedTooltip name="ПараметрыПротивникаВидПараметраРасширеннаяПодсказка" id="147"/>
+										</InputField>
+										<InputField name="ПараметрыПротивникаЗначениеПараметра" id="148">
+											<DataPath>ПараметрыПротивника.ЗначениеПараметра</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ПараметрыПротивникаЗначениеПараметраКонтекстноеМеню" id="149"/>
+											<ExtendedTooltip name="ПараметрыПротивникаЗначениеПараметраРасширеннаяПодсказка" id="150"/>
+										</InputField>
+									</ChildItems>
+								</Table>
 							</ChildItems>
 						</UsualGroup>
-						<Table name="ПараметрыПротивника" id="132">
-							<Representation>List</Representation>
-							<ReadOnly>true</ReadOnly>
-							<HeightInTableRows>3</HeightInTableRows>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<DataPath>ПараметрыПротивника</DataPath>
-							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="ПараметрыПротивникаКонтекстноеМеню" id="133"/>
-							<AutoCommandBar name="ПараметрыПротивникаКоманднаяПанель" id="134"/>
-							<ExtendedTooltip name="ПараметрыПротивникаРасширеннаяПодсказка" id="135"/>
-							<SearchStringAddition name="ПараметрыПротивникаСтрокаПоиска" id="136">
-								<AdditionSource>
-									<Item>ПараметрыПротивника</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ПараметрыПротивникаСтрокаПоискаКонтекстноеМеню" id="137"/>
-								<ExtendedTooltip name="ПараметрыПротивникаСтрокаПоискаРасширеннаяПодсказка" id="138"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="ПараметрыПротивникаСостояниеПросмотра" id="139">
-								<AdditionSource>
-									<Item>ПараметрыПротивника</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ПараметрыПротивникаСостояниеПросмотраКонтекстноеМеню" id="140"/>
-								<ExtendedTooltip name="ПараметрыПротивникаСостояниеПросмотраРасширеннаяПодсказка" id="141"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="ПараметрыПротивникаУправлениеПоиском" id="142">
-								<AdditionSource>
-									<Item>ПараметрыПротивника</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="ПараметрыПротивникаУправлениеПоискомКонтекстноеМеню" id="143"/>
-								<ExtendedTooltip name="ПараметрыПротивникаУправлениеПоискомРасширеннаяПодсказка" id="144"/>
-							</SearchControlAddition>
+						<UsualGroup name="ГруппаМодификаторы" id="153">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Модификаторы</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа модификаторы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаМодификаторыРасширеннаяПодсказка" id="154"/>
 							<ChildItems>
-								<InputField name="ПараметрыПротивникаВидПараметра" id="145">
-									<DataPath>ПараметрыПротивника.ВидПараметра</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ПараметрыПротивникаВидПараметраКонтекстноеМеню" id="146"/>
-									<ExtendedTooltip name="ПараметрыПротивникаВидПараметраРасширеннаяПодсказка" id="147"/>
-								</InputField>
-								<InputField name="ПараметрыПротивникаЗначениеПараметра" id="148">
-									<DataPath>ПараметрыПротивника.ЗначениеПараметра</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ПараметрыПротивникаЗначениеПараметраКонтекстноеМеню" id="149"/>
-									<ExtendedTooltip name="ПараметрыПротивникаЗначениеПараметраРасширеннаяПодсказка" id="150"/>
-								</InputField>
+								<Table name="Модификаторы" id="67">
+									<Representation>List</Representation>
+									<CommandBarLocation>None</CommandBarLocation>
+									<ReadOnly>true</ReadOnly>
+									<Header>false</Header>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Модификаторы</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="МодификаторыКонтекстноеМеню" id="68"/>
+									<AutoCommandBar name="МодификаторыКоманднаяПанель" id="69"/>
+									<ExtendedTooltip name="МодификаторыРасширеннаяПодсказка" id="70"/>
+									<SearchStringAddition name="МодификаторыСтрокаПоиска" id="71">
+										<AdditionSource>
+											<Item>Модификаторы</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="МодификаторыСтрокаПоискаКонтекстноеМеню" id="72"/>
+										<ExtendedTooltip name="МодификаторыСтрокаПоискаРасширеннаяПодсказка" id="73"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="МодификаторыСостояниеПросмотра" id="74">
+										<AdditionSource>
+											<Item>Модификаторы</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="МодификаторыСостояниеПросмотраКонтекстноеМеню" id="75"/>
+										<ExtendedTooltip name="МодификаторыСостояниеПросмотраРасширеннаяПодсказка" id="76"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="МодификаторыУправлениеПоиском" id="77">
+										<AdditionSource>
+											<Item>Модификаторы</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="МодификаторыУправлениеПоискомКонтекстноеМеню" id="78"/>
+										<ExtendedTooltip name="МодификаторыУправлениеПоискомРасширеннаяПодсказка" id="79"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="МодификаторыМодификатор" id="80">
+											<DataPath>Модификаторы.Модификатор</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="МодификаторыМодификаторКонтекстноеМеню" id="81"/>
+											<ExtendedTooltip name="МодификаторыМодификаторРасширеннаяПодсказка" id="82"/>
+										</InputField>
+										<InputField name="МодификаторыМодификаторОписание" id="89">
+											<DataPath>Модификаторы.Модификатор.Описание</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="МодификаторыМодификаторОписаниеКонтекстноеМеню" id="90"/>
+											<ExtendedTooltip name="МодификаторыМодификаторОписаниеРасширеннаяПодсказка" id="91"/>
+										</InputField>
+										<CheckBoxField name="МодификаторыЕстьДлительность" id="83">
+											<DataPath>Модификаторы.ЕстьДлительность</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="МодификаторыЕстьДлительностьКонтекстноеМеню" id="84"/>
+											<ExtendedTooltip name="МодификаторыЕстьДлительностьРасширеннаяПодсказка" id="85"/>
+										</CheckBoxField>
+										<InputField name="МодификаторыОставшаясяДлительность" id="86">
+											<DataPath>Модификаторы.ОставшаясяДлительность</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="МодификаторыОставшаясяДлительностьКонтекстноеМеню" id="87"/>
+											<ExtendedTooltip name="МодификаторыОставшаясяДлительностьРасширеннаяПодсказка" id="88"/>
+										</InputField>
+									</ChildItems>
+								</Table>
 							</ChildItems>
-						</Table>
-						<Table name="Модификаторы" id="67">
-							<Representation>List</Representation>
-							<ReadOnly>true</ReadOnly>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<DataPath>Модификаторы</DataPath>
-							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="МодификаторыКонтекстноеМеню" id="68"/>
-							<AutoCommandBar name="МодификаторыКоманднаяПанель" id="69"/>
-							<ExtendedTooltip name="МодификаторыРасширеннаяПодсказка" id="70"/>
-							<SearchStringAddition name="МодификаторыСтрокаПоиска" id="71">
-								<AdditionSource>
-									<Item>Модификаторы</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="МодификаторыСтрокаПоискаКонтекстноеМеню" id="72"/>
-								<ExtendedTooltip name="МодификаторыСтрокаПоискаРасширеннаяПодсказка" id="73"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="МодификаторыСостояниеПросмотра" id="74">
-								<AdditionSource>
-									<Item>Модификаторы</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="МодификаторыСостояниеПросмотраКонтекстноеМеню" id="75"/>
-								<ExtendedTooltip name="МодификаторыСостояниеПросмотраРасширеннаяПодсказка" id="76"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="МодификаторыУправлениеПоиском" id="77">
-								<AdditionSource>
-									<Item>Модификаторы</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="МодификаторыУправлениеПоискомКонтекстноеМеню" id="78"/>
-								<ExtendedTooltip name="МодификаторыУправлениеПоискомРасширеннаяПодсказка" id="79"/>
-							</SearchControlAddition>
-							<ChildItems>
-								<InputField name="МодификаторыМодификатор" id="80">
-									<DataPath>Модификаторы.Модификатор</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="МодификаторыМодификаторКонтекстноеМеню" id="81"/>
-									<ExtendedTooltip name="МодификаторыМодификаторРасширеннаяПодсказка" id="82"/>
-								</InputField>
-								<InputField name="МодификаторыМодификаторОписание" id="89">
-									<DataPath>Модификаторы.Модификатор.Описание</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="МодификаторыМодификаторОписаниеКонтекстноеМеню" id="90"/>
-									<ExtendedTooltip name="МодификаторыМодификаторОписаниеРасширеннаяПодсказка" id="91"/>
-								</InputField>
-								<CheckBoxField name="МодификаторыЕстьДлительность" id="83">
-									<DataPath>Модификаторы.ЕстьДлительность</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="МодификаторыЕстьДлительностьКонтекстноеМеню" id="84"/>
-									<ExtendedTooltip name="МодификаторыЕстьДлительностьРасширеннаяПодсказка" id="85"/>
-								</CheckBoxField>
-								<InputField name="МодификаторыОставшаясяДлительность" id="86">
-									<DataPath>Модификаторы.ОставшаясяДлительность</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="МодификаторыОставшаясяДлительностьКонтекстноеМеню" id="87"/>
-									<ExtendedTooltip name="МодификаторыОставшаясяДлительностьРасширеннаяПодсказка" id="88"/>
-								</InputField>
-							</ChildItems>
-						</Table>
+						</UsualGroup>
 					</ChildItems>
 				</Page>
 			</ChildItems>

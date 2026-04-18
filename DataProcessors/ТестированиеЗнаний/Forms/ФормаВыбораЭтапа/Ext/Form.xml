@@ -140,6 +140,13 @@
 						</InputField>
 					</ChildItems>
 				</Table>
+				<InputField name="ТаблицаЭтаповПротивникОписание" id="38">
+					<DataPath>Items.ТаблицаЭтапов.CurrentData.Противник.Описание</DataPath>
+					<MultiLine>true</MultiLine>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаЭтаповПротивникОписаниеКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ТаблицаЭтаповПротивникОписаниеРасширеннаяПодсказка" id="40"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<Button name="ВыбратьЭтап" id="1">
