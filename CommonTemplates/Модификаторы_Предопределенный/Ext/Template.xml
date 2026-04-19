@@ -101,6 +101,12 @@
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;ПарныеКлинки&lt;/name&gt;
+        &lt;description&gt;Снаряжает Вас вторым оружием. При успешной атаке шанс 10% провести ещё одну.&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
 &lt;/modifiers&gt;</v8:content>
 						</v8:item>
 					</tl>
