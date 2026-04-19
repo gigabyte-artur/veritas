@@ -304,6 +304,7 @@
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Противники</Catalog>
 			<Catalog>Сборники</Catalog>
+			<Catalog>Карты</Catalog>
 			<Enum>ВариантыДействийПротивников</Enum>
 			<Enum>ВидыПараметровИгроков</Enum>
 			<Enum>ВидыЭтаповВосхождения</Enum>

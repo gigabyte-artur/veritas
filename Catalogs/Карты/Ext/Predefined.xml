@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.19">
+	<Item id="e05ba96a-856f-4e01-b34c-a1273f0f05a3">
+		<Name>Адреналин</Name>
+		<Code>000000003</Code>
+		<Description>Адреналин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="83c59549-36ef-4809-8534-4b61c49ec179">
+		<Name>Защита</Name>
+		<Code>000000002</Code>
+		<Description>Защита</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3753fdd0-cd5a-4148-8852-6db3c311a40a">
+		<Name>Удар</Name>
+		<Code>000000001</Code>
+		<Description>Удар</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
