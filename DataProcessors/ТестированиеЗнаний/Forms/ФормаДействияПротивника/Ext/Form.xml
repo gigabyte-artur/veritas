@@ -76,7 +76,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа действие</v8:content>
+					<v8:content>Действие</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -87,12 +87,11 @@
 			</ToolTip>
 			<ExtendedTooltip name="ГруппаДействиеРасширеннаяПодсказка" id="15"/>
 			<ChildItems>
-				<InputField name="ВариантДействия" id="16">
+				<LabelField name="ВариантДействия" id="16">
 					<DataPath>ВариантДействия</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ВариантДействияКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="ВариантДействияРасширеннаяПодсказка" id="18"/>
-				</InputField>
+				</LabelField>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
