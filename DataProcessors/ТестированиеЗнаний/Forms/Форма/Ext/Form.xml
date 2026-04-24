@@ -230,6 +230,8 @@
 								</v8:item>
 							</ToolTip>
 							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаТекстВопросаРасширеннаяПодсказка" id="47"/>
 							<ChildItems>
 								<InputField name="ЗаданиеТекстВопросаЗадания" id="25">
@@ -707,15 +709,9 @@
 											<ContextMenu name="МодификаторыМодификаторКонтекстноеМеню" id="81"/>
 											<ExtendedTooltip name="МодификаторыМодификаторРасширеннаяПодсказка" id="82"/>
 										</InputField>
-										<InputField name="МодификаторыМодификаторОписание" id="89">
-											<DataPath>Модификаторы.Модификатор.Описание</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="МодификаторыМодификаторОписаниеКонтекстноеМеню" id="90"/>
-											<ExtendedTooltip name="МодификаторыМодификаторОписаниеРасширеннаяПодсказка" id="91"/>
-										</InputField>
 										<CheckBoxField name="МодификаторыЕстьДлительность" id="83">
 											<DataPath>Модификаторы.ЕстьДлительность</DataPath>
+											<Visible>false</Visible>
 											<EditMode>EnterOnInput</EditMode>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="МодификаторыЕстьДлительностьКонтекстноеМеню" id="84"/>
@@ -723,10 +719,18 @@
 										</CheckBoxField>
 										<InputField name="МодификаторыОставшаясяДлительность" id="86">
 											<DataPath>Модификаторы.ОставшаясяДлительность</DataPath>
+											<Visible>false</Visible>
 											<EditMode>EnterOnInput</EditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="МодификаторыОставшаясяДлительностьКонтекстноеМеню" id="87"/>
 											<ExtendedTooltip name="МодификаторыОставшаясяДлительностьРасширеннаяПодсказка" id="88"/>
+										</InputField>
+										<InputField name="МодификаторыМодификаторОписание" id="155">
+											<DataPath>Модификаторы.Модификатор.Описание</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="МодификаторыМодификаторОписаниеКонтекстноеМеню" id="156"/>
+											<ExtendedTooltip name="МодификаторыМодификаторОписаниеРасширеннаяПодсказка" id="157"/>
 										</InputField>
 									</ChildItems>
 								</Table>
