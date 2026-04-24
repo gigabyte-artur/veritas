@@ -1,75 +1,75 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.dll
-*.so
-*.a
-*.exe
-*.out
+*.bsl
 
 # Dependencies
-node_modules/
-venv/
-.venv/
+# (no dependency directories detected in changes)
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
 
 # Build directories
-dist/
 build/
-target/
-.gradle/
+dist/
 
 # Python specific
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-.installed.cfg
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.egg-info/
-.eggs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Logs
-*.log
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Node specific
+node_modules/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.ENV
 
 # OS generated files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# IDE files
-.vscode/
-.idea/
+# Backup files
+*~
+*.bak
 *.swp
-*.swo
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# IDE specific
+*.iml
+*.ipr
+*.iws
+.settings/
+.metadata/
+bin/
+tmp/
 *.tmp
 
-# Testing
-.coverage
-htmlcov/
-coverage/
-.pytest_cache/
-.mypy_cache/
-
-# Compressed files
+# Compression files
 *.zip
 *.gz
 *.tar
