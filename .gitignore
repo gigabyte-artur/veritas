@@ -1,29 +1,19 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+*.bsl
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
+# (no standard dependency directories detected in 1C projects)
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
@@ -33,23 +23,46 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-# Build directories
+# Build outputs
 dist/
 build/
 target/
-.gradle/
+bin/
+obj/
 
 # Python specific
-.mypy_cache/
-.pytest_cache/
+__pycache__/
+*.pyc
 *.pyo
+*.pyd
+.Python
+*.so
 
-# Compressed files
+# Node.js specific
+node_modules/
+
+# Java/Gradle specific
+.gradle/
+target/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing
+*.test.js
+*.spec.js
+.test.ts
+.spec.ts
+
+# Compression artifacts
 *.zip
 *.gz
 *.tar
