@@ -1,6 +1,76 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗакрыть" id="1">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="2"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Table name="РукаИгрока" id="3">
+			<Representation>List</Representation>
+			<ReadOnly>true</ReadOnly>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<Header>false</Header>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>РукаИгрока</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="РукаИгрокаКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="РукаИгрокаКоманднаяПанель" id="5"/>
+			<ExtendedTooltip name="РукаИгрокаРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="РукаИгрокаСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>РукаИгрока</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РукаИгрокаСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="РукаИгрокаСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="РукаИгрокаСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>РукаИгрока</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РукаИгрокаСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="РукаИгрокаСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="РукаИгрокаУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>РукаИгрока</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="РукаИгрокаУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="РукаИгрокаУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="РукаИгрокаКарта" id="16">
+					<DataPath>РукаИгрока.Карта</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="РукаИгрокаКартаКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="РукаИгрокаКартаРасширеннаяПодсказка" id="18"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Button name="РазыгратьКарту" id="19">
+			<Type>UsualButton</Type>
+			<DefaultButton>true</DefaultButton>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.РазыгратьКарту</CommandName>
+			<ExtendedTooltip name="РазыгратьКартуРасширеннаяПодсказка" id="20"/>
+		</Button>
+	</ChildItems>
 	<Attributes>
 		<Attribute name="РукаИгрока" id="1">
 			<Title>
@@ -42,6 +112,23 @@
 			</Columns>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="РазыгратьКарту" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разыграть карту</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разыграть карту</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РазыгратьКарту</Action>
+		</Command>
+	</Commands>
 	<Parameters>
 		<Parameter name="РукаИгрока">
 			<Type/>
