@@ -1,75 +1,60 @@
 ```
 # Compiled and build artifacts
-*.bsl
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.class
+*.out
 
 # Dependencies
-# (no dependency directories detected in changes)
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Build directories
-build/
-dist/
-
-# Python specific
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Java specific
-*.class
-*.jar
-*.war
-*.ear
-target/
-
-# Node specific
 node_modules/
-
-# Virtual environments
 venv/
 .venv/
-env/
-.ENV
+.env
+.env.local
+*.env.*
 
-# OS generated files
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
 .DS_Store
 Thumbs.db
 
-# Backup files
-*~
-*.bak
-*.swp
-
-# Coverage reports
+# Logs and coverage
+*.log
 coverage/
 htmlcov/
 .coverage
 
-# IDE specific
-*.iml
-*.ipr
-*.iws
-.settings/
-.metadata/
-bin/
-tmp/
-*.tmp
+# Python specific
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Compression files
+# Cache directories
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Compressed files
 *.zip
 *.gz
 *.tar
