@@ -9,6 +9,9 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаИгрок" id="1">
 			<Title>
@@ -89,6 +92,12 @@
 			<ChildItems>
 				<LabelField name="ВариантДействия" id="16">
 					<DataPath>ВариантДействия</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Накладывает эффект</v8:content>
+						</v8:item>
+					</Title>
 					<ContextMenu name="ВариантДействияКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="ВариантДействияРасширеннаяПодсказка" id="18"/>
 				</LabelField>
@@ -117,7 +126,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Вариант действия</v8:content>
+					<v8:content>Действие</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
