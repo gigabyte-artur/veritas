@@ -1801,6 +1801,7 @@
 					<v8:content>Открыть список карт</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ОткрытьСписокКарт</Action>
 		</Command>
 	</Commands>
 	<Parameters>
