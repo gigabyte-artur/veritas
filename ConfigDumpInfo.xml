@@ -12,8 +12,8 @@
 		<Metadata name="Catalog.Задания.Form.ФормаЭлемента.Form" id="a7fe4047-59ec-4a55-b1e8-93add7b247fa.0" configVersion="05a1e55495406f47a5ba3c084cc0ec2f00000000"/>
 		<Metadata name="Catalog.Задания.ObjectModule" id="c6078fcf-c572-4d98-9326-8e31379261f6.0" configVersion="85c4d4f2b2111e4995f405a51270ecbf00000000"/>
 		<Metadata name="Catalog.Карты" id="1b8391c2-dda2-4bae-b555-22dfd9bacd1c" configVersion="a11f701d09084b479bcc68119bb4774e00000000"/>
-		<Metadata name="Catalog.Карты.Form.ФормаРозыгрышаКарт" id="30f0c37d-cf76-47ac-8a8a-47ab41cd3791" configVersion="e221214760058e4f8529022108940c1700000000"/>
-		<Metadata name="Catalog.Карты.Form.ФормаРозыгрышаКарт.Form" id="30f0c37d-cf76-47ac-8a8a-47ab41cd3791.0" configVersion="62217f693383dd4583266d620d5ffb0f00000000"/>
+		<Metadata name="Catalog.Карты.Form.ФормаРозыгрышаКарт" id="30f0c37d-cf76-47ac-8a8a-47ab41cd3791" configVersion="ad380b532f20dd44b9ef045f969717c500000000"/>
+		<Metadata name="Catalog.Карты.Form.ФормаРозыгрышаКарт.Form" id="30f0c37d-cf76-47ac-8a8a-47ab41cd3791.0" configVersion="6b2fc612afe41b458a1b195feac9122200000000"/>
 		<Metadata name="Catalog.Карты.Predefined" id="1b8391c2-dda2-4bae-b555-22dfd9bacd1c.1c" configVersion="762d4175fddd444391c95a4610978a9000000000"/>
 		<Metadata name="Catalog.Модификаторы" id="3dfbfcaf-314c-4ec1-94d9-8c4c30bd1934" configVersion="d3cbfd5542d7a14ba7e1be0d828fd36100000000">
 			<Metadata name="Catalog.Модификаторы.Attribute.Описание" id="2127b3fd-e6fd-4eac-89b2-9f2d366555f6"/>
@@ -160,8 +160,8 @@
 		<Metadata name="DataProcessor.ПереносСборников.Form.Форма.Form" id="66555246-f217-4b23-a0d8-1e6086b9c25f.0" configVersion="7e1bed272b1c4c488f9e7e0b5cdf72ef00000000"/>
 		<Metadata name="DataProcessor.ПереносСборников.ManagerModule" id="d630b1f1-0971-4494-bf41-db69eeb8077f.2" configVersion="c9a589bbe6121d408c480a13ce30584d00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний" id="2999ecc1-a473-4398-8d48-3351ae5887e9" configVersion="d618ef3d5ccea1459e1eb7ce0bc9c42a00000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21" configVersion="baa3d156a480b444a3fd60f884f3267e00000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма.Form" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21.0" configVersion="70cf3a6e1771f94f8eb45f706521e15e00000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21" configVersion="73b36426ae68cf4d9134fc1937d8c08100000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма.Form" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21.0" configVersion="41711fd6e4ad0f4fa78ec6ba95e6845200000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаВыбораЭтапа" id="c8c5f3a6-5a49-48a7-aa0c-ed8024b8adb3" configVersion="9afce04a1670444e844ea74a8cbdb72400000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаВыбораЭтапа.Form" id="c8c5f3a6-5a49-48a7-aa0c-ed8024b8adb3.0" configVersion="79b15f3444c133478a6d5a7cfe7746ce00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаДействияПротивника" id="c68f39bf-0691-4d7a-9f92-7cd88b15c8fa" configVersion="143f6c099dab694ba8721f9c679d9c1800000000"/>
