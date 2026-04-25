@@ -649,6 +649,19 @@
 								</Table>
 							</ChildItems>
 						</UsualGroup>
+						<Button name="ОткрытьСписокКарт" id="158">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<CommandName>Form.Command.ОткрытьСписокКарт</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Карты</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ОткрытьСписокКартРасширеннаяПодсказка" id="159"/>
+						</Button>
 						<UsualGroup name="ГруппаМодификаторы" id="153">
 							<Title>
 								<v8:item>
@@ -1440,6 +1453,48 @@
 				<v8:Type>cfg:CatalogRef.Карты</v8:Type>
 			</Settings>
 		</Attribute>
+		<Attribute name="СтопкаДобора" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стопка добора</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>cfg:CatalogRef.Карты</v8:Type>
+			</Settings>
+		</Attribute>
+		<Attribute name="РукаИгрока" id="36">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рука игрока</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>cfg:CatalogRef.Карты</v8:Type>
+			</Settings>
+		</Attribute>
+		<Attribute name="СтопкаСброса" id="37">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стопка сброса</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>cfg:CatalogRef.Карты</v8:Type>
+			</Settings>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ВыбратьВариант1" id="1">
@@ -1632,6 +1687,20 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>УбратьНевернуюПоловину</Action>
+		</Command>
+		<Command name="ОткрытьСписокКарт" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть список карт</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть список карт</v8:content>
+				</v8:item>
+			</ToolTip>
 		</Command>
 	</Commands>
 	<Parameters>
