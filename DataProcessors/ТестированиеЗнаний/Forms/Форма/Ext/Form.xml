@@ -744,6 +744,7 @@
 								<InputField name="МодификаторыМодификаторОписание" id="155">
 									<DataPath>Items.Модификаторы.CurrentData.Модификатор.Описание</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<HorizontalStretch>true</HorizontalStretch>
 									<MultiLine>true</MultiLine>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="МодификаторыМодификаторОписаниеКонтекстноеМеню" id="156"/>
