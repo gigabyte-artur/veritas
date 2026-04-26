@@ -675,6 +675,7 @@
 									<v8:content>Группа модификаторы</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Group>Vertical</Group>
 							<ExtendedTooltip name="ГруппаМодификаторыРасширеннаяПодсказка" id="154"/>
 							<ChildItems>
 								<Table name="Модификаторы" id="67">
@@ -738,15 +739,16 @@
 											<ContextMenu name="МодификаторыОставшаясяДлительностьКонтекстноеМеню" id="87"/>
 											<ExtendedTooltip name="МодификаторыОставшаясяДлительностьРасширеннаяПодсказка" id="88"/>
 										</InputField>
-										<InputField name="МодификаторыМодификаторОписание" id="155">
-											<DataPath>Модификаторы.Модификатор.Описание</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="МодификаторыМодификаторОписаниеКонтекстноеМеню" id="156"/>
-											<ExtendedTooltip name="МодификаторыМодификаторОписаниеРасширеннаяПодсказка" id="157"/>
-										</InputField>
 									</ChildItems>
 								</Table>
+								<InputField name="МодификаторыМодификаторОписание" id="155">
+									<DataPath>Items.Модификаторы.CurrentData.Модификатор.Описание</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<MultiLine>true</MultiLine>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="МодификаторыМодификаторОписаниеКонтекстноеМеню" id="156"/>
+									<ExtendedTooltip name="МодификаторыМодификаторОписаниеРасширеннаяПодсказка" id="157"/>
+								</InputField>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
