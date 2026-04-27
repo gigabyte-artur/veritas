@@ -13,6 +13,11 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
+		<LabelField name="Энергия" id="29">
+			<DataPath>Энергия</DataPath>
+			<ContextMenu name="ЭнергияКонтекстноеМеню" id="30"/>
+			<ExtendedTooltip name="ЭнергияРасширеннаяПодсказка" id="31"/>
+		</LabelField>
 		<Table name="РукаИгрока" id="3">
 			<Representation>List</Representation>
 			<ReadOnly>true</ReadOnly>
@@ -53,15 +58,50 @@
 				<ExtendedTooltip name="РукаИгрокаУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<InputField name="РукаИгрокаКарта" id="16">
-					<DataPath>РукаИгрока.Карта</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="РукаИгрокаКартаКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="РукаИгрокаКартаРасширеннаяПодсказка" id="18"/>
-				</InputField>
+				<ColumnGroup name="РукаИгрокаГруппаКартаСтоимость" id="27">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рука игрока группа карта стоимость</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рука игрока группа карта стоимость</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>InCell</Group>
+					<ExtendedTooltip name="РукаИгрокаГруппаКартаСтоимостьРасширеннаяПодсказка" id="28"/>
+					<ChildItems>
+						<InputField name="РукаИгрокаКарта" id="16">
+							<DataPath>РукаИгрока.Карта</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РукаИгрокаКартаКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="РукаИгрокаКартаРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="РукаИгрокаКартаСтоимость" id="24">
+							<DataPath>РукаИгрока.Карта.Стоимость</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РукаИгрокаКартаСтоимостьКонтекстноеМеню" id="25"/>
+							<ExtendedTooltip name="РукаИгрокаКартаСтоимостьРасширеннаяПодсказка" id="26"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
 			</ChildItems>
 		</Table>
+		<InputField name="РукаИгрокаКартаОписание" id="21">
+			<DataPath>Items.РукаИгрока.CurrentData.Карта.Описание</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<MultiLine>true</MultiLine>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РукаИгрокаКартаОписаниеКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="РукаИгрокаКартаОписаниеРасширеннаяПодсказка" id="23"/>
+		</InputField>
 		<Button name="РазыгратьКарту" id="19">
 			<Type>UsualButton</Type>
 			<DefaultButton>true</DefaultButton>
@@ -111,6 +151,22 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="Энергия" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Энергия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="РазыгратьКарту" id="1">
@@ -132,6 +188,16 @@
 	<Parameters>
 		<Parameter name="РукаИгрока">
 			<Type/>
+		</Parameter>
+		<Parameter name="Энергия">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
 		</Parameter>
 	</Parameters>
 </Form>

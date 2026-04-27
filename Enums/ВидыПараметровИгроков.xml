@@ -134,6 +134,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="8cd6b5c0-97c0-4f99-9d5d-c99f8967584d">
+				<Properties>
+					<Name>Энергия</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Энергия</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="76e22f1f-4039-4d8a-bb94-359f2c155264">
 				<Properties>
 					<Name>Ярость</Name>

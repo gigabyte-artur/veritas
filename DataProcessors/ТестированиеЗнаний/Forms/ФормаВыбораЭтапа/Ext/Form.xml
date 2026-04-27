@@ -124,6 +124,9 @@
 						<ContextMenu name="ТаблицаЭтаповУправлениеПоискомКонтекстноеМеню" id="14"/>
 						<ExtendedTooltip name="ТаблицаЭтаповУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 					</SearchControlAddition>
+					<Events>
+						<Event name="OnActivateRow">ТаблицаЭтаповПриАктивизацииСтроки</Event>
+					</Events>
 					<ChildItems>
 						<InputField name="ТаблицаЭтаповВидЭтапа" id="16">
 							<DataPath>ТаблицаЭтапов.ВидЭтапа</DataPath>
@@ -143,6 +146,7 @@
 				</Table>
 				<InputField name="ТаблицаЭтаповПротивникОписание" id="38">
 					<DataPath>Items.ТаблицаЭтапов.CurrentData.Противник.Описание</DataPath>
+					<Visible>false</Visible>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<HorizontalStretch>true</HorizontalStretch>
 					<MultiLine>true</MultiLine>

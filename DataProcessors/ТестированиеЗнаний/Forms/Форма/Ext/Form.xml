@@ -743,7 +743,9 @@
 								</Table>
 								<InputField name="МодификаторыМодификаторОписание" id="155">
 									<DataPath>Items.Модификаторы.CurrentData.Модификатор.Описание</DataPath>
+									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
 									<HorizontalStretch>true</HorizontalStretch>
 									<MultiLine>true</MultiLine>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
