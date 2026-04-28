@@ -1,9 +1,15 @@
 ```
 # Compiled and build artifacts
-*.bsl
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.out
 
 # Dependencies
-# (no standard dependency directories detected in 1C projects)
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -19,25 +25,16 @@
 .vscode/
 .idea/
 
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Build outputs
-dist/
-build/
-target/
-out/
-
-# Cache directories
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Compression and archives
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -60,106 +57,4 @@ __pycache__/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Testing and coverage
-.coverage
-coverage/
-htmlcov/
-.nyc_output/
-coverage-final.json
-
-# Node.js
-node_modules/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-.env
-.venv/
-venv/
-.pytest_cache/
-.mypy_cache/
-.tox/
-.coverage
-
-# Java
-*.class
-*.jar
-*.war
-*.ear
-target/
-.gradle/
-build/
-out/
-
-# C/C++
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.lib
-
-# Go
-*.o
-*.so
-*.exe
-*.test
-*.prof
-vendor/
-
-# Ruby
-*.gem
-*.rbc
-.bundle/
-vendor/bundle/
-vendor/gems/
-vendor/ruby/
-
-# Rust
-*.o
-*.rlib
-*.so
-*.dylib
-*.dll
-target/
-
-# .NET
-*.dll
-*.exe
-*.pdb
-*.userprefs
-bin/
-obj/
-packages/
-_nupkg.tmp/
-*.nupkg
-
-# Julia
-.julia/
-*.ji
-*.mem
-*.snoop
-
-# Zig
-zig-cache/
-zig-out/
-
-# Temporary files from editors
-*~
-*.bak
-*.swp
-*.swo
-
-# Sensitive files
-config/secrets.yml
-*.key
-*.pem
-*.crt
-*.cert
 ```
