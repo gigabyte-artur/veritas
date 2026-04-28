@@ -1,57 +1,43 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
+*.bsl
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-.coverage
-coverage/
-htmlcov/
-.mypy_cache/
-.pytest_cache/
+# (no standard dependency directories detected in 1C projects)
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Compressed files
+# Build outputs
+dist/
+build/
+target/
+out/
+
+# Cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Compression and archives
 *.zip
 *.gz
 *.tar
@@ -74,4 +60,106 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Testing and coverage
+.coverage
+coverage/
+htmlcov/
+.nyc_output/
+coverage-final.json
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.env
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+out/
+
+# C/C++
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Go
+*.o
+*.so
+*.exe
+*.test
+*.prof
+vendor/
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+vendor/gems/
+vendor/ruby/
+
+# Rust
+*.o
+*.rlib
+*.so
+*.dylib
+*.dll
+target/
+
+# .NET
+*.dll
+*.exe
+*.pdb
+*.userprefs
+bin/
+obj/
+packages/
+_nupkg.tmp/
+*.nupkg
+
+# Julia
+.julia/
+*.ji
+*.mem
+*.snoop
+
+# Zig
+zig-cache/
+zig-out/
+
+# Temporary files from editors
+*~
+*.bak
+*.swp
+*.swo
+
+# Sensitive files
+config/secrets.yml
+*.key
+*.pem
+*.crt
+*.cert
 ```
