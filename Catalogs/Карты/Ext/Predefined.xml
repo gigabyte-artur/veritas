@@ -6,6 +6,12 @@
 		<Description>Адреналин</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="a3f53b0b-6f48-48dd-9f73-702652d7e9ad">
+		<Name>Бинты</Name>
+		<Code>000000005</Code>
+		<Description>Бинты</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="17871302-4fe6-46fa-978b-3f7e2ae3b40a">
 		<Name>Взрыв</Name>
 		<Code>000000004</Code>
@@ -16,6 +22,18 @@
 		<Name>Защита</Name>
 		<Code>000000002</Code>
 		<Description>Защита</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="41409a06-fef4-4c7b-b6b1-d05c54db45a8">
+		<Name>Лезвие</Name>
+		<Code>000000006</Code>
+		<Description>Лезвие</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="54ed6629-a9a9-4222-ad9b-56066d28b1b8">
+		<Name>Окоп</Name>
+		<Code>000000007</Code>
+		<Description>Окоп</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="3753fdd0-cd5a-4148-8852-6db3c311a40a">
