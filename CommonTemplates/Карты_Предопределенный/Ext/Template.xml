@@ -32,7 +32,7 @@
   &lt;card&gt;
     &lt;name&gt;Адреналин&lt;/name&gt;
     &lt;title&gt;Адреналин&lt;/title&gt;
-    &lt;description&gt;Потратить 1 ХП, сбросить все карты, заново набрать руку&lt;/description&gt;
+    &lt;description&gt;Потратить 1 здоровье, сбросить все карты, заново набрать руку&lt;/description&gt;
     &lt;cost&gt;0&lt;/cost&gt;
   &lt;/card&gt;
   &lt;card&gt;
@@ -46,6 +46,12 @@
     &lt;title&gt;Удар&lt;/title&gt;
     &lt;description&gt;Наносит противнику 10 единиц урона&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;Взрыв&lt;/name&gt;
+    &lt;title&gt;Взрыв&lt;/title&gt;
+    &lt;description&gt;Наносит противнику 25 единиц урона&lt;/description&gt;
+    &lt;cost&gt;2&lt;/cost&gt;
   &lt;/card&gt;
 &lt;/cards&gt;</v8:content>
 						</v8:item>

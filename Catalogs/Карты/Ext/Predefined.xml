@@ -6,6 +6,12 @@
 		<Description>Адреналин</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="17871302-4fe6-46fa-978b-3f7e2ae3b40a">
+		<Name>Взрыв</Name>
+		<Code>000000004</Code>
+		<Description>Взрыв</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="83c59549-36ef-4809-8534-4b61c49ec179">
 		<Name>Защита</Name>
 		<Code>000000002</Code>
