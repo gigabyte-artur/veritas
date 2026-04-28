@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;cards&gt;
+  &lt;card&gt;
+    &lt;name&gt;Адреналин&lt;/name&gt;
+    &lt;title&gt;Адреналин&lt;/title&gt;
+    &lt;description&gt;Потратить 1 ХП, сбросить все карты, заново набрать руку&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;Защита&lt;/name&gt;
+    &lt;title&gt;Защита&lt;/title&gt;
+    &lt;description&gt;Накладывает на игрока 6 единиц щита&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;Удар&lt;/name&gt;
+    &lt;title&gt;Удар&lt;/title&gt;
+    &lt;description&gt;Наносит противнику 10 единиц урона&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;
+&lt;/cards&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>1</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<format>
+		<width>72</width>
+	</format>
+</document>
