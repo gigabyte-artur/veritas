@@ -15,6 +15,12 @@
 	<ChildItems>
 		<LabelField name="Энергия" id="29">
 			<DataPath>Энергия</DataPath>
+			<Format>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЧН=0</v8:content>
+				</v8:item>
+			</Format>
 			<ContextMenu name="ЭнергияКонтекстноеМеню" id="30"/>
 			<ExtendedTooltip name="ЭнергияРасширеннаяПодсказка" id="31"/>
 		</LabelField>
@@ -85,6 +91,18 @@
 							<DataPath>РукаИгрока.Карта.Стоимость</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<Format>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+							</Format>
+							<EditFormat>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+							</EditFormat>
 							<ContextMenu name="РукаИгрокаКартаСтоимостьКонтекстноеМеню" id="25"/>
 							<ExtendedTooltip name="РукаИгрокаКартаСтоимостьРасширеннаяПодсказка" id="26"/>
 						</InputField>
