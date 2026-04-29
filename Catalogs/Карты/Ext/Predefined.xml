@@ -6,6 +6,12 @@
 		<Description>Адреналин</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="b69eeeba-6730-4486-ad54-d7b04817f665">
+		<Name>БезПрикрас</Name>
+		<Code>000000008</Code>
+		<Description>Без прикрас</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="a3f53b0b-6f48-48dd-9f73-702652d7e9ad">
 		<Name>Бинты</Name>
 		<Code>000000005</Code>
@@ -30,10 +36,34 @@
 		<Description>Лезвие</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="74bf6f61-b1b6-49fc-8b13-fa82520d95bc">
+		<Name>ЛожныйМаневр</Name>
+		<Code>000000009</Code>
+		<Description>Ложный маневр</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="96468c15-3128-41f3-8f6f-33d7999e7f49">
+		<Name>НовыйРассвет</Name>
+		<Code>000000010</Code>
+		<Description>Новый рассвет</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="54ed6629-a9a9-4222-ad9b-56066d28b1b8">
 		<Name>Окоп</Name>
 		<Code>000000007</Code>
 		<Description>Окоп</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c5b9b2ea-0f66-4e43-867f-73638c9952bc">
+		<Name>Опровержение</Name>
+		<Code>000000011</Code>
+		<Description>Опровержение</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aa40d229-28dd-43cc-9bdd-bf13e145cd3d">
+		<Name>Очищение</Name>
+		<Code>000000012</Code>
+		<Description>Очищение</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="3753fdd0-cd5a-4148-8852-6db3c311a40a">
