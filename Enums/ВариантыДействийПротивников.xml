@@ -122,6 +122,30 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="65b8f4e0-97ef-481f-a7c1-619363ce422c">
+				<Properties>
+					<Name>Отравить</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отравить</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="da5fb0d0-07ce-4e27-9c73-184c13c63991">
+				<Properties>
+					<Name>Поджечь</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поджечь</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="a8d7b1f4-c1ec-4f8c-9a74-5ee3eddca252">
 				<Properties>
 					<Name>СбежатьИзБоя</Name>
@@ -189,18 +213,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Украсть золото</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="da5fb0d0-07ce-4e27-9c73-184c13c63991">
-				<Properties>
-					<Name>Поджечь</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Поджечь</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

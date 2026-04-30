@@ -50,6 +50,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="b28c4c23-e5fe-43a0-b6f9-cda18bab0c56">
+				<Properties>
+					<Name>Горение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Горение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="3143df6e-9976-4cc7-83b2-67869c7baa7a">
 				<Properties>
 					<Name>Золото</Name>
@@ -146,6 +158,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="c12a7cc7-639f-4686-b01e-567d35a76dc3">
+				<Properties>
+					<Name>Яд</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Яд</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="76e22f1f-4039-4d8a-bb94-359f2c155264">
 				<Properties>
 					<Name>Ярость</Name>
@@ -153,18 +177,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Ярость</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="b28c4c23-e5fe-43a0-b6f9-cda18bab0c56">
-				<Properties>
-					<Name>Горение</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Горение</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
