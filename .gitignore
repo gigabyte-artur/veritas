@@ -12,24 +12,18 @@ __pycache__/
 *.out
 
 # Dependencies
-.venv/
-venv/
 node_modules/
-dist/
-build/
-target/
-.gradle/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
@@ -44,7 +38,11 @@ coverage/
 htmlcov/
 .coverage
 
-# Cache directories
+# Build directories
+dist/
+build/
+target/
+.gradle/
 .mypy_cache/
 .pytest_cache/
 ```
