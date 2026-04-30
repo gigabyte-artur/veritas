@@ -74,6 +74,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="35d86c50-7a57-4536-83dc-3c8809e5c7d8">
+				<Properties>
+					<Name>ЗаблокироватьЛечение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заблокировать лечение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="33b08f34-d71c-4d5d-a61c-49349583a33d">
 				<Properties>
 					<Name>Лечение</Name>

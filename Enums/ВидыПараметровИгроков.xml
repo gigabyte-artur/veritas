@@ -38,6 +38,18 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
+			<EnumValue uuid="1ae8a01c-3175-4f8b-84ae-093ef6823144">
+				<Properties>
+					<Name>БлокировкаЛечения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Блокировка лечения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="9d2e09a3-6c28-4687-b277-2fa1050dd713">
 				<Properties>
 					<Name>Бомба</Name>
