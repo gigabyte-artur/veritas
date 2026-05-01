@@ -24,6 +24,12 @@
 		<Description>Взрыв</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="a4fd4582-94e0-4a59-9f79-7deef6148a4e">
+		<Name>Единички</Name>
+		<Code>000000016</Code>
+		<Description>Единички</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="83c59549-36ef-4809-8534-4b61c49ec179">
 		<Name>Защита</Name>
 		<Code>000000002</Code>
@@ -76,6 +82,12 @@
 		<Name>Очищение</Name>
 		<Code>000000012</Code>
 		<Description>Очищение</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3826a240-292a-4f14-af80-ee01f4786bd1">
+		<Name>Пасхалка</Name>
+		<Code>000000017</Code>
+		<Description>Пасхалка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="3753fdd0-cd5a-4148-8852-6db3c311a40a">
