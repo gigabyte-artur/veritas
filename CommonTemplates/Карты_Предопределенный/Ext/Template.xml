@@ -106,7 +106,25 @@
     &lt;title&gt;Очищение&lt;/title&gt;
     &lt;description&gt;Убирает 3 негативных эффекта с игрока&lt;/description&gt;
     &lt;cost&gt;2&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;ЛовкостьРук&lt;/name&gt;
+    &lt;title&gt;Ловкость рук&lt;/title&gt;
+    &lt;description&gt;Вы берёте 2 карты&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;    
+  &lt;card&gt;
+    &lt;name&gt;Озарение&lt;/name&gt;
+    &lt;title&gt;Озарение&lt;/title&gt;
+    &lt;description&gt;Вы получаете 2 энергии&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;     
+  &lt;card&gt;
+    &lt;name&gt;Укрытие&lt;/name&gt;
+    &lt;title&gt;Укрытие&lt;/title&gt;
+    &lt;description&gt;Вы получаете 4 единицы щита&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;   
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>

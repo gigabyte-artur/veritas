@@ -36,6 +36,12 @@
 		<Description>Лезвие</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="57f96ef6-a5ba-41e1-abe4-e2f394325fd6">
+		<Name>ЛовкостьРук</Name>
+		<Code>000000013</Code>
+		<Description>Ловкость рук</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="74bf6f61-b1b6-49fc-8b13-fa82520d95bc">
 		<Name>ЛожныйМаневр</Name>
 		<Code>000000009</Code>
@@ -46,6 +52,12 @@
 		<Name>НовыйРассвет</Name>
 		<Code>000000010</Code>
 		<Description>Новый рассвет</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6bc14919-a0ea-4276-ab6d-562dbd08e577">
+		<Name>Озарение</Name>
+		<Code>000000014</Code>
+		<Description>Озарение</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="54ed6629-a9a9-4222-ad9b-56066d28b1b8">
@@ -70,6 +82,12 @@
 		<Name>Удар</Name>
 		<Code>000000001</Code>
 		<Description>Удар</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="84683e7b-d207-4473-a851-ffd6237dbd30">
+		<Name>Укрытие</Name>
+		<Code>000000015</Code>
+		<Description>Укрытие</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 </PredefinedData>

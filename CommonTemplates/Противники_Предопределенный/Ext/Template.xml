@@ -56,7 +56,7 @@
     &lt;Enemy id="stone_golem_01"&gt;
         &lt;Name&gt;Каменный голем&lt;/Name&gt;
         &lt;Description&gt;Медлительный, но прочный защитник древних руин.&lt;/Description&gt;
-        &lt;MaxHealth&gt;40&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;35&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;НаложитьЩит&lt;/Type&gt;
@@ -69,9 +69,9 @@
                 &lt;MaxPower&gt;16&lt;/MaxPower&gt;
             &lt;/Action&gt;
             &lt;Action&gt;
-                &lt;Type&gt;Атака&lt;/Type&gt;
-                &lt;MinPower&gt;10&lt;/MinPower&gt;
-                &lt;MaxPower&gt;16&lt;/MaxPower&gt;
+                &lt;Type&gt;СломатьЩит&lt;/Type&gt;
+                &lt;MinPower&gt;25&lt;/MinPower&gt;
+                &lt;MaxPower&gt;35&lt;/MaxPower&gt;
             &lt;/Action&gt;
             &lt;Action&gt;
                 &lt;Type&gt;Атака&lt;/Type&gt;
@@ -85,7 +85,7 @@
     &lt;Enemy id="dark_mage_01"&gt;
         &lt;Name&gt;Тёмный маг&lt;/Name&gt;
         &lt;Description&gt;Злобный чародей, использующий проклятия и скрытые угрозы.&lt;/Description&gt;
-        &lt;MaxHealth&gt;35&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;30&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;НаложитьПроклятие&lt;/Type&gt;
@@ -114,7 +114,7 @@
     &lt;Enemy id="thunder_goliath_01"&gt;
         &lt;Name&gt;Громовой Голиаф&lt;/Name&gt;
         &lt;Description&gt;Массивное каменное создание, вызванное гневом древнего шторма.&lt;/Description&gt;
-        &lt;MaxHealth&gt;80&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;70&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;Атака&lt;/Type&gt;
@@ -143,7 +143,7 @@
 	&lt;Enemy id="shadow_assassin_01"&gt;
 		&lt;Name&gt;Теневой Ассасин&lt;/Name&gt;
 		&lt;Description&gt;Быстрый и скрытный убийца, специализирующийся на отравлениях и внезапных атаках.&lt;/Description&gt;
-		&lt;MaxHealth&gt;40&lt;/MaxHealth&gt;
+		&lt;MaxHealth&gt;35&lt;/MaxHealth&gt;
 		&lt;ActionCycle&gt;
 			&lt;Action&gt;
 				&lt;Type&gt;УдарНаУдачу&lt;/Type&gt;
@@ -161,9 +161,9 @@
 				&lt;MaxPower&gt;20&lt;/MaxPower&gt;
 			&lt;/Action&gt;
 			&lt;Action&gt;
-				&lt;Type&gt;НаложитьНеуклюжесть&lt;/Type&gt;
-				&lt;MinPower&gt;1&lt;/MinPower&gt;
-				&lt;MaxPower&gt;3&lt;/MaxPower&gt;
+				&lt;Type&gt;Отравить&lt;/Type&gt;
+				&lt;MinPower&gt;10&lt;/MinPower&gt;
+				&lt;MaxPower&gt;15&lt;/MaxPower&gt;
 			&lt;/Action&gt;
 		&lt;/ActionCycle&gt;
 	&lt;/Enemy&gt;
@@ -172,7 +172,7 @@
 	&lt;Enemy id="necromancer_zul_tar_01"&gt;
 		&lt;Name&gt;Некромант Зул'Тар&lt;/Name&gt;
 		&lt;Description&gt;Древний колдун, способный поднимать мертвецов и поглощать жизненные силы.&lt;/Description&gt;
-		&lt;MaxHealth&gt;35&lt;/MaxHealth&gt;
+		&lt;MaxHealth&gt;30&lt;/MaxHealth&gt;
 		&lt;ActionCycle&gt;
 			&lt;Action&gt;
 				&lt;Type&gt;НаложитьПроклятие&lt;/Type&gt;
@@ -190,9 +190,9 @@
 				&lt;MaxPower&gt;20&lt;/MaxPower&gt;
 			&lt;/Action&gt;
 			&lt;Action&gt;
-				&lt;Type&gt;НаложитьЩит&lt;/Type&gt;
-				&lt;MinPower&gt;7&lt;/MinPower&gt;
-				&lt;MaxPower&gt;13&lt;/MaxPower&gt;
+				&lt;Type&gt;ЗаблокироватьЛечение&lt;/Type&gt;
+				&lt;MinPower&gt;2&lt;/MinPower&gt;
+				&lt;MaxPower&gt;3&lt;/MaxPower&gt;
 			&lt;/Action&gt;
 		&lt;/ActionCycle&gt;
 	&lt;/Enemy&gt;
@@ -201,7 +201,7 @@
 	&lt;Enemy id="forest_keeper_01"&gt;
 		&lt;Name&gt;Хранитель Леса&lt;/Name&gt;
 		&lt;Description&gt;Древесный страж, защищающий священные рощи от любого вторжения.&lt;/Description&gt;
-		&lt;MaxHealth&gt;60&lt;/MaxHealth&gt;
+		&lt;MaxHealth&gt;55&lt;/MaxHealth&gt;
 		&lt;ActionCycle&gt;
 			&lt;Action&gt;
 				&lt;Type&gt;НаложитьЩит&lt;/Type&gt;
@@ -235,7 +235,7 @@
     &lt;Enemy id="blood_seer_01"&gt;
         &lt;Name&gt;Кровавая Ведунья&lt;/Name&gt;
         &lt;Description&gt;Хрупкая, но опасная жрица темных культов. Она избегает прямого столкновения, ослабляя героя проклятиями и лишая его возможности действовать.&lt;/Description&gt;
-        &lt;MaxHealth&gt;45&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;40&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;НаложитьПроклятие&lt;/Type&gt;
@@ -248,9 +248,9 @@
                 &lt;MaxPower&gt;18&lt;/MaxPower&gt;
             &lt;/Action&gt;
             &lt;Action&gt;
-                &lt;Type&gt;НаложитьНеуклюжесть&lt;/Type&gt;
-                &lt;MinPower&gt;1&lt;/MinPower&gt;
-                &lt;MaxPower&gt;3&lt;/MaxPower&gt;
+                &lt;Type&gt;Поджечь&lt;/Type&gt;
+                &lt;MinPower&gt;3&lt;/MinPower&gt;
+                &lt;MaxPower&gt;4&lt;/MaxPower&gt;
             &lt;/Action&gt;
             &lt;Action&gt;
                 &lt;Type&gt;УдарНаУдачу&lt;/Type&gt;
@@ -264,7 +264,7 @@
     &lt;Enemy id="mutant_leech_01"&gt;
         &lt;Name&gt;Мутант-Пиявка&lt;/Name&gt;
         &lt;Description&gt;Огромное бесформенное существо, результат темных экспериментов. Оно медленно накапливает силу и покрывает себя защитной слизью, делая его трудной мишенью.&lt;/Description&gt;
-        &lt;MaxHealth&gt;45&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;40&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;УвеличитьСилу&lt;/Type&gt;
@@ -293,7 +293,7 @@
     &lt;Enemy id="iron_extortionist_01"&gt;
         &lt;Name&gt;Железный Вымогатель&lt;/Name&gt;
         &lt;Description&gt;Бронированный наёмник, действующий по принципу «выбил щиты – забрал кошель». Тяжёлые удары заставляют игрока выбирать: контратаковать, рискуя пропустить фатальный удар, или держать оборону, постепенно теряя золото.&lt;/Description&gt;
-        &lt;MaxHealth&gt;35&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;30&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;УкрастьЗолото&lt;/Type&gt;
@@ -306,9 +306,9 @@
                 &lt;MaxPower&gt;18&lt;/MaxPower&gt;
             &lt;/Action&gt;
             &lt;Action&gt;
-                &lt;Type&gt;УкрастьЗолото&lt;/Type&gt;
-                &lt;MinPower&gt;5&lt;/MinPower&gt;
-                &lt;MaxPower&gt;9&lt;/MaxPower&gt;
+                &lt;Type&gt;СломатьЩит&lt;/Type&gt;
+                &lt;MinPower&gt;20&lt;/MinPower&gt;
+                &lt;MaxPower&gt;30&lt;/MaxPower&gt;
             &lt;/Action&gt;
             &lt;Action&gt;
                 &lt;Type&gt;УдарНаУдачу&lt;/Type&gt;
@@ -326,7 +326,7 @@
     &lt;Enemy id="fire_demon_01"&gt;
         &lt;Name&gt;Огненный Демон&lt;/Name&gt;
         &lt;Description&gt;Воплощение первозданного пламени, сжигающее всё на своём пути. Его удары оставляют тлеющие раны, которые трудно залечить.&lt;/Description&gt;
-        &lt;MaxHealth&gt;45&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;40&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;Атака&lt;/Type&gt;
@@ -334,7 +334,7 @@
                 &lt;MaxPower&gt;18&lt;/MaxPower&gt;
             &lt;/Action&gt;
             &lt;Action&gt;
-                &lt;Type&gt;УвеличитьСилу&lt;/Type&gt;
+                &lt;Type&gt;Поджечь&lt;/Type&gt;
                 &lt;MinPower&gt;3&lt;/MinPower&gt;
                 &lt;MaxPower&gt;5&lt;/MaxPower&gt;
             &lt;/Action&gt;
@@ -355,7 +355,7 @@
     &lt;Enemy id="ice_wyvern_01"&gt;
         &lt;Name&gt;Ледяная Виверна&lt;/Name&gt;
         &lt;Description&gt;Крылатый ящер, выдыхающий пронизывающий мороз. Замедляет противников ледяной коркой и укрепляет собственную чешую.&lt;/Description&gt;
-        &lt;MaxHealth&gt;50&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;45&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;НаложитьЩит&lt;/Type&gt;
@@ -384,7 +384,7 @@
     &lt;Enemy id="phantom_knight_01"&gt;
         &lt;Name&gt;Призрачный Рыцарь&lt;/Name&gt;
         &lt;Description&gt;Бессмертный воин в ржавых доспехах, питающийся страхом противников. Его призрачный клинок проникает сквозь любую защиту.&lt;/Description&gt;
-        &lt;MaxHealth&gt;55&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;50&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;НаложитьПроклятие&lt;/Type&gt;
@@ -402,9 +402,9 @@
                 &lt;MaxPower&gt;20&lt;/MaxPower&gt;
             &lt;/Action&gt;
             &lt;Action&gt;
-                &lt;Type&gt;Атака&lt;/Type&gt;
-                &lt;MinPower&gt;10&lt;/MinPower&gt;
-                &lt;MaxPower&gt;15&lt;/MaxPower&gt;
+                &lt;Type&gt;ЗаблокироватьЛечение&lt;/Type&gt;
+                &lt;MinPower&gt;3&lt;/MinPower&gt;
+                &lt;MaxPower&gt;4&lt;/MaxPower&gt;
             &lt;/Action&gt;
         &lt;/ActionCycle&gt;
     &lt;/Enemy&gt;
@@ -413,7 +413,7 @@
     &lt;Enemy id="swamp_beast_01"&gt;
         &lt;Name&gt;Болотная Тварь&lt;/Name&gt;
         &lt;Description&gt;Гигантское создание, порождённое гнилыми топями. Постоянно регенерирует и окутывает врагов удушающим ядовитым туманом.&lt;/Description&gt;
-        &lt;MaxHealth&gt;60&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;55&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;Лечение&lt;/Type&gt;
@@ -431,9 +431,9 @@
                 &lt;MaxPower&gt;25&lt;/MaxPower&gt;
             &lt;/Action&gt;
             &lt;Action&gt;
-                &lt;Type&gt;УвеличитьСилу&lt;/Type&gt;
-                &lt;MinPower&gt;3&lt;/MinPower&gt;
-                &lt;MaxPower&gt;5&lt;/MaxPower&gt;
+                &lt;Type&gt;Отравить&lt;/Type&gt;
+                &lt;MinPower&gt;10&lt;/MinPower&gt;
+                &lt;MaxPower&gt;16&lt;/MaxPower&gt;
             &lt;/Action&gt;
         &lt;/ActionCycle&gt;
     &lt;/Enemy&gt;
@@ -442,7 +442,7 @@
     &lt;Enemy id="mad_alchemist_01"&gt;
         &lt;Name&gt;Алхимик-Безумец&lt;/Name&gt;
         &lt;Description&gt;Одержимый учёный, бросающий нестабильные реактивы. Его тактика строится на взрывах и непредсказуемых химических реакциях.&lt;/Description&gt;
-        &lt;MaxHealth&gt;40&lt;/MaxHealth&gt;
+        &lt;MaxHealth&gt;35&lt;/MaxHealth&gt;
         &lt;ActionCycle&gt;
             &lt;Action&gt;
                 &lt;Type&gt;АктивироватьБомбу&lt;/Type&gt;
