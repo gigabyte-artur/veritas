@@ -35,6 +35,7 @@
 			<Form>ФормаВыбораЭтапа</Form>
 			<Form>ФормаТорговца</Form>
 			<Form>ФормаДействияПротивника</Form>
+			<Form>ФормаПолученияНаград</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
