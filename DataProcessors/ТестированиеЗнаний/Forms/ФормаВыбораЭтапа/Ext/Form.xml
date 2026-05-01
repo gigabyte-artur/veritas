@@ -32,7 +32,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Нредыдущий этап</v8:content>
+					<v8:content>Предыдущий этап</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -89,6 +89,7 @@
 			<ChildItems>
 				<Table name="ТаблицаЭтапов" id="3">
 					<Representation>List</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
 					<ReadOnly>true</ReadOnly>
 					<ChangeRowSet>false</ChangeRowSet>
 					<ChangeRowOrder>false</ChangeRowOrder>
