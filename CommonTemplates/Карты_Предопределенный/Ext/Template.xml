@@ -125,6 +125,18 @@
     &lt;description&gt;Вы получаете 4 единицы щита&lt;/description&gt;
     &lt;cost&gt;0&lt;/cost&gt;
   &lt;/card&gt;   
+  &lt;card&gt;
+    &lt;name&gt;Единички&lt;/name&gt;
+    &lt;title&gt;Единички&lt;/title&gt;
+    &lt;description&gt;Игрок излечивает 1 здоровья, получает 1 щита, наносит 1 урона противнику, добирает 1 карту&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;  
+  &lt;card&gt;
+    &lt;name&gt;Пасхалка&lt;/name&gt;
+    &lt;title&gt;Пасхалка&lt;/title&gt;
+    &lt;description&gt;Случайный эффект: лечение 5 здоровья, +5 щита, нанести 8 урона или взять карты&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;   
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>
