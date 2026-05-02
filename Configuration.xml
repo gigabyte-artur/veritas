@@ -321,6 +321,7 @@
 			<InformationRegister>ДанныеПользователей</InformationRegister>
 			<InformationRegister>ДостиженияПользователей</InformationRegister>
 			<InformationRegister>РезультатыТестированияЗнаний</InformationRegister>
+			<InformationRegister>СохраненияВосхождения</InformationRegister>
 			<InformationRegister>ЭтапыВосхождения</InformationRegister>
 		</ChildObjects>
 	</Configuration>
