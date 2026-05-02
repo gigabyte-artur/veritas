@@ -29,7 +29,11 @@ venv/
 .vscode/
 .idea/
 
-# Coverage reports
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
 coverage/
 htmlcov/
 .coverage
@@ -39,12 +43,6 @@ dist/
 build/
 target/
 .gradle/
-
-# Python specific
 .mypy_cache/
 .pytest_cache/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
