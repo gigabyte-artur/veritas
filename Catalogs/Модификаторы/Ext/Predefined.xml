@@ -78,4 +78,10 @@
 		<Description>Цепкий крюк</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="37b9716e-65b4-4a55-8c78-71216bf3eefa">
+		<Name>ЩитОтражения</Name>
+		<Code>000000014</Code>
+		<Description>Щит отражения</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>

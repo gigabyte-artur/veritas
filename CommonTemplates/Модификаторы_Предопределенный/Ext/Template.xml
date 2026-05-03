@@ -120,6 +120,13 @@
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;ЩитОтражения&lt;/name&gt;
+        &lt;title&gt;Щит отражения&lt;/title&gt;
+        &lt;description&gt;10% получаемого урона возращается противнику.&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;	
 &lt;/modifiers&gt;</v8:content>
 						</v8:item>
 					</tl>
