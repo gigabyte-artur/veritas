@@ -6,6 +6,12 @@
 		<Description>Адреналин</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="2228ed45-e765-46f6-9515-5fb838b8cf65">
+		<Name>Алебарда</Name>
+		<Code>000000018</Code>
+		<Description>Алебарда</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="b69eeeba-6730-4486-ad54-d7b04817f665">
 		<Name>БезПрикрас</Name>
 		<Code>000000008</Code>
@@ -28,6 +34,12 @@
 		<Name>Единички</Name>
 		<Code>000000016</Code>
 		<Description>Единички</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="afe1975c-a5f2-4ee2-a23b-fc7a8b54bbe8">
+		<Name>Закалка</Name>
+		<Code>000000020</Code>
+		<Description>Закалка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="83c59549-36ef-4809-8534-4b61c49ec179">
@@ -94,6 +106,12 @@
 		<Name>Удар</Name>
 		<Code>000000001</Code>
 		<Description>Удар</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="268dd6cf-a487-49c3-8359-15f41f87abc3">
+		<Name>Укрепление</Name>
+		<Code>000000019</Code>
+		<Description>Укрепление</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="84683e7b-d207-4473-a851-ffd6237dbd30">

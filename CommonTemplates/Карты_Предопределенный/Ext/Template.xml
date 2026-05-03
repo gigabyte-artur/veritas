@@ -131,6 +131,24 @@
     &lt;description&gt;Случайный эффект: лечение 5 здоровья, +5 щита, нанести 8 урона или взять карты&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;   
+  &lt;card&gt;
+    &lt;name&gt;Алебарда&lt;/name&gt;
+    &lt;title&gt;Алебарда&lt;/title&gt;
+    &lt;description&gt;Оставляет у противника половину от его текущего здоровья&lt;/description&gt;
+    &lt;cost&gt;3&lt;/cost&gt;
+  &lt;/card&gt;   
+  &lt;card&gt;
+    &lt;name&gt;Закалка&lt;/name&gt;
+    &lt;title&gt;Закалка&lt;/title&gt;
+    &lt;description&gt;Наносит игроку 6 единицы урона, накладывает 12 единиц щита&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;Укрепление&lt;/name&gt;
+    &lt;title&gt;Укрепление&lt;/title&gt;
+    &lt;description&gt;Получите 2 щита. Если щит уже активен, возьмите 1 карту&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;    
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>
