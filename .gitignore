@@ -17,16 +17,21 @@ venv/
 .venv/
 .env
 .env.local
-*.env.*
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Editors
 .vscode/
 .idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
 
 # Coverage
 coverage/
@@ -40,10 +45,16 @@ target/
 .gradle/
 
 # Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# Cache directories
 .mypy_cache/
 .pytest_cache/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
