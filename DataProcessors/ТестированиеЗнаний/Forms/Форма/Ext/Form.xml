@@ -447,6 +447,17 @@
 					</ToolTip>
 					<ExtendedTooltip name="ГруппаСтраницаОбИгреРасширеннаяПодсказка" id="66"/>
 					<ChildItems>
+						<LabelField name="НомерЭтапа" id="163">
+							<DataPath>НомерЭтапа</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Этап</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="НомерЭтапаКонтекстноеМеню" id="164"/>
+							<ExtendedTooltip name="НомерЭтапаРасширеннаяПодсказка" id="165"/>
+						</LabelField>
 						<UsualGroup name="ГруппаИгрок" id="100">
 							<Title>
 								<v8:item>
@@ -667,6 +678,7 @@
 						</UsualGroup>
 						<Button name="ОткрытьСписокКарт" id="158">
 							<Type>UsualButton</Type>
+							<Representation>PictureAndText</Representation>
 							<HorizontalStretch>true</HorizontalStretch>
 							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 							<CommandName>Form.Command.ОткрытьСписокКарт</CommandName>
@@ -1833,6 +1845,10 @@
 					<v8:content>Открыть список карт</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.Карты</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>ОткрытьСписокКарт</Action>
 		</Command>
 	</Commands>
