@@ -128,8 +128,8 @@
 		<Metadata name="CommonTemplate.Карты_Предопределенный.Template" id="8d69739b-c19b-4013-82a3-c32c2a2ca3f7.0" configVersion="3880ec28feb63e4ea55a93c5317aa4b000000000"/>
 		<Metadata name="CommonTemplate.Модификаторы_Предопределенный" id="0add2756-0386-4389-80fe-a3b7d9400628" configVersion="6e60f6d56f061f42a0175cd040bb073400000000"/>
 		<Metadata name="CommonTemplate.Модификаторы_Предопределенный.Template" id="0add2756-0386-4389-80fe-a3b7d9400628.0" configVersion="a106e035c8714442a453ec845dbaaf9700000000"/>
-		<Metadata name="CommonTemplate.Противники_Предопределенный" id="3e97d02d-2084-4f2a-986f-7582a0a0bb2b" configVersion="d0f3d9c683582c45abed129acf61b58100000000"/>
-		<Metadata name="CommonTemplate.Противники_Предопределенный.Template" id="3e97d02d-2084-4f2a-986f-7582a0a0bb2b.0" configVersion="3771dcdeae2f7d47b20926efaea9fe1000000000"/>
+		<Metadata name="CommonTemplate.Противники_Предопределенный" id="3e97d02d-2084-4f2a-986f-7582a0a0bb2b" configVersion="21da0ff6a40b614fb2bd97d1fbd3c04600000000"/>
+		<Metadata name="CommonTemplate.Противники_Предопределенный.Template" id="3e97d02d-2084-4f2a-986f-7582a0a0bb2b.0" configVersion="dda7cd9d9806d340aa807fceb4c61fe000000000"/>
 		<Metadata name="CommonTemplate.Сборник_Предопределенный" id="07d7d3c9-9d83-4ef3-9dc5-17ea60bbd63c" configVersion="88c8acc89bd5dc4fb9d2c0e8ecbbdf4f00000000"/>
 		<Metadata name="CommonTemplate.Сборник_Предопределенный.Template" id="07d7d3c9-9d83-4ef3-9dc5-17ea60bbd63c.0" configVersion="d31d404123e3c447b9c07f9cddd36f7e00000000"/>
 		<Metadata name="Configuration.Veritas" id="7509fd66-4f60-4f39-a099-52202f991049" configVersion="4e89ca9a980bf848982485b0c47142a500000000"/>
