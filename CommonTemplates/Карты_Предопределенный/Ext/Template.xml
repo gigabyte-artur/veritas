@@ -38,13 +38,13 @@
   &lt;card&gt;
     &lt;name&gt;Защита&lt;/name&gt;
     &lt;title&gt;Защита&lt;/title&gt;
-    &lt;description&gt;Накладывает на игрока 6 единиц щита&lt;/description&gt;
+    &lt;description&gt;Накладывает на игрока 5 единиц щита&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;
   &lt;card&gt;
     &lt;name&gt;Удар&lt;/name&gt;
     &lt;title&gt;Удар&lt;/title&gt;
-    &lt;description&gt;Наносит противнику 10 единиц урона&lt;/description&gt;
+    &lt;description&gt;Наносит противнику 8 единиц урона&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;
   &lt;card&gt;
