@@ -311,6 +311,7 @@
 			<Enum>ВидыЭтаповВосхождения</Enum>
 			<Enum>Достижения</Enum>
 			<Enum>РежимыВикторины</Enum>
+			<Enum>СложностиПротивников</Enum>
 			<Enum>СложностиСборников</Enum>
 			<Report>ПрогрессОбучения</Report>
 			<DataProcessor>ЛучшиеТестированные</DataProcessor>
