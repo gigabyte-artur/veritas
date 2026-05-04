@@ -102,6 +102,12 @@
 		<Description>Пасхалка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="920bfed2-1d02-4deb-8b6a-836937f7a8e6">
+		<Name>Поправка</Name>
+		<Code>000000021</Code>
+		<Description>Поправка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="3753fdd0-cd5a-4148-8852-6db3c311a40a">
 		<Name>Удар</Name>
 		<Code>000000001</Code>
@@ -118,6 +124,18 @@
 		<Name>Укрытие</Name>
 		<Code>000000015</Code>
 		<Description>Укрытие</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="17958a4e-6b6a-43cd-83db-de0c7588b64a">
+		<Name>ЩитИМеч</Name>
+		<Code>000000022</Code>
+		<Description>Щит и меч</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c194209a-bba6-462a-9bbc-77646e8e533c">
+		<Name>Эхо</Name>
+		<Code>000000023</Code>
+		<Description>Эхо</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 </PredefinedData>

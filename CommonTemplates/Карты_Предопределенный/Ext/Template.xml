@@ -149,6 +149,24 @@
     &lt;description&gt;Получите 2 щита. Если щит уже активен, возьмите 1 карту&lt;/description&gt;
     &lt;cost&gt;0&lt;/cost&gt;
   &lt;/card&gt;    
+  &lt;card&gt;
+    &lt;name&gt;Поправка&lt;/name&gt;
+    &lt;title&gt;Поправка&lt;/title&gt;
+    &lt;description&gt;Убирает 1 негативный эффект с игрока&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;   
+  &lt;card&gt;
+    &lt;name&gt;ЩитИМеч&lt;/name&gt;
+    &lt;title&gt;Щит и меч&lt;/title&gt;
+    &lt;description&gt;Наносит 5 единиц урона и накладывает 3 единицы щита&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;     
+  &lt;card&gt;
+    &lt;name&gt;Эхо&lt;/name&gt;
+    &lt;title&gt;Эхо&lt;/title&gt;
+    &lt;description&gt;Сыграйте случайную сброшенную карту&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>
