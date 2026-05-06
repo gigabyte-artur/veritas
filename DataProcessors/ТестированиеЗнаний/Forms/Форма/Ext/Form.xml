@@ -554,6 +554,18 @@
 											<DataPath>ПараметрыИгрока.ЗначениеПараметра</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<Format>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ЧДЦ=0; ЧН=0</v8:content>
+												</v8:item>
+											</Format>
+											<EditFormat>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ЧДЦ=0; ЧН=0</v8:content>
+												</v8:item>
+											</EditFormat>
 											<ContextMenu name="ПараметрыИгрокаЗначениеПараметраКонтекстноеМеню" id="130"/>
 											<ExtendedTooltip name="ПараметрыИгрокаЗначениеПараметраРасширеннаяПодсказка" id="131"/>
 										</InputField>
@@ -669,6 +681,18 @@
 											<DataPath>ПараметрыПротивника.ЗначениеПараметра</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<Format>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ЧДЦ=0; ЧН=0</v8:content>
+												</v8:item>
+											</Format>
+											<EditFormat>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ЧДЦ=0; ЧН=0</v8:content>
+												</v8:item>
+											</EditFormat>
 											<ContextMenu name="ПараметрыПротивникаЗначениеПараметраКонтекстноеМеню" id="149"/>
 											<ExtendedTooltip name="ПараметрыПротивникаЗначениеПараметраРасширеннаяПодсказка" id="150"/>
 										</InputField>
