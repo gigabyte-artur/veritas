@@ -146,6 +146,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="bd81650e-ecdc-4999-beb8-b6774c151d75">
+				<Properties>
+					<Name>Опровержение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Опровержение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="65b8f4e0-97ef-481f-a7c1-619363ce422c">
 				<Properties>
 					<Name>Отравить</Name>
