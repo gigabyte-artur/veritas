@@ -187,7 +187,7 @@
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТорговца" id="a1f68251-f0f7-49be-bb20-1e48b6516191" configVersion="55e164dab0b2324090d547de77eb4fbc00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТорговца.Form" id="a1f68251-f0f7-49be-bb20-1e48b6516191.0" configVersion="351cfce87a28d541aa2b4b086ecbc00700000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.ManagerModule" id="2999ecc1-a473-4398-8d48-3351ae5887e9.2" configVersion="8c693551ee94ad4fa9379713366702d600000000"/>
-		<Metadata name="Enum.ВариантыДействийПротивников" id="93287cb5-98f1-43c6-8a33-46765c76592a" configVersion="7046d7cc8e6130458c97032f7db0ed5600000000">
+		<Metadata name="Enum.ВариантыДействийПротивников" id="93287cb5-98f1-43c6-8a33-46765c76592a" configVersion="c7765fe0ad3ee94fa49d1a91363b26e700000000">
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.Сон" id="10c62972-d7a6-45ef-9d38-3f76fb0d0d74"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.Лечение" id="33b08f34-d71c-4d5d-a61c-49349583a33d"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.ЗаблокироватьЛечение" id="35d86c50-7a57-4536-83dc-3c8809e5c7d8"/>
@@ -198,6 +198,7 @@
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.НаложитьПроклятие" id="8183503e-1658-4607-bbee-db53cb73a498"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.УвеличитьСилу" id="82a2fe9b-120d-43f1-bb54-48b91244e072"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.НаложитьНеуклюжесть" id="8abcaf37-86e2-436e-9d95-2eb294fc658a"/>
+			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.Очищение" id="a3974bab-6392-4a5b-a9e4-f55dc83a8605"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.СбежатьИзБоя" id="a8d7b1f4-c1ec-4f8c-9a74-5ee3eddca252"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.НаложитьЛедянойЩит" id="af6a511e-5328-4026-a80f-a7ddaf0ccb49"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.СломатьЩит" id="b221115c-387c-484e-8118-cf4ce82d2e06"/>

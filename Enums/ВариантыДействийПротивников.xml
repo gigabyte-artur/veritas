@@ -98,6 +98,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="af6a511e-5328-4026-a80f-a7ddaf0ccb49">
+				<Properties>
+					<Name>НаложитьЛедянойЩит</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наложить ледяной щит</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="8abcaf37-86e2-436e-9d95-2eb294fc658a">
 				<Properties>
 					<Name>НаложитьНеуклюжесть</Name>
@@ -141,6 +153,18 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отравить</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a3974bab-6392-4a5b-a9e4-f55dc83a8605">
+				<Properties>
+					<Name>Очищение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Очищение</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -225,18 +249,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Украсть золото</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="af6a511e-5328-4026-a80f-a7ddaf0ccb49">
-				<Properties>
-					<Name>НаложитьЛедянойЩит</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Наложить ледяной щит</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
