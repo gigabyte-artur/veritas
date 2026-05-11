@@ -56,6 +56,7 @@
 					<Representation>List</Representation>
 					<TitleLocation>Top</TitleLocation>
 					<CommandBarLocation>None</CommandBarLocation>
+					<ReadOnly>true</ReadOnly>
 					<Header>false</Header>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<EnableStartDrag>true</EnableStartDrag>
@@ -122,6 +123,7 @@
 								</InputField>
 								<InputField name="ПредлагаемыеКартыКартаСтоимость" id="25">
 									<DataPath>ПредлагаемыеКарты.Карта.Стоимость</DataPath>
+									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<Format>
