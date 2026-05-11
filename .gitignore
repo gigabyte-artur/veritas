@@ -19,23 +19,6 @@ venv/
 .env.local
 *.env.*
 
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Python specific
-*.pyo
-*.pyd
-*.egg-info/
-.eggs/
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
-
 # Logs and temp files
 *.log
 *.tmp
@@ -45,6 +28,21 @@ htmlcov/
 # Editors
 .vscode/
 .idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python specific
+.mypy_cache/
+.pytest_cache/
 
 # System files
 .DS_Store
