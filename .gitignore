@@ -1,50 +1,50 @@
 ```
-# Byte-compiled / optimized / DLL files
+# Compiled and build artifacts
 *.pyc
 __pycache__/
-*.pyo
-*.pyd
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Environment
-.env
-.venv/
-env/
-ENV/
+# Dependencies
+node_modules/
 venv/
-virtualenv/
-!.envrc
+.venv/
+.env
+.env.local
+.env.*
 
-# IDE specific
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
-*~
 
-# OS generated files
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
+
+# System files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 ```
