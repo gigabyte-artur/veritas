@@ -24,6 +24,12 @@
 		<Description>Бинты</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="4e70ed90-f40b-41c1-90c8-a0f62e15a19c">
+		<Name>Вдохновение</Name>
+		<Code>000000024</Code>
+		<Description>Вдохновение</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="17871302-4fe6-46fa-978b-3f7e2ae3b40a">
 		<Name>Взрыв</Name>
 		<Code>000000004</Code>
@@ -46,6 +52,12 @@
 		<Name>Защита</Name>
 		<Code>000000002</Code>
 		<Description>Защита</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ef7d6384-674c-4ae5-b427-f50fbf613165">
+		<Name>Исчезновение</Name>
+		<Code>000000025</Code>
+		<Description>Исчезновение</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="41409a06-fef4-4c7b-b6b1-d05c54db45a8">
@@ -100,6 +112,18 @@
 		<Name>Пасхалка</Name>
 		<Code>000000017</Code>
 		<Description>Пасхалка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="84a4b388-3fe5-4f79-b765-46b589276074">
+		<Name>Перегонка</Name>
+		<Code>000000026</Code>
+		<Description>Перегонка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6d65a640-aa20-4898-9266-6840c2edd20a">
+		<Name>Передышка</Name>
+		<Code>000000027</Code>
+		<Description>Передышка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="920bfed2-1d02-4deb-8b6a-836937f7a8e6">

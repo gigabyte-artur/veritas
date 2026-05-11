@@ -167,6 +167,30 @@
     &lt;description&gt;Сыграйте случайную сброшенную карту&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;Вдохновение&lt;/name&gt;
+    &lt;title&gt;Вдохновение&lt;/title&gt;
+    &lt;description&gt;Возьмите 1 карту. Если она стоит 0 энергии - возьмите ещё одну&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;Исчезновение&lt;/name&gt;
+    &lt;title&gt;Исчезновение&lt;/title&gt;
+    &lt;description&gt;Вы сбрасываете все карты и берёте такое же их количество&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;   
+  &lt;card&gt;
+    &lt;name&gt;Перегонка&lt;/name&gt;
+    &lt;title&gt;Перегонка&lt;/title&gt;
+    &lt;description&gt;Сбросить 1 карту, получить 1 единицу энергии&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt; 
+  &lt;card&gt;
+    &lt;name&gt;Передышка&lt;/name&gt;
+    &lt;title&gt;Передышка&lt;/title&gt;
+    &lt;description&gt;Даёт 3 единицы щита, если у Вас 10 единиц щита или больше, возьмите 1 карту&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;   
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>
