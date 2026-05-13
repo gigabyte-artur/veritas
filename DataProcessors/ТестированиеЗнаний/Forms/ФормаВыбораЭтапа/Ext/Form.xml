@@ -41,9 +41,10 @@
 					<v8:content>Группа предыдущий этап</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Group>Vertical</Group>
 			<ExtendedTooltip name="ГруппаПредыдущийЭтапРасширеннаяПодсказка" id="23"/>
 			<ChildItems>
-				<InputField name="ПредыдущийВидЭтапа" id="24">
+				<LabelField name="ПредыдущийВидЭтапа" id="24">
 					<DataPath>ПредыдущийВидЭтапа</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<Title>
@@ -52,11 +53,10 @@
 							<v8:content>Вид этапа</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПредыдущийВидЭтапаКонтекстноеМеню" id="25"/>
 					<ExtendedTooltip name="ПредыдущийВидЭтапаРасширеннаяПодсказка" id="26"/>
-				</InputField>
-				<InputField name="ПредыдущийПротивник" id="27">
+				</LabelField>
+				<LabelField name="ПредыдущийПротивник" id="27">
 					<DataPath>ПредыдущийПротивник</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<Title>
@@ -65,10 +65,77 @@
 							<v8:content>Противник</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПредыдущийПротивникКонтекстноеМеню" id="28"/>
 					<ExtendedTooltip name="ПредыдущийПротивникРасширеннаяПодсказка" id="29"/>
-				</InputField>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаИгрок" id="44">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Игрок</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа игрок</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаИгрокРасширеннаяПодсказка" id="45"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаЗдоровье" id="46">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа здоровье</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа здоровье</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЗдоровьеРасширеннаяПодсказка" id="47"/>
+					<ChildItems>
+						<LabelField name="ТекущееЗдоровье" id="48">
+							<DataPath>ТекущееЗдоровье</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Здоровье</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ТекущееЗдоровьеКонтекстноеМеню" id="49"/>
+							<ExtendedTooltip name="ТекущееЗдоровьеРасширеннаяПодсказка" id="50"/>
+						</LabelField>
+						<LabelField name="МаксимальноеЗдоровье" id="51">
+							<DataPath>МаксимальноеЗдоровье</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>из</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="МаксимальноеЗдоровьеКонтекстноеМеню" id="52"/>
+							<ExtendedTooltip name="МаксимальноеЗдоровьеРасширеннаяПодсказка" id="53"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
+				<LabelField name="Золото" id="54">
+					<DataPath>Золото</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="ЗолотоКонтекстноеМеню" id="55"/>
+					<ExtendedTooltip name="ЗолотоРасширеннаяПодсказка" id="56"/>
+				</LabelField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаНовыйЭтап" id="30">
@@ -148,6 +215,7 @@
 				<InputField name="ТаблицаЭтаповПротивникОписание" id="38">
 					<DataPath>Items.ТаблицаЭтапов.CurrentData.Противник.Описание</DataPath>
 					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -300,6 +368,54 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="ТекущееЗдоровье" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущее здоровье</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="МаксимальноеЗдоровье" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Максимальное здоровье</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Золото" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Золото</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ВыбратьЭтап" id="1">
@@ -340,6 +456,36 @@
 			</Type>
 		</Parameter>
 		<Parameter name="ВсегоЭтапов">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ТекущееЗдоровье">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="МаксимальноеЗдоровье">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="Золото">
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
