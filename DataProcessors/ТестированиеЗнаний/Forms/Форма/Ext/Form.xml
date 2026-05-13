@@ -480,6 +480,24 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаЗдоровьеИгрокаРасширеннаяПодсказка" id="93"/>
 									<ChildItems>
+										<PictureDecoration name="ДекорацияКартинкаЗдоровьеИгрока" id="166">
+											<Width>1</Width>
+											<Height>1</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Декорация картинка здоровье игрока</v8:content>
+												</v8:item>
+											</Title>
+											<PictureSize>Proportionally</PictureSize>
+											<ImageScale>50</ImageScale>
+											<Picture>
+												<xr:Ref>CommonPicture.Сердце</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="ДекорацияКартинкаЗдоровьеИгрокаКонтекстноеМеню" id="167"/>
+											<ExtendedTooltip name="ДекорацияКартинкаЗдоровьеИгрокаРасширеннаяПодсказка" id="168"/>
+										</PictureDecoration>
 										<LabelField name="ТекущееЗдоровьеИгрока" id="97">
 											<DataPath>ТекущееЗдоровьеИгрока</DataPath>
 											<Title>
@@ -510,6 +528,7 @@
 									<ReadOnly>true</ReadOnly>
 									<HeightInTableRows>3</HeightInTableRows>
 									<Header>false</Header>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
@@ -583,12 +602,42 @@
 							<Group>Vertical</Group>
 							<ExtendedTooltip name="ГруппаПротивникРасширеннаяПодсказка" id="103"/>
 							<ChildItems>
-								<LabelField name="Противник" id="104">
-									<DataPath>Противник</DataPath>
-									<Hiperlink>true</Hiperlink>
-									<ContextMenu name="ПротивникКонтекстноеМеню" id="105"/>
-									<ExtendedTooltip name="ПротивникРасширеннаяПодсказка" id="106"/>
-								</LabelField>
+								<UsualGroup name="ГруппаТекущийПротивник" id="172">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа текущий противник</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа текущий противник</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаТекущийПротивникРасширеннаяПодсказка" id="173"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация1" id="174">
+											<Width>2</Width>
+											<Height>1</Height>
+											<PictureSize>Proportionally</PictureSize>
+											<Picture>
+												<xr:Ref>CommonPicture.Битва</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация1КонтекстноеМеню" id="175"/>
+											<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="176"/>
+										</PictureDecoration>
+										<LabelField name="Противник" id="104">
+											<DataPath>Противник</DataPath>
+											<Hiperlink>true</Hiperlink>
+											<ContextMenu name="ПротивникКонтекстноеМеню" id="105"/>
+											<ExtendedTooltip name="ПротивникРасширеннаяПодсказка" id="106"/>
+										</LabelField>
+									</ChildItems>
+								</UsualGroup>
 								<UsualGroup name="ГруппаЗдоровьеПротивника" id="151">
 									<Title>
 										<v8:item>
@@ -607,6 +656,23 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаЗдоровьеПротивникаРасширеннаяПодсказка" id="152"/>
 									<ChildItems>
+										<PictureDecoration name="ДекорацияКартинкаЗдоровьеПротивника" id="169">
+											<Width>1</Width>
+											<Height>1</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Декорация картинка здоровье противника</v8:content>
+												</v8:item>
+											</Title>
+											<PictureSize>Proportionally</PictureSize>
+											<Picture>
+												<xr:Ref>CommonPicture.Сердце</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="ДекорацияКартинкаЗдоровьеПротивникаКонтекстноеМеню" id="170"/>
+											<ExtendedTooltip name="ДекорацияКартинкаЗдоровьеПротивникаРасширеннаяПодсказка" id="171"/>
+										</PictureDecoration>
 										<LabelField name="ТекущееЗдоровьеПротивника" id="110">
 											<DataPath>ТекущееЗдоровьеПротивника</DataPath>
 											<Title>
@@ -637,6 +703,7 @@
 									<ReadOnly>true</ReadOnly>
 									<HeightInTableRows>3</HeightInTableRows>
 									<Header>false</Header>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
@@ -735,6 +802,7 @@
 									<CommandBarLocation>None</CommandBarLocation>
 									<ReadOnly>true</ReadOnly>
 									<Header>false</Header>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>

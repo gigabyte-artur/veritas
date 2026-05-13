@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Gigabyte</Vendor>
-			<Version>1.4.13</Version>
+			<Version>1.4.14</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -263,6 +263,7 @@
 			<Subsystem>Обучение</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
 			<CommonPicture>LiveGig</CommonPicture>
+			<CommonPicture>Битва</CommonPicture>
 			<CommonPicture>ДостижениеДвадцатьВопросовЗаШестьдесятСекундВкл</CommonPicture>
 			<CommonPicture>ДостижениеДвадцатьВопросовЗаШестьдесятСекундВыкл</CommonPicture>
 			<CommonPicture>ДостижениеЗавершениеВосхожденияВкл</CommonPicture>
@@ -276,6 +277,7 @@
 			<CommonPicture>ДостижениеУстановленоПятнадцатьСборниковВыкл</CommonPicture>
 			<CommonPicture>ДостиженияСтоВопросовВкл</CommonPicture>
 			<CommonPicture>Звезда</CommonPicture>
+			<CommonPicture>Золото</CommonPicture>
 			<CommonPicture>ИскатьВИнтернете</CommonPicture>
 			<CommonPicture>Карты</CommonPicture>
 			<CommonPicture>Настройки</CommonPicture>
@@ -287,6 +289,7 @@
 			<CommonPicture>Подсказка</CommonPicture>
 			<CommonPicture>Процент</CommonPicture>
 			<CommonPicture>ПятьЗвезд</CommonPicture>
+			<CommonPicture>Сердце</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<CommonTemplate>Карты_Предопределенный</CommonTemplate>
