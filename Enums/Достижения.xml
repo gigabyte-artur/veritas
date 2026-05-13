@@ -38,6 +38,42 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
+			<EnumValue uuid="2dea022d-0818-472a-ac0b-5167181de4b1">
+				<Properties>
+					<Name>ДвадцатьВопросовЗаШестьдесятСекунд</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Двадцать вопросов за шестьдесят секунд</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="86e0e723-1892-4097-a46d-64e7513af979">
+				<Properties>
+					<Name>ЗавершениеВосхождения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Завершение восхождения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="320ab6fa-56ab-4a49-acfe-cb7e6e759289">
+				<Properties>
+					<Name>СерияДвадцатьПравильных</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Серия из двадцати правильных ответов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="ecdf34ef-f2c9-43f9-ba04-c22bd0e437fc">
 				<Properties>
 					<Name>СтоВопросовСыграно</Name>
@@ -62,18 +98,6 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="320ab6fa-56ab-4a49-acfe-cb7e6e759289">
-				<Properties>
-					<Name>СерияДвадцатьПравильных</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Серия из двадцати правильных ответов</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
 			<EnumValue uuid="ed8ccd9f-4a59-40d2-86a1-622bac623554">
 				<Properties>
 					<Name>УстановленоПятнадцатьСборников</Name>
@@ -81,18 +105,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Установлено пятнадцать сборников</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="2dea022d-0818-472a-ac0b-5167181de4b1">
-				<Properties>
-					<Name>ДвадцатьВопросовЗаШестьдесятСекунд</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Двадцать вопросов за шестьдесят секунд</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
