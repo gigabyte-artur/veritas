@@ -376,6 +376,65 @@
 						</LabelDecoration>
 					</ChildItems>
 				</UsualGroup>
+				<UsualGroup name="ГруппаДостиженияЗавершениеВосхождения" id="73">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа достижения завершение восхождения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа достижения завершение восхождения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаДостиженияЗавершениеВосхожденияРасширеннаяПодсказка" id="74"/>
+					<ChildItems>
+						<PictureDecoration name="ДекорацияЗавершениеВосхожденияВыкл" id="75">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Декорация завершение восхождения выкл</v8:content>
+								</v8:item>
+							</Title>
+							<Picture>
+								<xr:Ref>CommonPicture.ДостижениеЗавершениеВосхожденияВыкл</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ДекорацияЗавершениеВосхожденияВыклКонтекстноеМеню" id="76"/>
+							<ExtendedTooltip name="ДекорацияЗавершениеВосхожденияВыклРасширеннаяПодсказка" id="77"/>
+						</PictureDecoration>
+						<PictureDecoration name="ДекорацияЗавершениеВосхожденияВкл" id="78">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Декорация завершение восхождения вкл</v8:content>
+								</v8:item>
+							</Title>
+							<Picture>
+								<xr:Ref>CommonPicture.ДостижениеЗавершениеВосхожденияВкл</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ДекорацияЗавершениеВосхожденияВклКонтекстноеМеню" id="79"/>
+							<ExtendedTooltip name="ДекорацияЗавершениеВосхожденияВклРасширеннаяПодсказка" id="80"/>
+						</PictureDecoration>
+						<LabelDecoration name="НадписьЗавершеноВосхождение" id="81">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Завершено Восхождение</v8:content>
+								</v8:item>
+							</Title>
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<ContextMenu name="НадписьЗавершеноВосхождениеКонтекстноеМеню" id="82"/>
+							<ExtendedTooltip name="НадписьЗавершеноВосхождениеРасширеннаяПодсказка" id="83"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
