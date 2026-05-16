@@ -506,6 +506,7 @@
 													<v8:content>Здоровье</v8:content>
 												</v8:item>
 											</Title>
+											<Height>1</Height>
 											<ContextMenu name="ТекущееЗдоровьеИгрокаКонтекстноеМеню" id="98"/>
 											<ExtendedTooltip name="ТекущееЗдоровьеИгрокаРасширеннаяПодсказка" id="99"/>
 										</LabelField>
@@ -517,6 +518,7 @@
 													<v8:content>из</v8:content>
 												</v8:item>
 											</Title>
+											<Height>1</Height>
 											<ContextMenu name="МаксимальноеЗдоровьеИгрокаКонтекстноеМеню" id="95"/>
 											<ExtendedTooltip name="МаксимальноеЗдоровьеИгрокаРасширеннаяПодсказка" id="96"/>
 										</LabelField>
@@ -681,6 +683,7 @@
 													<v8:content>Здоровье</v8:content>
 												</v8:item>
 											</Title>
+											<Height>1</Height>
 											<ContextMenu name="ТекущееЗдоровьеПротивникаКонтекстноеМеню" id="111"/>
 											<ExtendedTooltip name="ТекущееЗдоровьеПротивникаРасширеннаяПодсказка" id="112"/>
 										</LabelField>
@@ -692,6 +695,7 @@
 													<v8:content>из</v8:content>
 												</v8:item>
 											</Title>
+											<Height>1</Height>
 											<ContextMenu name="МаксимальноеЗдоровьеПротивникаКонтекстноеМеню" id="108"/>
 											<ExtendedTooltip name="МаксимальноеЗдоровьеПротивникаРасширеннаяПодсказка" id="109"/>
 										</LabelField>
@@ -1194,7 +1198,7 @@
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
-					<v8:Digits>10</v8:Digits>
+					<v8:Digits>3</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
@@ -1210,7 +1214,7 @@
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
-					<v8:Digits>10</v8:Digits>
+					<v8:Digits>3</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
@@ -1237,7 +1241,7 @@
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
-					<v8:Digits>10</v8:Digits>
+					<v8:Digits>3</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
@@ -1253,7 +1257,7 @@
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
-					<v8:Digits>10</v8:Digits>
+					<v8:Digits>3</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
@@ -1291,7 +1295,7 @@
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
+							<v8:Digits>5</v8:Digits>
 							<v8:FractionDigits>3</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>

@@ -75,7 +75,7 @@
 					<ExtendedTooltip name="ГруппаПротивникРасширеннаяПодсказка" id="66"/>
 					<ChildItems>
 						<PictureDecoration name="ДекорацияКартинкаПротивник" id="67">
-							<Width>2</Width>
+							<Width>1</Width>
 							<Height>1</Height>
 							<Title formatted="false">
 								<v8:item>
@@ -142,7 +142,7 @@
 					<ExtendedTooltip name="ГруппаЗдоровьеРасширеннаяПодсказка" id="47"/>
 					<ChildItems>
 						<PictureDecoration name="ДекорацияДекорацияЗдоровьеИгрока" id="57">
-							<Width>2</Width>
+							<Width>1</Width>
 							<Height>1</Height>
 							<Title formatted="false">
 								<v8:item>
@@ -167,6 +167,7 @@
 									<v8:content>Здоровье</v8:content>
 								</v8:item>
 							</Title>
+							<Height>1</Height>
 							<ContextMenu name="ТекущееЗдоровьеКонтекстноеМеню" id="49"/>
 							<ExtendedTooltip name="ТекущееЗдоровьеРасширеннаяПодсказка" id="50"/>
 						</LabelField>
@@ -179,6 +180,7 @@
 									<v8:content>из</v8:content>
 								</v8:item>
 							</Title>
+							<Height>1</Height>
 							<ContextMenu name="МаксимальноеЗдоровьеКонтекстноеМеню" id="52"/>
 							<ExtendedTooltip name="МаксимальноеЗдоровьеРасширеннаяПодсказка" id="53"/>
 						</LabelField>
@@ -203,7 +205,7 @@
 					<ExtendedTooltip name="ГруппаЗолотоРасширеннаяПодсказка" id="61"/>
 					<ChildItems>
 						<PictureDecoration name="ДекорацияДекорацияЗолото" id="62">
-							<Width>2</Width>
+							<Width>1</Width>
 							<Height>1</Height>
 							<Title formatted="false">
 								<v8:item>
@@ -469,7 +471,7 @@
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
-					<v8:Digits>10</v8:Digits>
+					<v8:Digits>3</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
@@ -485,7 +487,7 @@
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
-					<v8:Digits>10</v8:Digits>
+					<v8:Digits>3</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
