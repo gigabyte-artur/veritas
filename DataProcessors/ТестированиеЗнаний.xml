@@ -36,6 +36,7 @@
 			<Form>ФормаТорговца</Form>
 			<Form>ФормаДействияПротивника</Form>
 			<Form>ФормаПолученияНаград</Form>
+			<Form>ФормаОтдыха</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

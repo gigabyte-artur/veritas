@@ -179,7 +179,7 @@
 		<Metadata name="DataProcessor.ПереносСборников.Form.Форма" id="66555246-f217-4b23-a0d8-1e6086b9c25f" configVersion="a8aef5dd1dfb2a41b9da636c78249ede00000000"/>
 		<Metadata name="DataProcessor.ПереносСборников.Form.Форма.Form" id="66555246-f217-4b23-a0d8-1e6086b9c25f.0" configVersion="5a7ebb0b55be774b8ad268440302a79300000000"/>
 		<Metadata name="DataProcessor.ПереносСборников.ManagerModule" id="d630b1f1-0971-4494-bf41-db69eeb8077f.2" configVersion="109a5baa5e0a074ea25af0b39f24fe4400000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний" id="2999ecc1-a473-4398-8d48-3351ae5887e9" configVersion="44104474a86a564187eb05aa6465d28a00000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний" id="2999ecc1-a473-4398-8d48-3351ae5887e9" configVersion="530ebc43b3bcbf478e3ed9ecdeebbe9f00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21" configVersion="03fc1f0d8995a8478548f578d4efab4d00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма.Form" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21.0" configVersion="4415f255b1e16944b9f02043a7844ab900000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаВыбораЭтапа" id="c8c5f3a6-5a49-48a7-aa0c-ed8024b8adb3" configVersion="326073f2cc669b43a3ba52f15884c3a800000000"/>
@@ -190,12 +190,14 @@
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНастроекВикторины.Form" id="9493a178-85ce-40c1-af73-559f37a5fc71.0" configVersion="567daae08f34f84194fbe29f3902471100000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНачальныхНастроек" id="d11683ae-9f7d-4a9c-9cbf-c8447be83bff" configVersion="d88bd65006601c4ba781f2ae810ab3dd00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНачальныхНастроек.Form" id="d11683ae-9f7d-4a9c-9cbf-c8447be83bff.0" configVersion="032804b27747704bbf565d7a3a1f90af00000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаОтдыха" id="6f22bc4e-d806-49a0-9370-fefe958a9001" configVersion="259ae7667dfbad468fbc0c545ef4efb100000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаОтдыха.Form" id="6f22bc4e-d806-49a0-9370-fefe958a9001.0" configVersion="b60ca962acd3fd44b4d1ee433ddc9b3200000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПолученияНаград" id="bfebe370-e443-4a16-a2cf-4bed1233b646" configVersion="1f8f23608abc1740a4dd0335b71d8a4500000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПолученияНаград.Form" id="bfebe370-e443-4a16-a2cf-4bed1233b646.0" configVersion="454a548c4d37ac45af7b54afde228ed100000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПросмотраКартинки" id="32960b60-6fe8-4a22-8c7c-80057ab16cf6" configVersion="9b14baf845b7ff4d82654930ef868da000000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПросмотраКартинки.Form" id="32960b60-6fe8-4a22-8c7c-80057ab16cf6.0" configVersion="5ce0ed58f04c72428bcee85cf34dba7900000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТорговца" id="a1f68251-f0f7-49be-bb20-1e48b6516191" configVersion="2b629fea9b30b943a1b020504272e89000000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТорговца.Form" id="a1f68251-f0f7-49be-bb20-1e48b6516191.0" configVersion="4bea26752da93842a4d50a70ce8229b700000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТорговца" id="a1f68251-f0f7-49be-bb20-1e48b6516191" configVersion="08999bbe3e1484449c8388f247f46bcc00000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТорговца.Form" id="a1f68251-f0f7-49be-bb20-1e48b6516191.0" configVersion="6e566e9fd8028a4784ec96d6f88e3cce00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.ManagerModule" id="2999ecc1-a473-4398-8d48-3351ae5887e9.2" configVersion="6acf055151757c48a822a3da20771b8200000000"/>
 		<Metadata name="Enum.ВариантыДействийПротивников" id="93287cb5-98f1-43c6-8a33-46765c76592a" configVersion="04a72c92cab81d469ce8a6257b43d92400000000">
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.Сон" id="10c62972-d7a6-45ef-9d38-3f76fb0d0d74"/>

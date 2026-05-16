@@ -26,6 +26,18 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
+		<LabelDecoration name="ДекорацияТорговля" id="51">
+			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Торговля</v8:content>
+				</v8:item>
+			</Title>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<ContextMenu name="ДекорацияТорговляКонтекстноеМеню" id="52"/>
+			<ExtendedTooltip name="ДекорацияТорговляРасширеннаяПодсказка" id="53"/>
+		</LabelDecoration>
 		<LabelField name="Золото" id="1">
 			<DataPath>Золото</DataPath>
 			<ContextMenu name="ЗолотоКонтекстноеМеню" id="2"/>
