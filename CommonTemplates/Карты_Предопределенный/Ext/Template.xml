@@ -191,6 +191,24 @@
     &lt;description&gt;Даёт 3 единицы щита, если у Вас 10 единиц щита или больше, возьмите 1 карту&lt;/description&gt;
     &lt;cost&gt;0&lt;/cost&gt;
   &lt;/card&gt;   
+  &lt;card&gt;
+    &lt;name&gt;Гамбит&lt;/name&gt;
+    &lt;title&gt;Гамбит&lt;/title&gt;
+    &lt;description&gt;Наносит игроку 3 урона. Противник меняет действие на следующее&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;   
+  &lt;card&gt;
+    &lt;name&gt;Замена&lt;/name&gt;
+    &lt;title&gt;Замена&lt;/title&gt;
+    &lt;description&gt;Вы берете 2 карты из колоды и сбрасываете 1 случайную карту&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;Приют&lt;/name&gt;
+    &lt;title&gt;Приют&lt;/title&gt;
+    &lt;description&gt;Получите 5 щита. Если у вас больше 11 щита, возьмите 1 карту (дополнительно)&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;    
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>

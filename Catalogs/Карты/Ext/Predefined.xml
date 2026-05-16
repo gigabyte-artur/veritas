@@ -36,6 +36,12 @@
 		<Description>Взрыв</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="f0658b8f-a509-4009-b523-220a26c56f18">
+		<Name>Гамбит</Name>
+		<Code>000000029</Code>
+		<Description>Гамбит</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="a4fd4582-94e0-4a59-9f79-7deef6148a4e">
 		<Name>Единички</Name>
 		<Code>000000016</Code>
@@ -46,6 +52,12 @@
 		<Name>Закалка</Name>
 		<Code>000000020</Code>
 		<Description>Закалка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d230ce6e-0f2e-4bb4-a8b7-4dab6622dfc8">
+		<Name>Замена</Name>
+		<Code>000000030</Code>
+		<Description>Замена</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="83c59549-36ef-4809-8534-4b61c49ec179">
@@ -130,6 +142,12 @@
 		<Name>Поправка</Name>
 		<Code>000000021</Code>
 		<Description>Поправка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eb42a092-e190-409d-81f2-4cedeb489694">
+		<Name>Приют</Name>
+		<Code>000000028</Code>
+		<Description>Приют</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="3753fdd0-cd5a-4148-8852-6db3c311a40a">
