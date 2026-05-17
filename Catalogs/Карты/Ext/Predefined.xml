@@ -180,4 +180,10 @@
 		<Description>Эхо</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="d5e8f3a1-2b4c-4d6e-8f9a-1c2d3e4f5a6b">
+		<Name>Тройка</Name>
+		<Code>000000031</Code>
+		<Description>Тройка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>
