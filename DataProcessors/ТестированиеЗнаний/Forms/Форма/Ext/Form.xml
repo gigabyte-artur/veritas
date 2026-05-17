@@ -873,6 +873,7 @@
 									<HorizontalStretch>true</HorizontalStretch>
 									<MultiLine>true</MultiLine>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<BackColor>style:ToolTipBackColor</BackColor>
 									<ContextMenu name="МодификаторыМодификаторОписаниеКонтекстноеМеню" id="156"/>
 									<ExtendedTooltip name="МодификаторыМодификаторОписаниеРасширеннаяПодсказка" id="157"/>
 								</InputField>
@@ -1214,7 +1215,7 @@
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
-					<v8:Digits>3</v8:Digits>
+					<v8:Digits>5</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
@@ -1241,7 +1242,7 @@
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
-					<v8:Digits>3</v8:Digits>
+					<v8:Digits>5</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
@@ -1257,7 +1258,7 @@
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
-					<v8:Digits>3</v8:Digits>
+					<v8:Digits>5</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
@@ -1295,7 +1296,7 @@
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>5</v8:Digits>
+							<v8:Digits>7</v8:Digits>
 							<v8:FractionDigits>3</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
@@ -1350,7 +1351,7 @@
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
+							<v8:Digits>7</v8:Digits>
 							<v8:FractionDigits>3</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>

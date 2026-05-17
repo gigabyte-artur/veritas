@@ -20,17 +20,53 @@
 			<ContextMenu name="ДекорацияПобедаКонтекстноеМеню" id="36"/>
 			<ExtendedTooltip name="ДекорацияПобедаРасширеннаяПодсказка" id="37"/>
 		</LabelDecoration>
-		<LabelField name="Противник" id="30">
-			<DataPath>Противник</DataPath>
+		<UsualGroup name="ГруппаПротивник" id="43">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Побеждён</v8:content>
+					<v8:content>Группа противник</v8:content>
 				</v8:item>
 			</Title>
-			<ContextMenu name="ПротивникКонтекстноеМеню" id="31"/>
-			<ExtendedTooltip name="ПротивникРасширеннаяПодсказка" id="32"/>
-		</LabelField>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа противник</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПротивникРасширеннаяПодсказка" id="44"/>
+			<ChildItems>
+				<PictureDecoration name="ДекорацияКартинкаПротивник" id="45">
+					<Width>2</Width>
+					<Height>1</Height>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Декорация картинка противник</v8:content>
+						</v8:item>
+					</Title>
+					<PictureSize>Proportionally</PictureSize>
+					<Picture>
+						<xr:Ref>CommonPicture.Битва</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="ДекорацияКартинкаПротивникКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="ДекорацияКартинкаПротивникРасширеннаяПодсказка" id="47"/>
+				</PictureDecoration>
+				<LabelField name="Противник" id="30">
+					<DataPath>Противник</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Побеждён</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПротивникКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="ПротивникРасширеннаяПодсказка" id="32"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаНаграды" id="33">
 			<Title>
 				<v8:item>
@@ -47,11 +83,54 @@
 			<Group>Vertical</Group>
 			<ExtendedTooltip name="ГруппаНаградыРасширеннаяПодсказка" id="34"/>
 			<ChildItems>
-				<LabelField name="ПолученноеЗолото" id="1">
-					<DataPath>ПолученноеЗолото</DataPath>
-					<ContextMenu name="ПолученноеЗолотоКонтекстноеМеню" id="2"/>
-					<ExtendedTooltip name="ПолученноеЗолотоРасширеннаяПодсказка" id="3"/>
-				</LabelField>
+				<UsualGroup name="ГруппаЗолото" id="38">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа золото</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа золото</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЗолотоРасширеннаяПодсказка" id="39"/>
+					<ChildItems>
+						<PictureDecoration name="ДекорацияКартинкаЗолото" id="40">
+							<Width>2</Width>
+							<Height>1</Height>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Декорация картинка золото</v8:content>
+								</v8:item>
+							</Title>
+							<PictureSize>Proportionally</PictureSize>
+							<Picture>
+								<xr:Ref>CommonPicture.Золото</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ДекорацияКартинкаЗолотоКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="ДекорацияКартинкаЗолотоРасширеннаяПодсказка" id="42"/>
+						</PictureDecoration>
+						<LabelField name="ПолученноеЗолото" id="1">
+							<DataPath>ПолученноеЗолото</DataPath>
+							<Format>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=0; ЧН=0</v8:content>
+								</v8:item>
+							</Format>
+							<ContextMenu name="ПолученноеЗолотоКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="ПолученноеЗолотоРасширеннаяПодсказка" id="3"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
 				<Table name="ПредлагаемыеКарты" id="4">
 					<Representation>List</Representation>
 					<TitleLocation>Top</TitleLocation>
@@ -150,6 +229,7 @@
 					<ReadOnly>true</ReadOnly>
 					<MultiLine>true</MultiLine>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<BackColor>style:ToolTipBackColor</BackColor>
 					<ContextMenu name="ПредлагаемыеКартыКартаОписаниеКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ПредлагаемыеКартыКартаОписаниеРасширеннаяПодсказка" id="24"/>
 				</InputField>
@@ -181,8 +261,8 @@
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
-					<v8:Digits>10</v8:Digits>
-					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:Digits>7</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
@@ -245,8 +325,8 @@
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
-					<v8:Digits>10</v8:Digits>
-					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:Digits>7</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>

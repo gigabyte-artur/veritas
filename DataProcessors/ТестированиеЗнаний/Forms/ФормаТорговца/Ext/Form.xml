@@ -38,11 +38,48 @@
 			<ContextMenu name="ДекорацияТорговляКонтекстноеМеню" id="52"/>
 			<ExtendedTooltip name="ДекорацияТорговляРасширеннаяПодсказка" id="53"/>
 		</LabelDecoration>
-		<LabelField name="Золото" id="1">
-			<DataPath>Золото</DataPath>
-			<ContextMenu name="ЗолотоКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="ЗолотоРасширеннаяПодсказка" id="3"/>
-		</LabelField>
+		<UsualGroup name="ГруппаЗолото" id="54">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа золото</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа золото</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЗолотоРасширеннаяПодсказка" id="55"/>
+			<ChildItems>
+				<PictureDecoration name="ДекорацияКартинкаЗолото" id="56">
+					<Width>2</Width>
+					<Height>1</Height>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Декорация картинка золото</v8:content>
+						</v8:item>
+					</Title>
+					<PictureSize>Proportionally</PictureSize>
+					<Picture>
+						<xr:Ref>CommonPicture.Золото</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="ДекорацияКартинкаЗолотоКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ДекорацияКартинкаЗолотоРасширеннаяПодсказка" id="58"/>
+				</PictureDecoration>
+				<LabelField name="Золото" id="1">
+					<DataPath>Золото</DataPath>
+					<ContextMenu name="ЗолотоКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ЗолотоРасширеннаяПодсказка" id="3"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
 		<Table name="МодификаторыНаВитрине" id="27">
 			<Representation>List</Representation>
 			<ReadOnly>true</ReadOnly>
@@ -100,6 +137,7 @@
 			<TitleLocation>None</TitleLocation>
 			<MultiLine>true</MultiLine>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<BackColor>style:ToolTipBackColor</BackColor>
 			<ContextMenu name="МодификаторыНаВитринеМодификаторОписаниеКонтекстноеМеню" id="49"/>
 			<ExtendedTooltip name="МодификаторыНаВитринеМодификаторОписаниеРасширеннаяПодсказка" id="50"/>
 		</InputField>
@@ -129,8 +167,8 @@
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
-					<v8:Digits>10</v8:Digits>
-					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:Digits>7</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
