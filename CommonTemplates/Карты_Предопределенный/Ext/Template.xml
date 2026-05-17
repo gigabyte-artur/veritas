@@ -213,13 +213,13 @@
     &lt;name&gt;Тройки&lt;/name&gt;
     &lt;title&gt;Тройки&lt;/title&gt;
     &lt;description&gt;Игрок излечивает 3 здоровья, получает 3 щита, наносит 3 урона противнику, добирает 3 карт&lt;/description&gt;
-    &lt;cost&gt;1&lt;/cost&gt;
+    &lt;cost&gt;2&lt;/cost&gt;
   &lt;/card&gt;
   &lt;card&gt;
     &lt;name&gt;Пятерки&lt;/name&gt;
     &lt;title&gt;Пятёрки&lt;/title&gt;
     &lt;description&gt;Игрок излечивает 5 здоровья, получает 5 щита, наносит 5 урона противнику, добирает 5 карт&lt;/description&gt;
-    &lt;cost&gt;1&lt;/cost&gt;
+    &lt;cost&gt;3&lt;/cost&gt;
   &lt;/card&gt;  
 &lt;/cards&gt;</v8:content>
 						</v8:item>
