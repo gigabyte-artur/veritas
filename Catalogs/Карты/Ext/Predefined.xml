@@ -150,6 +150,18 @@
 		<Description>Приют</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="c8266fb0-1589-42c3-88d1-3e79b41644dd">
+		<Name>Пятерки</Name>
+		<Code>000000032</Code>
+		<Description>Пятёрки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6c129d08-3225-449b-83a8-20765b1182b4">
+		<Name>Тройки</Name>
+		<Code>000000031</Code>
+		<Description>Тройки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="3753fdd0-cd5a-4148-8852-6db3c311a40a">
 		<Name>Удар</Name>
 		<Code>000000001</Code>
