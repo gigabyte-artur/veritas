@@ -96,6 +96,12 @@
 		<Description>Новый рассвет</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="c90c57d5-91d4-4b91-82d5-8dcd13dbcc9e">
+		<Name>ОбходнойПуть</Name>
+		<Code>000000033</Code>
+		<Description>Обходной путь</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="6bc14919-a0ea-4276-ab6d-562dbd08e577">
 		<Name>Озарение</Name>
 		<Code>000000014</Code>
