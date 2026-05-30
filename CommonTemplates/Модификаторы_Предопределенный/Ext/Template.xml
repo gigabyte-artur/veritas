@@ -127,6 +127,13 @@
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;	
+    &lt;modifier&gt;
+        &lt;name&gt;ШляпаСкупердяя&lt;/name&gt;
+        &lt;title&gt;Шляпа скупердяя&lt;/title&gt;
+        &lt;description&gt;Каждый раз, когда игрок должен заплатить золото в бою, он платит на 1 золото меньше.&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;	
 &lt;/modifiers&gt;</v8:content>
 						</v8:item>
 					</tl>

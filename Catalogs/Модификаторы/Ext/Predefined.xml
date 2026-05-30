@@ -78,6 +78,12 @@
 		<Description>Цепкий крюк</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="c3a1dc2a-8957-434e-8f0c-714ecc52dbfd">
+		<Name>ШляпаСкупердяя</Name>
+		<Code>000000015</Code>
+		<Description>Шляпа скупердяя</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="37b9716e-65b4-4a55-8c78-71216bf3eefa">
 		<Name>ЩитОтражения</Name>
 		<Code>000000014</Code>
