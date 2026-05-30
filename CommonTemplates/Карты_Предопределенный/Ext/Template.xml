@@ -246,9 +246,15 @@
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;
   &lt;card&gt;
-    &lt;name&gt;НечестивыйДоговор&lt;/name&gt;
-    &lt;title&gt;Нечестивый договор&lt;/title&gt;
-    &lt;description&gt;Нанесите себе 10 урона, получите 10 золота&lt;/description&gt;
+    &lt;name&gt;ДвойнаяИнвестиция&lt;/name&gt;
+    &lt;title&gt;Двойная инвестиция&lt;/title&gt;
+    &lt;description&gt;Игрок получает 5 щита и 5 золота&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;   
+  &lt;card&gt;
+    &lt;name&gt;ЧистыйКонтракт&lt;/name&gt;
+    &lt;title&gt;Чистый контракт&lt;/title&gt;
+    &lt;description&gt;Заплатите 5 золотых, получите 15 щита&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;   
 &lt;/cards&gt;</v8:content>

@@ -136,8 +136,8 @@
 		<Metadata name="CommonPicture.ПятьЗвезд.Picture" id="69048a3d-5447-4ec9-83a1-71896c042322.0" configVersion="82bf984a64612241a41e8e1b965c4dfe00000000"/>
 		<Metadata name="CommonPicture.Сердце" id="c18c58f0-90b9-4459-99ea-606933c0cb1e" configVersion="769c180a08c7304584de392853e75cb200000000"/>
 		<Metadata name="CommonPicture.Сердце.Picture" id="c18c58f0-90b9-4459-99ea-606933c0cb1e.0" configVersion="f6acaa5e530b9c4bacec1d3511ee645e00000000"/>
-		<Metadata name="CommonTemplate.Карты_Предопределенный" id="8d69739b-c19b-4013-82a3-c32c2a2ca3f7" configVersion="2f0a2e837dadd5419974e9eaddd9ed5600000000"/>
-		<Metadata name="CommonTemplate.Карты_Предопределенный.Template" id="8d69739b-c19b-4013-82a3-c32c2a2ca3f7.0" configVersion="c130c1caf1ab4948befaeb6bb038265100000000"/>
+		<Metadata name="CommonTemplate.Карты_Предопределенный" id="8d69739b-c19b-4013-82a3-c32c2a2ca3f7" configVersion="7e12dbc1b14cdf4da845dcf0edb6637100000000"/>
+		<Metadata name="CommonTemplate.Карты_Предопределенный.Template" id="8d69739b-c19b-4013-82a3-c32c2a2ca3f7.0" configVersion="1e5eb194803c23479366e2c22d77495300000000"/>
 		<Metadata name="CommonTemplate.Модификаторы_Предопределенный" id="0add2756-0386-4389-80fe-a3b7d9400628" configVersion="7a7d3499053699488c43caac9df7cff700000000"/>
 		<Metadata name="CommonTemplate.Модификаторы_Предопределенный.Template" id="0add2756-0386-4389-80fe-a3b7d9400628.0" configVersion="d85d939b1ce48b4bbef0475f6838455700000000"/>
 		<Metadata name="CommonTemplate.Противники_Предопределенный" id="3e97d02d-2084-4f2a-986f-7582a0a0bb2b" configVersion="4fe21b23b5a4944fa0acf9bebf90268700000000"/>
