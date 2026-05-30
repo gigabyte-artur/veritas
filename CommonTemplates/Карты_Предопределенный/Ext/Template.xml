@@ -233,6 +233,24 @@
     &lt;description&gt;Заплатите 5 золотых, нанесите 12 урона&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;    
+  &lt;card&gt;
+    &lt;name&gt;БлагородныйКонтракт&lt;/name&gt;
+    &lt;title&gt;Благородный контракт&lt;/title&gt;
+    &lt;description&gt;Заплатите 10 золотых, вылечите 5 здоровья&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt; 
+  &lt;card&gt;
+    &lt;name&gt;НечестивыйДоговор&lt;/name&gt;
+    &lt;title&gt;Нечестивый договор&lt;/title&gt;
+    &lt;description&gt;Нанесите себе 10 урона, получите 10 золота&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;НечестивыйДоговор&lt;/name&gt;
+    &lt;title&gt;Нечестивый договор&lt;/title&gt;
+    &lt;description&gt;Нанесите себе 10 урона, получите 10 золота&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;   
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>

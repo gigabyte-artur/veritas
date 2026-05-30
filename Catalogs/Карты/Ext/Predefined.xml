@@ -24,6 +24,12 @@
 		<Description>Бинты</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="f83a9006-eb09-4677-93ff-40fb258d1086">
+		<Name>БлагородныйКонтракт</Name>
+		<Code>000000035</Code>
+		<Description>Благородный контракт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="4e70ed90-f40b-41c1-90c8-a0f62e15a19c">
 		<Name>Вдохновение</Name>
 		<Code>000000024</Code>
@@ -46,6 +52,12 @@
 		<Name>ГрязныйКонтракт</Name>
 		<Code>000000034</Code>
 		<Description>Грязный контракт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d4bb12c5-2aab-4b7b-8b32-06f38ac66113">
+		<Name>ДвойнаяИнвестиция</Name>
+		<Code>000000036</Code>
+		<Description>Двойная инвестиция</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="a4fd4582-94e0-4a59-9f79-7deef6148a4e">
@@ -94,6 +106,12 @@
 		<Name>ЛожныйМаневр</Name>
 		<Code>000000009</Code>
 		<Description>Ложный маневр</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c0966ff8-9d05-4e77-8a8e-1c07f3c711a0">
+		<Name>НечестивыйДоговор</Name>
+		<Code>000000037</Code>
+		<Description>Нечестивый договор</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="96468c15-3128-41f3-8f6f-33d7999e7f49">
@@ -190,6 +208,12 @@
 		<Name>Укрытие</Name>
 		<Code>000000015</Code>
 		<Description>Укрытие</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e2cd32ff-2418-4c6e-ba6c-7eaac52c1f21">
+		<Name>ЧистыйКонтракт</Name>
+		<Code>000000038</Code>
+		<Description>Чистый контракт</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="17958a4e-6b6a-43cd-83db-de0c7588b64a">
