@@ -280,6 +280,7 @@
 			<CommonPicture>Золото</CommonPicture>
 			<CommonPicture>ИскатьВИнтернете</CommonPicture>
 			<CommonPicture>Карты</CommonPicture>
+			<CommonPicture>Модификатор</CommonPicture>
 			<CommonPicture>Настройки</CommonPicture>
 			<CommonPicture>ОбщаяКартинкаЛучшиеТестированные</CommonPicture>
 			<CommonPicture>ОбщаяКартинкаОбновлениеСборников</CommonPicture>
@@ -290,6 +291,8 @@
 			<CommonPicture>Процент</CommonPicture>
 			<CommonPicture>ПятьЗвезд</CommonPicture>
 			<CommonPicture>Сердце</CommonPicture>
+			<CommonPicture>Сундук</CommonPicture>
+			<CommonPicture>Энергия</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<CommonTemplate>Карты_Предопределенный</CommonTemplate>

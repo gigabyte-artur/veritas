@@ -75,6 +75,12 @@
 				</PictureDecoration>
 				<LabelField name="Золото" id="1">
 					<DataPath>Золото</DataPath>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0</v8:content>
+						</v8:item>
+					</Format>
 					<ContextMenu name="ЗолотоКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="ЗолотоРасширеннаяПодсказка" id="3"/>
 				</LabelField>

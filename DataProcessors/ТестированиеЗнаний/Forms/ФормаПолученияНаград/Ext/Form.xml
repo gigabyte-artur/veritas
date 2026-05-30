@@ -20,6 +20,21 @@
 			<ContextMenu name="ДекорацияПобедаКонтекстноеМеню" id="36"/>
 			<ExtendedTooltip name="ДекорацияПобедаРасширеннаяПодсказка" id="37"/>
 		</LabelDecoration>
+		<PictureDecoration name="ДекорацияКартинка" id="48">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Декорация картинка</v8:content>
+				</v8:item>
+			</Title>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<Picture>
+				<xr:Ref>CommonPicture.Сундук</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<ContextMenu name="ДекорацияКартинкаКонтекстноеМеню" id="49"/>
+			<ExtendedTooltip name="ДекорацияКартинкаРасширеннаяПодсказка" id="50"/>
+		</PictureDecoration>
 		<UsualGroup name="ГруппаПротивник" id="43">
 			<Title>
 				<v8:item>

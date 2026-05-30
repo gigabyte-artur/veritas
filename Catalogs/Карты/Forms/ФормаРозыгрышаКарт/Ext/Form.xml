@@ -13,19 +13,56 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<LabelField name="Энергия" id="29">
-			<DataPath>Энергия</DataPath>
-			<Format>
+		<UsualGroup name="ГруппаЭнергия" id="32">
+			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>ЧН=0</v8:content>
+					<v8:content>Группа энергия</v8:content>
 				</v8:item>
-			</Format>
-			<ContextMenu name="ЭнергияКонтекстноеМеню" id="30"/>
-			<ExtendedTooltip name="ЭнергияРасширеннаяПодсказка" id="31"/>
-		</LabelField>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа энергия</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЭнергияРасширеннаяПодсказка" id="33"/>
+			<ChildItems>
+				<PictureDecoration name="ДекорацияКартинкаЭнергия" id="34">
+					<Width>2</Width>
+					<Height>1</Height>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Декорация картинка энергия</v8:content>
+						</v8:item>
+					</Title>
+					<PictureSize>Proportionally</PictureSize>
+					<Picture>
+						<xr:Ref>CommonPicture.Энергия</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="ДекорацияКартинкаЭнергияКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ДекорацияКартинкаЭнергияРасширеннаяПодсказка" id="36"/>
+				</PictureDecoration>
+				<LabelField name="Энергия" id="29">
+					<DataPath>Энергия</DataPath>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧН=0</v8:content>
+						</v8:item>
+					</Format>
+					<ContextMenu name="ЭнергияКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ЭнергияРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
 		<Table name="РукаИгрока" id="3">
 			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
 			<ReadOnly>true</ReadOnly>
 			<ChangeRowSet>false</ChangeRowSet>
 			<ChangeRowOrder>false</ChangeRowOrder>
@@ -117,6 +154,7 @@
 			<HorizontalStretch>true</HorizontalStretch>
 			<MultiLine>true</MultiLine>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<BackColor>style:ToolTipBackColor</BackColor>
 			<ContextMenu name="РукаИгрокаКартаОписаниеКонтекстноеМеню" id="22"/>
 			<ExtendedTooltip name="РукаИгрокаКартаОписаниеРасширеннаяПодсказка" id="23"/>
 		</InputField>

@@ -16,6 +16,21 @@
 			<ContextMenu name="ДекорацияПолученМодификаторКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ДекорацияПолученМодификаторРасширеннаяПодсказка" id="9"/>
 		</LabelDecoration>
+		<PictureDecoration name="ДекорацияКартинка" id="12">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Декорация картинка</v8:content>
+				</v8:item>
+			</Title>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<Picture>
+				<xr:Ref>CommonPicture.Модификатор</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<ContextMenu name="ДекорацияКартинкаКонтекстноеМеню" id="13"/>
+			<ExtendedTooltip name="ДекорацияКартинкаРасширеннаяПодсказка" id="14"/>
+		</PictureDecoration>
 		<LabelField name="Модификатор" id="1">
 			<DataPath>Модификатор</DataPath>
 			<TitleLocation>None</TitleLocation>
