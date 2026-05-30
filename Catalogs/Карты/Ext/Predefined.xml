@@ -42,6 +42,12 @@
 		<Description>Гамбит</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="81c32cfe-04d0-4808-a5eb-ec22b255446c">
+		<Name>ГрязныйКонтракт</Name>
+		<Code>000000034</Code>
+		<Description>Грязный контракт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="a4fd4582-94e0-4a59-9f79-7deef6148a4e">
 		<Name>Единички</Name>
 		<Code>000000016</Code>

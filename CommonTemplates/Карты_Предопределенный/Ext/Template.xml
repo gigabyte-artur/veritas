@@ -227,6 +227,12 @@
     &lt;description&gt;Меняет текущее задание на случайное&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;  
+  &lt;card&gt;
+    &lt;name&gt;ГрязныйКонтракт&lt;/name&gt;
+    &lt;title&gt;Грязный контракт&lt;/title&gt;
+    &lt;description&gt;Заплатите 5 золотых, нанесите 12 урона&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;    
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>
