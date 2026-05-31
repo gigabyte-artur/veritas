@@ -29,14 +29,14 @@
 		</Properties>
 		<ChildObjects>
 			<Form>Форма</Form>
-			<Form>ФормаНачальныхНастроек</Form>
-			<Form>ФормаНастроекВикторины</Form>
-			<Form>ФормаПросмотраКартинки</Form>
 			<Form>ФормаВыбораЭтапа</Form>
-			<Form>ФормаТорговца</Form>
 			<Form>ФормаДействияПротивника</Form>
-			<Form>ФормаПолученияНаград</Form>
+			<Form>ФормаНастроекВикторины</Form>
+			<Form>ФормаНачальныхНастроек</Form>
 			<Form>ФормаОтдыха</Form>
+			<Form>ФормаПолученияНаград</Form>
+			<Form>ФормаПросмотраКартинки</Form>
+			<Form>ФормаТорговца</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
