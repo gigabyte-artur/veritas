@@ -30,6 +30,12 @@
 		<Description>Благородный контракт</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="fcd4ad10-5dcf-4f6b-9e10-5857e10e402d">
+		<Name>БыстраяДетонация</Name>
+		<Code>000000039</Code>
+		<Description>Быстрая детонация</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="4e70ed90-f40b-41c1-90c8-a0f62e15a19c">
 		<Name>Вдохновение</Name>
 		<Code>000000024</Code>
@@ -174,16 +180,40 @@
 		<Description>Поправка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="0e8a4d38-9bb0-4f55-b939-6f4e2b51c224">
+		<Name>ПриродныйТоксин</Name>
+		<Code>000000040</Code>
+		<Description>Природный токсин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="eb42a092-e190-409d-81f2-4cedeb489694">
 		<Name>Приют</Name>
 		<Code>000000028</Code>
 		<Description>Приют</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="0a48003d-107d-4896-a10b-713462817921">
+		<Name>ПчелиноеЖало</Name>
+		<Code>000000041</Code>
+		<Description>Пчелиное жало</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="c8266fb0-1589-42c3-88d1-3e79b41644dd">
 		<Name>Пятерки</Name>
 		<Code>000000032</Code>
 		<Description>Пятёрки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="214d37ce-18ca-406d-b01c-bd4c72e2c44a">
+		<Name>СинтетическийТоксин</Name>
+		<Code>000000042</Code>
+		<Description>Синтетический токсин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7f5bd3c9-4649-42ce-a611-acb0a416f744">
+		<Name>Скорпион</Name>
+		<Code>000000043</Code>
+		<Description>Скорпион</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="6c129d08-3225-449b-83a8-20765b1182b4">
@@ -226,6 +256,12 @@
 		<Name>Эхо</Name>
 		<Code>000000023</Code>
 		<Description>Эхо</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a859683e-d44c-4dd5-9278-612ae97cbc3b">
+		<Name>ЯдовитыйКонтракт</Name>
+		<Code>000000044</Code>
+		<Description>Ядовитый контракт</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 </PredefinedData>

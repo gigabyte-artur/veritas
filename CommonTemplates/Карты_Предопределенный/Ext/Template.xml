@@ -256,7 +256,43 @@
     &lt;title&gt;Чистый контракт&lt;/title&gt;
     &lt;description&gt;Заплатите 5 золотых, получите 15 щита&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
-  &lt;/card&gt;   
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;БыстраяДетонация&lt;/name&gt;
+    &lt;title&gt;Быстрая детонация&lt;/title&gt;
+    &lt;description&gt;Наносит противнику утроенный урон от яда, противник очищается от яда&lt;/description&gt;
+    &lt;cost&gt;2&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;ПриродныйТоксин&lt;/name&gt;
+    &lt;title&gt;Природный токсин&lt;/title&gt;
+    &lt;description&gt;Накладывает на противника 4 яда&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;ПчелиноеЖало&lt;/name&gt;
+    &lt;title&gt;Пчелиное жало&lt;/title&gt;
+    &lt;description&gt;Накладывает 1 яда на противника, игрок берёт карту&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;  
+  &lt;card&gt;
+    &lt;name&gt;СинтетическийТоксин&lt;/name&gt;
+    &lt;title&gt;Синтетический токсин&lt;/title&gt;
+    &lt;description&gt;Накладывает на противника 6 яда&lt;/description&gt;
+    &lt;cost&gt;2&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;Скорпион&lt;/name&gt;
+    &lt;title&gt;Скорпион&lt;/title&gt;
+    &lt;description&gt;Добавляет 3 яда игроку и 5 яда противнику&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;ЯдовитыйКонтракт&lt;/name&gt;
+    &lt;title&gt;Ядовитый контракт&lt;/title&gt;
+    &lt;description&gt;Заплатите 3 золота, наложите 5 яда&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>
