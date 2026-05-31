@@ -57,6 +57,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.СложностиПротивников</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Модификатор</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Энергия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Костер</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
