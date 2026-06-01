@@ -30,6 +30,12 @@
 		<Description>Кольчуга</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="7f3744d5-e56e-4692-91f4-b1d444f489de">
+		<Name>КоронаМидаса</Name>
+		<Code>000000016</Code>
+		<Description>Корона Мидаса</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="728643eb-4cd1-43c6-97a5-b24fe069fb5e">
 		<Name>КровьГидры</Name>
 		<Code>000000004</Code>
