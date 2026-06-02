@@ -137,7 +137,14 @@
     &lt;modifier&gt;
         &lt;name&gt;КоронаМидаса&lt;/name&gt;
         &lt;title&gt;Корона Мидаса&lt;/title&gt;
-        &lt;description&gt;В конце каждого боя игрок получает 10 золота&lt;/description&gt;
+        &lt;description&gt;В конце каждого боя игрок получает 5 золота&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;		
+    &lt;modifier&gt;
+        &lt;name&gt;СтальныеНаручи&lt;/name&gt;
+        &lt;title&gt;Стальные наручи&lt;/title&gt;
+        &lt;description&gt;В начале битвы с противником игрок получает 5 щита&lt;/description&gt;
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;		
