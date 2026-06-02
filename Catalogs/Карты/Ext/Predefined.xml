@@ -216,6 +216,12 @@
 		<Description>Скорпион</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="c6bae646-a969-45be-b555-784a02609168">
+		<Name>СтеклянныйЩит</Name>
+		<Code>000000045</Code>
+		<Description>Стеклянный щит</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="6c129d08-3225-449b-83a8-20765b1182b4">
 		<Name>Тройки</Name>
 		<Code>000000031</Code>

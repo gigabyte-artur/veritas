@@ -293,6 +293,12 @@
     &lt;description&gt;Заплатите 3 золота, наложите 5 яда&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;СтеклянныйЩит&lt;/name&gt;
+    &lt;title&gt;Стеклянный щит&lt;/title&gt;
+    &lt;description&gt;Полностью поглощает урон от следующей атаки&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;  
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>
