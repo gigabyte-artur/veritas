@@ -179,7 +179,7 @@
 	&lt;modifier&gt;
         &lt;name&gt;ЯдовитыйСлед&lt;/name&gt;
         &lt;title&gt;Ядовитый след&lt;/title&gt;
-        &lt;description&gt;В начале боя с противником накладывайте 1 Яд&lt;/description&gt;
+        &lt;description&gt;В начале боя с противником накладывайте 3 Яда&lt;/description&gt;
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;	
