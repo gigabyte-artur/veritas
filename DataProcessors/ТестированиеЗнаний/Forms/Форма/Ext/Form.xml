@@ -621,16 +621,22 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаТекущийПротивникРасширеннаяПодсказка" id="173"/>
 									<ChildItems>
-										<PictureDecoration name="Декорация1" id="174">
+										<PictureDecoration name="ДекорацияПротивник" id="174">
 											<Width>2</Width>
 											<Height>1</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Декорация противник</v8:content>
+												</v8:item>
+											</Title>
 											<PictureSize>Proportionally</PictureSize>
 											<Picture>
 												<xr:Ref>CommonPicture.Битва</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</Picture>
-											<ContextMenu name="Декорация1КонтекстноеМеню" id="175"/>
-											<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="176"/>
+											<ContextMenu name="ДекорацияПротивникКонтекстноеМеню" id="175"/>
+											<ExtendedTooltip name="ДекорацияПротивникРасширеннаяПодсказка" id="176"/>
 										</PictureDecoration>
 										<LabelField name="Противник" id="104">
 											<DataPath>Противник</DataPath>
@@ -785,6 +791,11 @@
 							</Title>
 							<ExtendedTooltip name="ОткрытьСписокКартРасширеннаяПодсказка" id="159"/>
 						</Button>
+						<LabelField name="ЗарядСерии" id="177">
+							<DataPath>ЗарядСерии</DataPath>
+							<ContextMenu name="ЗарядСерииКонтекстноеМеню" id="178"/>
+							<ExtendedTooltip name="ЗарядСерииРасширеннаяПодсказка" id="179"/>
+						</LabelField>
 						<UsualGroup name="ГруппаМодификаторы" id="153">
 							<Title>
 								<v8:item>
@@ -1745,6 +1756,22 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:EnumRef.СложностиПротивников</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗарядСерии" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заряд серии</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>

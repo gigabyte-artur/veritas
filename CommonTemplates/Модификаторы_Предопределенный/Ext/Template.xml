@@ -148,6 +148,41 @@
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;		
+    &lt;modifier&gt;
+        &lt;name&gt;Антидот&lt;/name&gt;
+        &lt;title&gt;Антидот&lt;/title&gt;
+        &lt;description&gt;Яды на игроке уменьшаются на 2 единицы за ход, вместо 1&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;	
+    &lt;modifier&gt;
+        &lt;name&gt;Токсикология&lt;/name&gt;
+        &lt;title&gt;Токсикология&lt;/title&gt;
+        &lt;description&gt;При срабатывании на противнике яд наносит на 2 урона больше&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;		
+    &lt;modifier&gt;
+        &lt;name&gt;ЧумнойНоситель&lt;/name&gt;
+        &lt;title&gt;Чумной носитель&lt;/title&gt;
+        &lt;description&gt;Каждый раз, когда противник наносит игроку урон по здоровью (щит не считается), противник получает 1 Яд&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+    &lt;modifier&gt;
+        &lt;name&gt;ЯдовитыеКлинки&lt;/name&gt;
+        &lt;title&gt;Ядовитые клинки&lt;/title&gt;
+        &lt;description&gt;Каждая атака накладывает 1 дополнительную единицу Яда&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;	
+	&lt;modifier&gt;
+        &lt;name&gt;ЯдовитыйСлед&lt;/name&gt;
+        &lt;title&gt;Ядовитый след&lt;/title&gt;
+        &lt;description&gt;В начале боя с противником накладывайте 1 Яд&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;	
 &lt;/modifiers&gt;</v8:content>
 						</v8:item>
 					</tl>

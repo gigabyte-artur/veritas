@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.19">
+	<Item id="0c7b38d3-5599-4c3f-a9a5-cb51f68bb3fd">
+		<Name>Антидот</Name>
+		<Code>000000018</Code>
+		<Description>Антидот</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="d1885922-9b30-43f2-8873-331e4b3e7c50">
 		<Name>ВолчийКлык</Name>
 		<Code>000000012</Code>
@@ -78,6 +84,12 @@
 		<Description>Стальные наручи</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="6c12d33c-2259-4709-968a-f23d491da8b9">
+		<Name>Токсикология</Name>
+		<Code>000000019</Code>
+		<Description>Токсикология</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="d9da97ce-68d3-4b65-8ee7-508ed2f3c9e9">
 		<Name>Туман</Name>
 		<Code>000000008</Code>
@@ -90,6 +102,12 @@
 		<Description>Цепкий крюк</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="1d7fe3bd-1005-44c7-b942-3952b43c8ea1">
+		<Name>ЧумнойНоситель</Name>
+		<Code>000000020</Code>
+		<Description>Чумной носитель</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="c3a1dc2a-8957-434e-8f0c-714ecc52dbfd">
 		<Name>ШляпаСкупердяя</Name>
 		<Code>000000015</Code>
@@ -100,6 +118,18 @@
 		<Name>ЩитОтражения</Name>
 		<Code>000000014</Code>
 		<Description>Щит отражения</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="930faf29-6da6-4e00-b515-0d82247cc23a">
+		<Name>ЯдовитыеКлинки</Name>
+		<Code>000000021</Code>
+		<Description>Ядовитые клинки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="27ebad8a-da67-48e7-aed3-a1badbc8acc6">
+		<Name>ЯдовитыйСлед</Name>
+		<Code>000000022</Code>
+		<Description>Ядовитый след</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 </PredefinedData>
