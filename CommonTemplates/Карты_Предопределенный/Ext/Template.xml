@@ -318,8 +318,8 @@
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;
   &lt;card&gt;
-    &lt;name&gt;ТорговыйКонтракт&lt;/name&gt;
-    &lt;title&gt;Торговый контракт&lt;/title&gt;
+    &lt;name&gt;ЛогистическийКонтракт&lt;/name&gt;
+    &lt;title&gt;Логистический контракт&lt;/title&gt;
     &lt;description&gt;Игрок платит 5 золота и берёт 3 карты&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;   

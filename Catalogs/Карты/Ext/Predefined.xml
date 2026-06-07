@@ -108,6 +108,12 @@
 		<Description>Ловкость рук</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="8c9c9d41-fbd7-4657-bd01-e094a789d8fb">
+		<Name>ЛогистическийКонтракт</Name>
+		<Code>000000048</Code>
+		<Description>Логистический контракт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="74bf6f61-b1b6-49fc-8b13-fa82520d95bc">
 		<Name>ЛожныйМаневр</Name>
 		<Code>000000009</Code>
@@ -232,12 +238,6 @@
 		<Name>СтеклянныйЩит</Name>
 		<Code>000000045</Code>
 		<Description>Стеклянный щит</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="8c9c9d41-fbd7-4657-bd01-e094a789d8fb">
-		<Name>ТорговыйКонтракт</Name>
-		<Code>000000048</Code>
-		<Description>Торговый контракт</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="6c129d08-3225-449b-83a8-20765b1182b4">
