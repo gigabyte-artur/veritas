@@ -182,7 +182,28 @@
         &lt;description&gt;В начале боя с противником накладывайте 3 Яда&lt;/description&gt;
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
-    &lt;/modifier&gt;	
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;ЗаводнаяПерчатка&lt;/name&gt;
+        &lt;title&gt;Заводная перчатка&lt;/title&gt;
+        &lt;description&gt;В начале боя автоматические бесплатно разыгрывается случайная карта из руки&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;МифриловоеПокрытие&lt;/name&gt;
+        &lt;title&gt;Мифриловое покрытие&lt;/title&gt;
+        &lt;description&gt;При уроне по щиту, 30% шанс, что щит не получит урона&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;ШлемБерсерка&lt;/name&gt;
+        &lt;title&gt;Шлем берсерка&lt;/title&gt;
+        &lt;description&gt;Недостаток каждых 10% здоровья от максимального значения увеличивает наносимый урон на 5%&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;		
 &lt;/modifiers&gt;</v8:content>
 						</v8:item>
 					</tl>

@@ -12,6 +12,12 @@
 		<Description>Волчий клык</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="677df5a8-8c86-489a-a3d8-3abf11d64666">
+		<Name>ЗаводнаяПерчатка</Name>
+		<Code>000000023</Code>
+		<Description>Заводная перчатка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="4e622ac5-ef1a-4e02-9eb3-fd906d496c2f">
 		<Name>Заточка</Name>
 		<Code>000000007</Code>
@@ -60,6 +66,12 @@
 		<Description>Летучая мышь</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="e4c5b930-9248-477d-aef5-84549ccd65a6">
+		<Name>МифриловоеПокрытие</Name>
+		<Code>000000024</Code>
+		<Description>Мифриловое покрытие</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="a016debc-ef8d-40f0-80c5-f51f26d9cc33">
 		<Name>ПарныеКлинки</Name>
 		<Code>000000013</Code>
@@ -106,6 +118,12 @@
 		<Name>ЧумнойНоситель</Name>
 		<Code>000000020</Code>
 		<Description>Чумной носитель</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7d6dd3af-3356-480c-8d27-d82b787bf0d6">
+		<Name>ШлемБерсерка</Name>
+		<Code>000000025</Code>
+		<Description>Шлем берсерка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="c3a1dc2a-8957-434e-8f0c-714ecc52dbfd">
