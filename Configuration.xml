@@ -294,6 +294,7 @@
 			<CommonPicture>Сердце</CommonPicture>
 			<CommonPicture>Сундук</CommonPicture>
 			<CommonPicture>Энергия</CommonPicture>
+			<CommonPicture>Серия3</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<CommonTemplate>Карты_Предопределенный</CommonTemplate>

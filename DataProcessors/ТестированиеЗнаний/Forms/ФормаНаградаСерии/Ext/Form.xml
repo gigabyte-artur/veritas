@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<LabelDecoration name="ДекорацияСерия" id="7">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Серия из 3 ответов</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<ContextMenu name="ДекорацияСерияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ДекорацияСерияРасширеннаяПодсказка" id="9"/>
+		</LabelDecoration>
+		<PictureDecoration name="ДекорацияКартинкаСерия" id="19">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Декорация картинка серия</v8:content>
+				</v8:item>
+			</Title>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<Picture>
+				<xr:Ref>CommonPicture.Серия3</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<ContextMenu name="ДекорацияКартинкаСерияКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ДекорацияКартинкаСерияРасширеннаяПодсказка" id="21"/>
+		</PictureDecoration>
+		<LabelDecoration name="ДекорацияНадписьНаграды" id="10">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выберите награду:</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<ContextMenu name="ДекорацияНадписьНаградыКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ДекорацияНадписьНаградыРасширеннаяПодсказка" id="12"/>
+		</LabelDecoration>
+		<Button name="КомандаНаградаЭнергия" id="5">
+			<Type>UsualButton</Type>
+			<Representation>PictureAndText</Representation>
+			<Height>1</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.КомандаНаградаЭнергия</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Восстановить энергию</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="КомандаНаградаЭнергияРасширеннаяПодсказка" id="6"/>
+		</Button>
+		<LabelDecoration name="ДекорацияРазделитель1" id="13">
+			<Visible>false</Visible>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> </v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияРазделитель1КонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ДекорацияРазделитель1РасширеннаяПодсказка" id="15"/>
+		</LabelDecoration>
+		<Button name="КомандаНаградаЗолото" id="1">
+			<Type>UsualButton</Type>
+			<Visible>false</Visible>
+			<Representation>PictureAndText</Representation>
+			<Height>1</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.КомандаНаградаЗолото</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Забрать золото</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="КомандаНаградаЗолотоРасширеннаяПодсказка" id="2"/>
+		</Button>
+		<LabelDecoration name="ДекорацияРазделитель2" id="16">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> </v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияРазделитель2КонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ДекорацияРазделитель2РасширеннаяПодсказка" id="18"/>
+		</LabelDecoration>
+		<Button name="КомандаНаградаУрон" id="22">
+			<Type>UsualButton</Type>
+			<Representation>PictureAndText</Representation>
+			<Height>1</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.КомандаНаградаУрон</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нанести урон</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="КомандаНаградаУронРасширеннаяПодсказка" id="23"/>
+		</Button>
+		<LabelDecoration name="ДекорацияРазделитель3" id="24">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> </v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияРазделитель3КонтекстноеМеню" id="25"/>
+			<ExtendedTooltip name="ДекорацияРазделитель3РасширеннаяПодсказка" id="26"/>
+		</LabelDecoration>
+		<Button name="КомандаНаградаКарта" id="3">
+			<Type>UsualButton</Type>
+			<Representation>PictureAndText</Representation>
+			<Height>1</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.КомандаНаградаКарта</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить карты</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="КомандаНаградаКартаРасширеннаяПодсказка" id="4"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ТестированиеЗнаний</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаНаградаЭнергия" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда награда энергия</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда награда энергия</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.Энергия</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаНаградаЭнергия</Action>
+		</Command>
+		<Command name="КомандаНаградаКарта" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда награда карта</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда награда карта</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.Карты</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаНаградаКарта</Action>
+		</Command>
+		<Command name="КомандаНаградаЗолото" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда награда золото</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда награда золото</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.Золото</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаНаградаЗолото</Action>
+		</Command>
+		<Command name="КомандаНаградаУрон" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда награда урон</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда награда урон</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.Битва</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаНаградаУрон</Action>
+		</Command>
+	</Commands>
+</Form>

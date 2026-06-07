@@ -56,7 +56,7 @@
   &lt;card&gt;
     &lt;name&gt;Бинты&lt;/name&gt;
     &lt;title&gt;Бинты&lt;/title&gt;
-    &lt;description&gt;Вылечивает 3 единицы здоровья&lt;/description&gt;
+    &lt;description&gt;Вылечивает 2 единицы здоровья&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;
   &lt;card&gt;

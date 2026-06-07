@@ -88,7 +88,7 @@
     &lt;modifier&gt;
         &lt;name&gt;Перекус&lt;/name&gt;
         &lt;title&gt;Перекус&lt;/title&gt;
-        &lt;description&gt;Лёгкий перекус. Восстанавливает 3 единицы здоровья в начале каждого раунда&lt;/description&gt;
+        &lt;description&gt;Лёгкий перекус. Восстанавливает 1 единицы здоровья в начале каждого раунда&lt;/description&gt;
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;

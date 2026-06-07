@@ -37,6 +37,7 @@
 			<Form>ФормаПолученияНаград</Form>
 			<Form>ФормаПросмотраКартинки</Form>
 			<Form>ФормаТорговца</Form>
+			<Form>ФормаНаградаСерии</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

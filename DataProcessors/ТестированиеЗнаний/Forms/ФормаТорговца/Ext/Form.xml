@@ -99,6 +99,7 @@
 					<v8:content>Группа карты</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Group>Vertical</Group>
 			<ExtendedTooltip name="ГруппаКартыРасширеннаяПодсказка" id="62"/>
 			<ChildItems>
 				<Table name="КартыНаВитрине" id="84">
@@ -197,6 +198,7 @@
 					<v8:content>Группа модификаторы</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Group>Vertical</Group>
 			<ExtendedTooltip name="ГруппаМодификаторыРасширеннаяПодсказка" id="60"/>
 			<ChildItems>
 				<Table name="МодификаторыНаВитрине" id="27">
