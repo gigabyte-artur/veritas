@@ -142,6 +142,8 @@
 		<Metadata name="CommonPicture.Сердце.Picture" id="c18c58f0-90b9-4459-99ea-606933c0cb1e.0" configVersion="cc60d41f5825ef418c89891c79a510d900000000"/>
 		<Metadata name="CommonPicture.Серия3" id="5762b39c-1f87-4d75-84b2-b7a12590f540" configVersion="272756a1f1b3fe4f962401a56b44e14a00000000"/>
 		<Metadata name="CommonPicture.Серия3.Picture" id="5762b39c-1f87-4d75-84b2-b7a12590f540.0" configVersion="a533ec3fd49dd847a46ebee146909cbe00000000"/>
+		<Metadata name="CommonPicture.СломанныйМеч" id="53f6122c-42ad-4e16-b90c-d0d614df3488" configVersion="974a15c2b331ba4cae878bc9d516426800000000"/>
+		<Metadata name="CommonPicture.СломанныйМеч.Picture" id="53f6122c-42ad-4e16-b90c-d0d614df3488.0" configVersion="3ed481d5079e2640985274466468b19100000000"/>
 		<Metadata name="CommonPicture.Сундук" id="f1c7472f-072a-4ad0-b594-1fbce608d452" configVersion="7ca628a181d08e4ca2a726087ecf0dd800000000"/>
 		<Metadata name="CommonPicture.Сундук.Picture" id="f1c7472f-072a-4ad0-b594-1fbce608d452.0" configVersion="7131cc9290f064468ded1bbbb6f78c9000000000"/>
 		<Metadata name="CommonPicture.Энергия" id="2bc0febb-abef-44d8-8444-d7b82ae20ea2" configVersion="6fb4967d30a518448772492d2c57ee1600000000"/>
@@ -154,7 +156,7 @@
 		<Metadata name="CommonTemplate.Противники_Предопределенный.Template" id="3e97d02d-2084-4f2a-986f-7582a0a0bb2b.0" configVersion="b12d6180baa3a54b8e0bb6f424d1fb0700000000"/>
 		<Metadata name="CommonTemplate.Сборник_Предопределенный" id="07d7d3c9-9d83-4ef3-9dc5-17ea60bbd63c" configVersion="19895b1d9425294bb53835e186fe6a3400000000"/>
 		<Metadata name="CommonTemplate.Сборник_Предопределенный.Template" id="07d7d3c9-9d83-4ef3-9dc5-17ea60bbd63c.0" configVersion="c5e272491d86d34a88a0de64da9378d700000000"/>
-		<Metadata name="Configuration.Veritas" id="7509fd66-4f60-4f39-a099-52202f991049" configVersion="dba7e10e217ad14194effb16f3e0ba0d00000000"/>
+		<Metadata name="Configuration.Veritas" id="7509fd66-4f60-4f39-a099-52202f991049" configVersion="631fc4f233d8ac42927de14d2f7ffb0000000000"/>
 		<Metadata name="Configuration.Veritas.CommandInterface" id="0b9e596f-64ab-4534-9194-db0f43f0a494.a" configVersion="211a3f32d1c8ce4195e8358196b2658200000000"/>
 		<Metadata name="Configuration.Veritas.HomePageWorkArea" id="0b9e596f-64ab-4534-9194-db0f43f0a494.8" configVersion="2a3fdeb00119554cacc78f9b7806f90700000000"/>
 		<Metadata name="Configuration.Veritas.Logo" id="0b9e596f-64ab-4534-9194-db0f43f0a494.1" configVersion="1c969568c029954caa137100f28c71aa00000000"/>
@@ -333,7 +335,7 @@
 		<Metadata name="Role.ПолныеПрава.Rights" id="37835172-0434-4026-8a8b-1f7b142b0ed8.0" configVersion="f74c45b6e0acda4fb014d858335d226000000000"/>
 		<Metadata name="SessionParameter.ТекущийПользователь" id="91e1beda-4c3e-4c17-a74c-8aa64568171e" configVersion="6cf73f1e46c5bf45859cb6e295abe77700000000"/>
 		<Metadata name="Subsystem.Администрирование" id="46ded32f-39be-4f32-a713-87a66e3e9d5c" configVersion="d838601e5cb8f94c9b7d61e8ffb9594700000000"/>
-		<Metadata name="Subsystem.Обучение" id="15059f44-9929-4a5c-8d2b-02fff6f8c126" configVersion="2e016eb715c9134593c1bad2b955f53b00000000"/>
+		<Metadata name="Subsystem.Обучение" id="15059f44-9929-4a5c-8d2b-02fff6f8c126" configVersion="40e6c6d778c2a44c99d1312db9710dc300000000"/>
 		<Metadata name="Subsystem.Обучение.CommandInterface" id="15059f44-9929-4a5c-8d2b-02fff6f8c126.1" configVersion="fd501d1333b8ad468235f8e5f371ec3a00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

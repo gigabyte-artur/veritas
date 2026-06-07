@@ -292,9 +292,10 @@
 			<CommonPicture>Процент</CommonPicture>
 			<CommonPicture>ПятьЗвезд</CommonPicture>
 			<CommonPicture>Сердце</CommonPicture>
+			<CommonPicture>Серия3</CommonPicture>
+			<CommonPicture>СломанныйМеч</CommonPicture>
 			<CommonPicture>Сундук</CommonPicture>
 			<CommonPicture>Энергия</CommonPicture>
-			<CommonPicture>Серия3</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<CommonTemplate>Карты_Предопределенный</CommonTemplate>
