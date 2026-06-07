@@ -298,7 +298,31 @@
     &lt;title&gt;Стеклянный щит&lt;/title&gt;
     &lt;description&gt;Полностью поглощает урон от следующей атаки&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
-  &lt;/card&gt;  
+  &lt;/card&gt; 
+  &lt;card&gt;
+    &lt;name&gt;ЭнергетическийКонтракт&lt;/name&gt;
+    &lt;title&gt;Энергетический контракт&lt;/title&gt;
+    &lt;description&gt;Заплатите 10 золотых, получите 1 энергию&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;СвежийВзгляд&lt;/name&gt;
+    &lt;title&gt;Свежий взгляд&lt;/title&gt;
+    &lt;description&gt;Возьмите 3 карты, сбросьте 1 случайную карту&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;Рулетка&lt;/name&gt;
+    &lt;title&gt;Рулетка&lt;/title&gt;
+    &lt;description&gt;Случайный эффект: 1) +10 щита, 2) 10 урона противнику, 3) добрать 3 карты, 4) потерять 3 здоровья&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;ТорговыйКонтракт&lt;/name&gt;
+    &lt;title&gt;Торговый контракт&lt;/title&gt;
+    &lt;description&gt;Игрок платит 5 золота и берёт 3 карты&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;   
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>

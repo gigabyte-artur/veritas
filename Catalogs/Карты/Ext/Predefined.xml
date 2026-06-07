@@ -204,6 +204,18 @@
 		<Description>Пятёрки</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="1184893a-d568-44b7-b005-6bd93eb87474">
+		<Name>Рулетка</Name>
+		<Code>000000047</Code>
+		<Description>Рулетка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3f76f8a5-dba6-4ba8-9e27-91e1ac1ec2c6">
+		<Name>СвежийВзгляд</Name>
+		<Code>000000046</Code>
+		<Description>Свежий взгляд</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="214d37ce-18ca-406d-b01c-bd4c72e2c44a">
 		<Name>СинтетическийТоксин</Name>
 		<Code>000000042</Code>
@@ -220,6 +232,12 @@
 		<Name>СтеклянныйЩит</Name>
 		<Code>000000045</Code>
 		<Description>Стеклянный щит</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8c9c9d41-fbd7-4657-bd01-e094a789d8fb">
+		<Name>ТорговыйКонтракт</Name>
+		<Code>000000048</Code>
+		<Description>Торговый контракт</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="6c129d08-3225-449b-83a8-20765b1182b4">
@@ -256,6 +274,12 @@
 		<Name>ЩитИМеч</Name>
 		<Code>000000022</Code>
 		<Description>Щит и меч</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ea7933ee-254b-4eb4-96b3-ac6ddfd6ee59">
+		<Name>ЭнергетическийКонтракт</Name>
+		<Code>000000049</Code>
+		<Description>Энергетический контракт</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="c194209a-bba6-462a-9bbc-77646e8e533c">
