@@ -31,13 +31,13 @@
 			<Form>Форма</Form>
 			<Form>ФормаВыбораЭтапа</Form>
 			<Form>ФормаДействияПротивника</Form>
+			<Form>ФормаНаградаСерии</Form>
 			<Form>ФормаНастроекВикторины</Form>
 			<Form>ФормаНачальныхНастроек</Form>
 			<Form>ФормаОтдыха</Form>
 			<Form>ФормаПолученияНаград</Form>
 			<Form>ФормаПросмотраКартинки</Form>
 			<Form>ФормаТорговца</Form>
-			<Form>ФормаНаградаСерии</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

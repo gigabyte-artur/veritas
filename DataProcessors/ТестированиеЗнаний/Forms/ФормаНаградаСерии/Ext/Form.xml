@@ -52,7 +52,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Восстановить энергию</v8:content>
+					<v8:content>Восстановить 1 энергию</v8:content>
 				</v8:item>
 			</Title>
 			<ExtendedTooltip name="КомандаНаградаЭнергияРасширеннаяПодсказка" id="6"/>
@@ -79,7 +79,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Забрать золото</v8:content>
+					<v8:content>Забрать 5 золота</v8:content>
 				</v8:item>
 			</Title>
 			<ExtendedTooltip name="КомандаНаградаЗолотоРасширеннаяПодсказка" id="2"/>
@@ -104,7 +104,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Нанести урон</v8:content>
+					<v8:content>Нанести 8 урона</v8:content>
 				</v8:item>
 			</Title>
 			<ExtendedTooltip name="КомандаНаградаУронРасширеннаяПодсказка" id="23"/>
@@ -129,7 +129,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Получить карты</v8:content>
+					<v8:content>Получить 2 карты</v8:content>
 				</v8:item>
 			</Title>
 			<ExtendedTooltip name="КомандаНаградаКартаРасширеннаяПодсказка" id="4"/>
