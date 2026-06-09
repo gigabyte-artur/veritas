@@ -568,6 +568,7 @@
 				<xr:Ref>StdPicture.Delete</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<Action>УдалитьКарту</Action>
 		</Command>
 	</Commands>
 	<Parameters>
@@ -587,9 +588,7 @@
 			</Type>
 		</Parameter>
 		<Parameter name="КартыИгрока">
-			<Type>
-				<v8:Type>v8:Array</v8:Type>
-			</Type>
+			<Type/>
 		</Parameter>
 	</Parameters>
 </Form>
