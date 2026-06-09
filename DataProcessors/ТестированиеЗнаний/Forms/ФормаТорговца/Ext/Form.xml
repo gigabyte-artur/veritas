@@ -179,9 +179,38 @@
 				</InputField>
 				<Button name="КупитьКарту" id="79">
 					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
 					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 					<CommandName>Form.Command.КупитьКарту</CommandName>
 					<ExtendedTooltip name="КупитьКартуРасширеннаяПодсказка" id="80"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаУдалениеКарты" id="108">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа удаление карты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа удаление карты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаУдалениеКартыРасширеннаяПодсказка" id="109"/>
+			<ChildItems>
+				<Button name="УдалитьКарту" id="106">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<CommandName>Form.Command.УдалитьКарту</CommandName>
+					<ExtendedTooltip name="УдалитьКартуРасширеннаяПодсказка" id="107"/>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
@@ -199,6 +228,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<HorizontalAlign>Center</HorizontalAlign>
 			<ExtendedTooltip name="ГруппаМодификаторыРасширеннаяПодсказка" id="60"/>
 			<ChildItems>
 				<Table name="МодификаторыНаВитрине" id="27">
@@ -266,7 +296,7 @@
 				<Button name="КупитьМодификатор" id="23">
 					<Type>UsualButton</Type>
 					<Representation>PictureAndText</Representation>
-					<HorizontalStretch>true</HorizontalStretch>
+					<Height>1</Height>
 					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 					<CommandName>Form.Command.КупитьМодификатор</CommandName>
 					<ExtendedTooltip name="КупитьМодификаторРасширеннаяПодсказка" id="24"/>
@@ -412,6 +442,17 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="КартыКУдалению" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карты к удалению</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="КупитьМодификатор" id="1">
@@ -427,6 +468,10 @@
 					<v8:content>Купить модификатор</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.Модификатор</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>КупитьМодификатор</Action>
 		</Command>
 		<Command name="ПодтвердитьПокупки" id="2">
@@ -461,7 +506,29 @@
 					<v8:content>Купить карту</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.Карты</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>КупитьКарту</Action>
+		</Command>
+		<Command name="УдалитьКарту" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить карту</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить карту</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Delete</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 		</Command>
 	</Commands>
 	<Parameters>

@@ -777,20 +777,40 @@
 								</Table>
 							</ChildItems>
 						</UsualGroup>
-						<Button name="ОткрытьСписокКарт" id="158">
-							<Type>UsualButton</Type>
-							<Representation>PictureAndText</Representation>
-							<HorizontalStretch>true</HorizontalStretch>
-							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-							<CommandName>Form.Command.ОткрытьСписокКарт</CommandName>
+						<UsualGroup name="ГруппаКарты" id="180">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Карты</v8:content>
+									<v8:content>Группа карты</v8:content>
 								</v8:item>
 							</Title>
-							<ExtendedTooltip name="ОткрытьСписокКартРасширеннаяПодсказка" id="159"/>
-						</Button>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа карты</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаКартыРасширеннаяПодсказка" id="181"/>
+							<ChildItems>
+								<Button name="ОткрытьСписокКарт" id="158">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<CommandName>Form.Command.ОткрытьСписокКарт</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Карты</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОткрытьСписокКартРасширеннаяПодсказка" id="159"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
 						<LabelField name="ЗарядСерии" id="177">
 							<DataPath>ЗарядСерии</DataPath>
 							<ContextMenu name="ЗарядСерииКонтекстноеМеню" id="178"/>
