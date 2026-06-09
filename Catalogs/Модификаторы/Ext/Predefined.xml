@@ -12,6 +12,12 @@
 		<Description>Волчий клык</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="74c4eeee-14f7-4ca1-80ac-a8b497df893a">
+		<Name>ДозорныйВорон</Name>
+		<Code>000000026</Code>
+		<Description>Дозорный ворон</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="677df5a8-8c86-489a-a3d8-3abf11d64666">
 		<Name>ЗаводнаяПерчатка</Name>
 		<Code>000000023</Code>

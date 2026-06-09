@@ -203,6 +203,13 @@
         &lt;description&gt;Недостаток каждых 10% здоровья от максимального значения увеличивает наносимый урон на 5%&lt;/description&gt;
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;ДозорныйВорон&lt;/name&gt;
+        &lt;title&gt;Дозорный ворон&lt;/title&gt;
+        &lt;description&gt;Даёт 7 щита при действии перемешивания стопки сброса&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;		
 &lt;/modifiers&gt;</v8:content>
 						</v8:item>
