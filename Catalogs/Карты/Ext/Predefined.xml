@@ -264,6 +264,12 @@
 		<Description>Укрытие</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="f10ddfcf-6a2f-447a-8ada-6d8d6b415a8e">
+		<Name>Фокус</Name>
+		<Code>000000050</Code>
+		<Description>Фокус</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="e2cd32ff-2418-4c6e-ba6c-7eaac52c1f21">
 		<Name>ЧистыйКонтракт</Name>
 		<Code>000000038</Code>

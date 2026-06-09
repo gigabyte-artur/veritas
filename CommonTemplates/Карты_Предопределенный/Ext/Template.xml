@@ -322,7 +322,13 @@
     &lt;title&gt;Логистический контракт&lt;/title&gt;
     &lt;description&gt;Игрок платит 5 золота и берёт 3 карты&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
-  &lt;/card&gt;   
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;Фокус&lt;/name&gt;
+    &lt;title&gt;Фокус&lt;/title&gt;
+    &lt;description&gt;Поменять местами колоду сброса и добора, взять 1 карту&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;    
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>
