@@ -296,6 +296,7 @@
 			<CommonPicture>СломанныйМеч</CommonPicture>
 			<CommonPicture>Сундук</CommonPicture>
 			<CommonPicture>Энергия</CommonPicture>
+			<CommonPicture>Кубок</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<CommonTemplate>Карты_Предопределенный</CommonTemplate>

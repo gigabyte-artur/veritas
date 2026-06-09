@@ -60,6 +60,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Костер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Серия3</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СломанныйМеч</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Кубок</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
