@@ -655,7 +655,7 @@
 				</v8:item>
 			</Title>
 			<VerticalStretch>false</VerticalStretch>
-			<Group>Horizontal</Group>
+			<Group>AlwaysHorizontal</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Рука_КартРасширеннаяПодсказка" id="297"/>
