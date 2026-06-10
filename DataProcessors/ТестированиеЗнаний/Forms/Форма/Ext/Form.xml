@@ -406,6 +406,65 @@
 									<ContextMenu name="HUD_МаксЗдоровьеПротивникаКонтекстноеМеню" id="257"/>
 									<ExtendedTooltip name="HUD_МаксЗдоровьеПротивникаРасширеннаяПодсказка" id="258"/>
 								</LabelField>
+								<UsualGroup name="HUD_ИндикаторСерии" id="262">
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="HUD_ИндикаторСерииРасширеннаяПодсказка" id="263"/>
+									<ChildItems>
+										<PictureDecoration name="HUD_ЯчейкаСерии1" id="264">
+											<Width>1</Width>
+											<Height>1</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>★</v8:content>
+												</v8:item>
+											</Title>
+											<PictureSize>Proportionally</PictureSize>
+											<Picture>
+												<xr:Ref>CommonPicture.Звезда</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="HUD_ЯчейкаСерии1КонтекстноеМеню" id="265"/>
+											<ExtendedTooltip name="HUD_ЯчейкаСерии1РасширеннаяПодсказка" id="266"/>
+										</PictureDecoration>
+										<PictureDecoration name="HUD_ЯчейкаСерии2" id="267">
+											<Width>1</Width>
+											<Height>1</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>★</v8:content>
+												</v8:item>
+											</Title>
+											<PictureSize>Proportionally</PictureSize>
+											<Picture>
+												<xr:Ref>CommonPicture.Звезда</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="HUD_ЯчейкаСерии2КонтекстноеМеню" id="268"/>
+											<ExtendedTooltip name="HUD_ЯчейкаСерии2РасширеннаяПодсказка" id="269"/>
+										</PictureDecoration>
+										<PictureDecoration name="HUD_ЯчейкаСерии3" id="270">
+											<Width>1</Width>
+											<Height>1</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>★</v8:content>
+												</v8:item>
+											</Title>
+											<PictureSize>Proportionally</PictureSize>
+											<Picture>
+												<xr:Ref>CommonPicture.Звезда</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="HUD_ЯчейкаСерии3КонтекстноеМеню" id="271"/>
+											<ExtendedTooltip name="HUD_ЯчейкаСерии3РасширеннаяПодсказка" id="272"/>
+										</PictureDecoration>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<LabelDecoration name="HUD_БарЗдоровьяПротивника" id="259">
@@ -420,65 +479,6 @@
 							<ContextMenu name="HUD_БарЗдоровьяПротивникаКонтекстноеМеню" id="260"/>
 							<ExtendedTooltip name="HUD_БарЗдоровьяПротивникаРасширеннаяПодсказка" id="261"/>
 						</LabelDecoration>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="HUD_ИндикаторСерии" id="262">
-					<Group>AlwaysHorizontal</Group>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="HUD_ИндикаторСерииРасширеннаяПодсказка" id="263"/>
-					<ChildItems>
-						<PictureDecoration name="HUD_ЯчейкаСерии1" id="264">
-							<Width>1</Width>
-							<Height>1</Height>
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>★</v8:content>
-								</v8:item>
-							</Title>
-							<PictureSize>Proportionally</PictureSize>
-							<Picture>
-								<xr:Ref>CommonPicture.Звезда</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-							</Picture>
-							<ContextMenu name="HUD_ЯчейкаСерии1КонтекстноеМеню" id="265"/>
-							<ExtendedTooltip name="HUD_ЯчейкаСерии1РасширеннаяПодсказка" id="266"/>
-						</PictureDecoration>
-						<PictureDecoration name="HUD_ЯчейкаСерии2" id="267">
-							<Width>1</Width>
-							<Height>1</Height>
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>★</v8:content>
-								</v8:item>
-							</Title>
-							<PictureSize>Proportionally</PictureSize>
-							<Picture>
-								<xr:Ref>CommonPicture.Звезда</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-							</Picture>
-							<ContextMenu name="HUD_ЯчейкаСерии2КонтекстноеМеню" id="268"/>
-							<ExtendedTooltip name="HUD_ЯчейкаСерии2РасширеннаяПодсказка" id="269"/>
-						</PictureDecoration>
-						<PictureDecoration name="HUD_ЯчейкаСерии3" id="270">
-							<Width>1</Width>
-							<Height>1</Height>
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>★</v8:content>
-								</v8:item>
-							</Title>
-							<PictureSize>Proportionally</PictureSize>
-							<Picture>
-								<xr:Ref>CommonPicture.Звезда</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-							</Picture>
-							<ContextMenu name="HUD_ЯчейкаСерии3КонтекстноеМеню" id="271"/>
-							<ExtendedTooltip name="HUD_ЯчейкаСерии3РасширеннаяПодсказка" id="272"/>
-						</PictureDecoration>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -662,9 +662,10 @@
 			<ChildItems>
 				<Button name="КартаСлот1" id="300">
 					<Type>UsualButton</Type>
-					<Width>8</Width>
+					<Width>15</Width>
 					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот1</CommandName>
+					<BackColor>web:AntiqueWhite</BackColor>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -675,9 +676,10 @@
 				</Button>
 				<Button name="КартаСлот2" id="302">
 					<Type>UsualButton</Type>
-					<Width>8</Width>
+					<Width>15</Width>
 					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот2</CommandName>
+					<BackColor>web:AntiqueWhite</BackColor>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -688,9 +690,10 @@
 				</Button>
 				<Button name="КартаСлот3" id="304">
 					<Type>UsualButton</Type>
-					<Width>8</Width>
+					<Width>15</Width>
 					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот3</CommandName>
+					<BackColor>web:AntiqueWhite</BackColor>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -701,9 +704,10 @@
 				</Button>
 				<Button name="КартаСлот4" id="306">
 					<Type>UsualButton</Type>
-					<Width>8</Width>
+					<Width>15</Width>
 					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот4</CommandName>
+					<BackColor>web:AntiqueWhite</BackColor>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -714,9 +718,10 @@
 				</Button>
 				<Button name="КартаСлот5" id="308">
 					<Type>UsualButton</Type>
-					<Width>8</Width>
+					<Width>15</Width>
 					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот5</CommandName>
+					<BackColor>web:AntiqueWhite</BackColor>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -727,9 +732,10 @@
 				</Button>
 				<Button name="КартаСлот6" id="310">
 					<Type>UsualButton</Type>
-					<Width>8</Width>
+					<Width>15</Width>
 					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот6</CommandName>
+					<BackColor>web:AntiqueWhite</BackColor>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -740,9 +746,10 @@
 				</Button>
 				<Button name="КартаСлот7" id="312">
 					<Type>UsualButton</Type>
-					<Width>8</Width>
+					<Width>15</Width>
 					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот7</CommandName>
+					<BackColor>web:AntiqueWhite</BackColor>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -753,9 +760,10 @@
 				</Button>
 				<Button name="КартаСлот8" id="314">
 					<Type>UsualButton</Type>
-					<Width>8</Width>
+					<Width>15</Width>
 					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот8</CommandName>
+					<BackColor>web:AntiqueWhite</BackColor>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -766,9 +774,10 @@
 				</Button>
 				<Button name="КартаСлот9" id="316">
 					<Type>UsualButton</Type>
-					<Width>8</Width>
+					<Width>15</Width>
 					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот9</CommandName>
+					<BackColor>web:AntiqueWhite</BackColor>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -779,9 +788,10 @@
 				</Button>
 				<Button name="КартаСлот10" id="318">
 					<Type>UsualButton</Type>
-					<Width>8</Width>
+					<Width>15</Width>
 					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот10</CommandName>
+					<BackColor>web:AntiqueWhite</BackColor>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
