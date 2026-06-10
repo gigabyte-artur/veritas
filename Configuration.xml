@@ -281,6 +281,7 @@
 			<CommonPicture>ИскатьВИнтернете</CommonPicture>
 			<CommonPicture>Карты</CommonPicture>
 			<CommonPicture>Костер</CommonPicture>
+			<CommonPicture>Кубок</CommonPicture>
 			<CommonPicture>Модификатор</CommonPicture>
 			<CommonPicture>Настройки</CommonPicture>
 			<CommonPicture>ОбщаяКартинкаЛучшиеТестированные</CommonPicture>
@@ -295,8 +296,8 @@
 			<CommonPicture>Серия3</CommonPicture>
 			<CommonPicture>СломанныйМеч</CommonPicture>
 			<CommonPicture>Сундук</CommonPicture>
+			<CommonPicture>Щит</CommonPicture>
 			<CommonPicture>Энергия</CommonPicture>
-			<CommonPicture>Кубок</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<CommonTemplate>Карты_Предопределенный</CommonTemplate>

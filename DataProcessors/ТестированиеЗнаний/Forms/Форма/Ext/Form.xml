@@ -195,14 +195,14 @@
 				</v8:item>
 			</Title>
 			<VerticalStretch>false</VerticalStretch>
-			<Group>Horizontal</Group>
+			<Group>Vertical</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="HUD_ВерхРасширеннаяПодсказка" id="201"/>
 			<ChildItems>
 				<UsualGroup name="HUD_ПанельИгрока" id="202">
 					<HorizontalStretch>true</HorizontalStretch>
-					<Group>Vertical</Group>
+					<Group>AlwaysHorizontal</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="HUD_ПанельИгрокаРасширеннаяПодсказка" id="203"/>
@@ -257,6 +257,7 @@
 							</ChildItems>
 						</UsualGroup>
 						<LabelDecoration name="HUD_БарЗдоровьяИгрока" id="218">
+							<Visible>false</Visible>
 							<HorizontalStretch>true</HorizontalStretch>
 							<Title formatted="false">
 								<v8:item>
@@ -276,13 +277,13 @@
 								<PictureDecoration name="HUD_ИконкаЩит" id="223">
 									<Width>1</Width>
 									<Height>1</Height>
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>🛡</v8:content>
-										</v8:item>
-									</Title>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
 									<PictureSize>Proportionally</PictureSize>
+									<Picture>
+										<xr:Ref>CommonPicture.Щит</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
 									<ContextMenu name="HUD_ИконкаЩитКонтекстноеМеню" id="224"/>
 									<ExtendedTooltip name="HUD_ИконкаЩитРасширеннаяПодсказка" id="225"/>
 								</PictureDecoration>
@@ -408,6 +409,7 @@
 							</ChildItems>
 						</UsualGroup>
 						<LabelDecoration name="HUD_БарЗдоровьяПротивника" id="259">
+							<Visible>false</Visible>
 							<HorizontalStretch>true</HorizontalStretch>
 							<Title formatted="false">
 								<v8:item>
@@ -646,7 +648,12 @@
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Рука_Карт" id="296">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Рука карт</v8:content></v8:item></Title>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рука карт</v8:content>
+				</v8:item>
+			</Title>
 			<VerticalStretch>false</VerticalStretch>
 			<Group>Horizontal</Group>
 			<Representation>None</Representation>
@@ -655,72 +662,132 @@
 			<ChildItems>
 				<Button name="КартаСлот1" id="300">
 					<Type>UsualButton</Type>
-					<Height>3</Height><Width>8</Width>
+					<Width>8</Width>
+					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот1</CommandName>
-					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>-</v8:content></v8:item></Title>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>-</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="КартаСлот1РасширеннаяПодсказка" id="301"/>
 				</Button>
 				<Button name="КартаСлот2" id="302">
 					<Type>UsualButton</Type>
-					<Height>3</Height><Width>8</Width>
+					<Width>8</Width>
+					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот2</CommandName>
-					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>-</v8:content></v8:item></Title>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>-</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="КартаСлот2РасширеннаяПодсказка" id="303"/>
 				</Button>
 				<Button name="КартаСлот3" id="304">
 					<Type>UsualButton</Type>
-					<Height>3</Height><Width>8</Width>
+					<Width>8</Width>
+					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот3</CommandName>
-					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>-</v8:content></v8:item></Title>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>-</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="КартаСлот3РасширеннаяПодсказка" id="305"/>
 				</Button>
 				<Button name="КартаСлот4" id="306">
 					<Type>UsualButton</Type>
-					<Height>3</Height><Width>8</Width>
+					<Width>8</Width>
+					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот4</CommandName>
-					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>-</v8:content></v8:item></Title>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>-</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="КартаСлот4РасширеннаяПодсказка" id="307"/>
 				</Button>
 				<Button name="КартаСлот5" id="308">
 					<Type>UsualButton</Type>
-					<Height>3</Height><Width>8</Width>
+					<Width>8</Width>
+					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот5</CommandName>
-					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>-</v8:content></v8:item></Title>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>-</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="КартаСлот5РасширеннаяПодсказка" id="309"/>
 				</Button>
 				<Button name="КартаСлот6" id="310">
 					<Type>UsualButton</Type>
-					<Height>3</Height><Width>8</Width>
+					<Width>8</Width>
+					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот6</CommandName>
-					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>-</v8:content></v8:item></Title>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>-</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="КартаСлот6РасширеннаяПодсказка" id="311"/>
 				</Button>
 				<Button name="КартаСлот7" id="312">
 					<Type>UsualButton</Type>
-					<Height>3</Height><Width>8</Width>
+					<Width>8</Width>
+					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот7</CommandName>
-					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>-</v8:content></v8:item></Title>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>-</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="КартаСлот7РасширеннаяПодсказка" id="313"/>
 				</Button>
 				<Button name="КартаСлот8" id="314">
 					<Type>UsualButton</Type>
-					<Height>3</Height><Width>8</Width>
+					<Width>8</Width>
+					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот8</CommandName>
-					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>-</v8:content></v8:item></Title>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>-</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="КартаСлот8РасширеннаяПодсказка" id="315"/>
 				</Button>
 				<Button name="КартаСлот9" id="316">
 					<Type>UsualButton</Type>
-					<Height>3</Height><Width>8</Width>
+					<Width>8</Width>
+					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот9</CommandName>
-					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>-</v8:content></v8:item></Title>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>-</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="КартаСлот9РасширеннаяПодсказка" id="317"/>
 				</Button>
 				<Button name="КартаСлот10" id="318">
 					<Type>UsualButton</Type>
-					<Height>3</Height><Width>8</Width>
+					<Width>8</Width>
+					<Height>3</Height>
 					<CommandName>Form.Command.КартаСлот10</CommandName>
-					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>-</v8:content></v8:item></Title>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>-</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="КартаСлот10РасширеннаяПодсказка" id="319"/>
 				</Button>
 			</ChildItems>
@@ -1861,52 +1928,102 @@
 			<Action>ОткрытьСписокКарт</Action>
 		</Command>
 		<Command name="КартаСлот1" id="13">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Карта 1</v8:content></v8:item></Title>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карта 1</v8:content>
+				</v8:item>
+			</Title>
 			<Action>КартаСлот_Нажатие</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КартаСлот2" id="14">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Карта 2</v8:content></v8:item></Title>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карта 2</v8:content>
+				</v8:item>
+			</Title>
 			<Action>КартаСлот_Нажатие</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КартаСлот3" id="15">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Карта 3</v8:content></v8:item></Title>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карта 3</v8:content>
+				</v8:item>
+			</Title>
 			<Action>КартаСлот_Нажатие</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КартаСлот4" id="16">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Карта 4</v8:content></v8:item></Title>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карта 4</v8:content>
+				</v8:item>
+			</Title>
 			<Action>КартаСлот_Нажатие</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КартаСлот5" id="17">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Карта 5</v8:content></v8:item></Title>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карта 5</v8:content>
+				</v8:item>
+			</Title>
 			<Action>КартаСлот_Нажатие</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КартаСлот6" id="18">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Карта 6</v8:content></v8:item></Title>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карта 6</v8:content>
+				</v8:item>
+			</Title>
 			<Action>КартаСлот_Нажатие</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КартаСлот7" id="19">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Карта 7</v8:content></v8:item></Title>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карта 7</v8:content>
+				</v8:item>
+			</Title>
 			<Action>КартаСлот_Нажатие</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КартаСлот8" id="20">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Карта 8</v8:content></v8:item></Title>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карта 8</v8:content>
+				</v8:item>
+			</Title>
 			<Action>КартаСлот_Нажатие</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КартаСлот9" id="21">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Карта 9</v8:content></v8:item></Title>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карта 9</v8:content>
+				</v8:item>
+			</Title>
 			<Action>КартаСлот_Нажатие</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КартаСлот10" id="22">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Карта 10</v8:content></v8:item></Title>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карта 10</v8:content>
+				</v8:item>
+			</Title>
 			<Action>КартаСлот_Нажатие</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
