@@ -303,7 +303,7 @@
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКолонкиРасширеннаяПодсказка" id="8"/>
 							<ChildItems>
-								<UsualGroup name="ГруппаКолонкаЛевая" id="9">
+								<UsualGroup name="ГруппаКолонкаЛевая" id="9" DisplayImportance="VeryLow">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -366,7 +366,7 @@
 										</Button>
 									</ChildItems>
 								</UsualGroup>
-								<UsualGroup name="ГруппаКолонкаПравая" id="11">
+								<UsualGroup name="ГруппаКолонкаПравая" id="11" DisplayImportance="VeryLow">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
