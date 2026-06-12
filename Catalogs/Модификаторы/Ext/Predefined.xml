@@ -60,6 +60,12 @@
 		<Description>Кровь гидры</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="6217bd41-1d53-49cf-8cbd-18a68d9d7774">
+		<Name>КровянойКлапан</Name>
+		<Code>000000027</Code>
+		<Description>Кровяной клапан</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="b36bba9b-9f1d-4474-86d0-a1c63e0fe981">
 		<Name>ЛатныйНаплечник</Name>
 		<Code>000000011</Code>
