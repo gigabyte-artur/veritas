@@ -369,23 +369,6 @@
 									<ContextMenu name="HUD_ИмяПротивникаКонтекстноеМеню" id="240"/>
 									<ExtendedTooltip name="HUD_ИмяПротивникаРасширеннаяПодсказка" id="241"/>
 								</LabelField>
-								<PictureDecoration name="HUD_ИконкаНамерения" id="242">
-									<Width>1</Width>
-									<Height>1</Height>
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>⚔</v8:content>
-										</v8:item>
-									</Title>
-									<PictureSize>Proportionally</PictureSize>
-									<Picture>
-										<xr:Ref>CommonPicture.Битва</xr:Ref>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-									</Picture>
-									<ContextMenu name="HUD_ИконкаНамеренияКонтекстноеМеню" id="243"/>
-									<ExtendedTooltip name="HUD_ИконкаНамеренияРасширеннаяПодсказка" id="244"/>
-								</PictureDecoration>
 								<UsualGroup name="HUD_ИндикаторСерии" id="262">
 									<Group>AlwaysHorizontal</Group>
 									<Representation>None</Representation>
@@ -489,6 +472,23 @@
 									<ContextMenu name="HUD_МаксЗдоровьеПротивникаКонтекстноеМеню" id="257"/>
 									<ExtendedTooltip name="HUD_МаксЗдоровьеПротивникаРасширеннаяПодсказка" id="258"/>
 								</LabelField>
+								<PictureDecoration name="HUD_ИконкаНамерения" id="242">
+									<Width>1</Width>
+									<Height>1</Height>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>⚔</v8:content>
+										</v8:item>
+									</Title>
+									<PictureSize>Proportionally</PictureSize>
+									<Picture>
+										<xr:Ref>CommonPicture.Битва</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ContextMenu name="HUD_ИконкаНамеренияКонтекстноеМеню" id="243"/>
+									<ExtendedTooltip name="HUD_ИконкаНамеренияРасширеннаяПодсказка" id="244"/>
+								</PictureDecoration>
 								<LabelField name="HUD_ТекстНамерения" id="245">
 									<DataPath>СледующееДействиеПротивника</DataPath>
 									<TitleLocation>None</TitleLocation>

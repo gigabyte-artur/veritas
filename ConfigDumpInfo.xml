@@ -160,7 +160,7 @@
 		<Metadata name="CommonTemplate.Противники_Предопределенный.Template" id="3e97d02d-2084-4f2a-986f-7582a0a0bb2b.0" configVersion="790881e2b1a7c24aa77c86a0b4e9157d00000000"/>
 		<Metadata name="CommonTemplate.Сборник_Предопределенный" id="07d7d3c9-9d83-4ef3-9dc5-17ea60bbd63c" configVersion="cef7145b8211d54e8a0028b272c972f000000000"/>
 		<Metadata name="CommonTemplate.Сборник_Предопределенный.Template" id="07d7d3c9-9d83-4ef3-9dc5-17ea60bbd63c.0" configVersion="12373656bde28b428608f66e38da9a2000000000"/>
-		<Metadata name="Configuration.Veritas" id="7509fd66-4f60-4f39-a099-52202f991049" configVersion="71204c3e28ad6843905033268122ea2d00000000"/>
+		<Metadata name="Configuration.Veritas" id="7509fd66-4f60-4f39-a099-52202f991049" configVersion="568d14e5a8e6da4bb6a0a6fe33fad11400000000"/>
 		<Metadata name="Configuration.Veritas.CommandInterface" id="0b9e596f-64ab-4534-9194-db0f43f0a494.a" configVersion="ca8feb04a7a35147b9b8b2bc496fc52d00000000"/>
 		<Metadata name="Configuration.Veritas.HomePageWorkArea" id="0b9e596f-64ab-4534-9194-db0f43f0a494.8" configVersion="f382beab7f33e24799fe13dd5686ba7100000000"/>
 		<Metadata name="Configuration.Veritas.Logo" id="0b9e596f-64ab-4534-9194-db0f43f0a494.1" configVersion="3cd401c956876f4584540414d3dccd0400000000"/>
@@ -196,14 +196,14 @@
 		<Metadata name="DataProcessor.ПереносСборников.Form.Форма.Form" id="66555246-f217-4b23-a0d8-1e6086b9c25f.0" configVersion="882e86e787dd8645b58ddb0656fe19c600000000"/>
 		<Metadata name="DataProcessor.ПереносСборников.ManagerModule" id="d630b1f1-0971-4494-bf41-db69eeb8077f.2" configVersion="2bd4c7ccc4e98044ae6cdf7efc828c6a00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний" id="2999ecc1-a473-4398-8d48-3351ae5887e9" configVersion="b39e1c7378d7ff40b047f7757b81f93700000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21" configVersion="c0a005cf2360324496e52ac5dc81ce7600000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма.Form" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21.0" configVersion="34fc07f2a0589445a04c62f972dd997600000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21" configVersion="2d44d394ef1e394896577660dca2e5f900000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма.Form" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21.0" configVersion="99da772dae061641b67b16ee27e8752f00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаВыбораЭтапа" id="c8c5f3a6-5a49-48a7-aa0c-ed8024b8adb3" configVersion="6397adf7764a7c49907794958738128b00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаВыбораЭтапа.Form" id="c8c5f3a6-5a49-48a7-aa0c-ed8024b8adb3.0" configVersion="b7b70e0a3d614a48a4b93352e1a4fb6700000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаДействияПротивника" id="c68f39bf-0691-4d7a-9f92-7cd88b15c8fa" configVersion="7a5c442df8b0a64b84e56806e9a5248100000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаДействияПротивника.Form" id="c68f39bf-0691-4d7a-9f92-7cd88b15c8fa.0" configVersion="495dc48d52c0094ca6c490c87fb9197d00000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаИнформацииОБое" id="f7e923c1-5a4d-4b8f-9c72-1e3d0a8b5c6d" configVersion="464d517948f2514e84bcfb0743db4f6900000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаИнформацииОБое.Form" id="f7e923c1-5a4d-4b8f-9c72-1e3d0a8b5c6d.0" configVersion="74d9e4e3853dbf458f9e91b8144eb05d00000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаИнформацииОБое" id="f7e923c1-5a4d-4b8f-9c72-1e3d0a8b5c6d" configVersion="31930d340d70fa46b44aeabd34abb67800000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаИнформацииОБое.Form" id="f7e923c1-5a4d-4b8f-9c72-1e3d0a8b5c6d.0" configVersion="cad59cb923fb6b459233146ffbe3dc7f00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНаградаСерии" id="ce2cb158-09e0-4aa3-a421-2bc9095c4f34" configVersion="e4d2b5e467b25148bd15be8eb5cda92800000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНаградаСерии.Form" id="ce2cb158-09e0-4aa3-a421-2bc9095c4f34.0" configVersion="77e87671745ada49bf0b87354c2c159a00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНастроекВикторины" id="9493a178-85ce-40c1-af73-559f37a5fc71" configVersion="d2cbdde21a28024b909fdd70c2c8f59e00000000"/>

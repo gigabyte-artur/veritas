@@ -200,6 +200,16 @@
 						</InputField>
 					</ChildItems>
 				</Table>
+				<InputField name="МодификаторыТЗМодификаторОписание" id="87">
+					<DataPath>Items.МодификаторыТЗ.CurrentData.Модификатор.Описание</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<TitleLocation>None</TitleLocation>
+					<MultiLine>true</MultiLine>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<BackColor>style:ToolTipBackColor</BackColor>
+					<ContextMenu name="МодификаторыТЗМодификаторОписаниеКонтекстноеМеню" id="88"/>
+					<ExtendedTooltip name="МодификаторыТЗМодификаторОписаниеРасширеннаяПодсказка" id="89"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаКартыКолоды" id="16">
@@ -276,6 +286,7 @@
 		<Button name="КомандаЗакрыть" id="24">
 			<Type>UsualButton</Type>
 			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 			<CommandName>Form.Command.ЗакрытьФорму</CommandName>
 			<Title>
 				<v8:item>
