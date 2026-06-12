@@ -340,6 +340,13 @@
 								</LabelDecoration>
 							</ChildItems>
 						</UsualGroup>
+						<Button name="ИнформацияОБое" id="320">
+							<Type>UsualButton</Type>
+							<Representation>Picture</Representation>
+							<Height>1</Height>
+							<CommandName>Form.Command.ИнформацияОБое</CommandName>
+							<ExtendedTooltip name="ИнформацияОБоеРасширеннаяПодсказка" id="321"/>
+						</Button>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="HUD_ПанельПротивника" id="235">
@@ -379,57 +386,6 @@
 									<ContextMenu name="HUD_ИконкаНамеренияКонтекстноеМеню" id="243"/>
 									<ExtendedTooltip name="HUD_ИконкаНамеренияРасширеннаяПодсказка" id="244"/>
 								</PictureDecoration>
-								<LabelField name="HUD_ТекстНамерения" id="245">
-									<DataPath>СледующееДействиеПротивника</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<Width>8</Width>
-									<ContextMenu name="HUD_ТекстНамеренияКонтекстноеМеню" id="246"/>
-									<ExtendedTooltip name="HUD_ТекстНамеренияРасширеннаяПодсказка" id="247"/>
-								</LabelField>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="HUD_СтрокаЗдоровьяПротивника" id="248">
-							<Group>AlwaysHorizontal</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="HUD_СтрокаЗдоровьяПротивникаРасширеннаяПодсказка" id="249"/>
-							<ChildItems>
-								<LabelField name="HUD_ТекЗдоровьеПротивника" id="250">
-									<DataPath>ТекущееЗдоровьеПротивника</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<Width>3</Width>
-									<Format>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>ЧДЦ=0; ЧН=0</v8:content>
-										</v8:item>
-									</Format>
-									<ContextMenu name="HUD_ТекЗдоровьеПротивникаКонтекстноеМеню" id="251"/>
-									<ExtendedTooltip name="HUD_ТекЗдоровьеПротивникаРасширеннаяПодсказка" id="252"/>
-								</LabelField>
-								<LabelDecoration name="HUD_РазделительЗдоровьяВрага" id="253">
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>/</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="HUD_РазделительЗдоровьяВрагаКонтекстноеМеню" id="254"/>
-									<ExtendedTooltip name="HUD_РазделительЗдоровьяВрагаРасширеннаяПодсказка" id="255"/>
-								</LabelDecoration>
-								<LabelField name="HUD_МаксЗдоровьеПротивника" id="256">
-									<DataPath>МаксимальноеЗдоровьеПротивника</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<Width>3</Width>
-									<Format>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>ЧДЦ=0; ЧН=0</v8:content>
-										</v8:item>
-									</Format>
-									<ContextMenu name="HUD_МаксЗдоровьеПротивникаКонтекстноеМеню" id="257"/>
-									<ExtendedTooltip name="HUD_МаксЗдоровьеПротивникаРасширеннаяПодсказка" id="258"/>
-								</LabelField>
 								<UsualGroup name="HUD_ИндикаторСерии" id="262">
 									<Group>AlwaysHorizontal</Group>
 									<Representation>None</Representation>
@@ -489,6 +445,57 @@
 										</PictureDecoration>
 									</ChildItems>
 								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="HUD_СтрокаЗдоровьяПротивника" id="248">
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="HUD_СтрокаЗдоровьяПротивникаРасширеннаяПодсказка" id="249"/>
+							<ChildItems>
+								<LabelField name="HUD_ТекЗдоровьеПротивника" id="250">
+									<DataPath>ТекущееЗдоровьеПротивника</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<Width>3</Width>
+									<Format>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧДЦ=0; ЧН=0</v8:content>
+										</v8:item>
+									</Format>
+									<ContextMenu name="HUD_ТекЗдоровьеПротивникаКонтекстноеМеню" id="251"/>
+									<ExtendedTooltip name="HUD_ТекЗдоровьеПротивникаРасширеннаяПодсказка" id="252"/>
+								</LabelField>
+								<LabelDecoration name="HUD_РазделительЗдоровьяВрага" id="253">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>/</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="HUD_РазделительЗдоровьяВрагаКонтекстноеМеню" id="254"/>
+									<ExtendedTooltip name="HUD_РазделительЗдоровьяВрагаРасширеннаяПодсказка" id="255"/>
+								</LabelDecoration>
+								<LabelField name="HUD_МаксЗдоровьеПротивника" id="256">
+									<DataPath>МаксимальноеЗдоровьеПротивника</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<Width>3</Width>
+									<Format>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧДЦ=0; ЧН=0</v8:content>
+										</v8:item>
+									</Format>
+									<ContextMenu name="HUD_МаксЗдоровьеПротивникаКонтекстноеМеню" id="257"/>
+									<ExtendedTooltip name="HUD_МаксЗдоровьеПротивникаРасширеннаяПодсказка" id="258"/>
+								</LabelField>
+								<LabelField name="HUD_ТекстНамерения" id="245">
+									<DataPath>СледующееДействиеПротивника</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<Width>8</Width>
+									<ContextMenu name="HUD_ТекстНамеренияКонтекстноеМеню" id="246"/>
+									<ExtendedTooltip name="HUD_ТекстНамеренияРасширеннаяПодсказка" id="247"/>
+								</LabelField>
 							</ChildItems>
 						</UsualGroup>
 						<LabelDecoration name="HUD_БарЗдоровьяПротивника" id="259">
@@ -2060,6 +2067,25 @@
 			</Title>
 			<Action>КартаСлот_Нажатие</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ИнформацияОБое" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация о бое</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация о бое</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DialogInformation</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ИнформацияОБое</Action>
 		</Command>
 	</Commands>
 	<Parameters>
