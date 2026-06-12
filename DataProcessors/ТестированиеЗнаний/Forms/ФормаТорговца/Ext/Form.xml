@@ -149,6 +149,7 @@
 						<InputField name="КартыНаВитринеЦена" id="100">
 							<DataPath>КартыНаВитрине.Цена</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<Width>5</Width>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<Format>
 								<v8:item>
@@ -278,6 +279,7 @@
 						<InputField name="МодификаторыНаВитринеЦена" id="43">
 							<DataPath>МодификаторыНаВитрине.Цена</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<Width>5</Width>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="МодификаторыНаВитринеЦенаКонтекстноеМеню" id="44"/>
 							<ExtendedTooltip name="МодификаторыНаВитринеЦенаРасширеннаяПодсказка" id="45"/>
