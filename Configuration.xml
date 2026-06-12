@@ -76,7 +76,7 @@
 			<UsedMobileApplicationFunctionalities>
 				<app:functionality>
 					<app:functionality>Biometrics</app:functionality>
-					<app:use>true</app:use>
+					<app:use>false</app:use>
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>Location</app:functionality>
@@ -164,7 +164,7 @@
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>AudioPlaybackAndVibration</app:functionality>
-					<app:use>false</app:use>
+					<app:use>true</app:use>
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>BackgroundAudioPlaybackAndVibration</app:functionality>
