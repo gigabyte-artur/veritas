@@ -329,6 +329,24 @@
     &lt;description&gt;Поменять местами колоду сброса и добора, взять 1 карту&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;    
+  &lt;card&gt;
+    &lt;name&gt;УсиленнаяЗащита&lt;/name&gt;
+    &lt;title&gt;Усиленная защита&lt;/title&gt;
+    &lt;description&gt;Игрок получает 7 единиц щита&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;  
+  &lt;card&gt;
+    &lt;name&gt;УсиленныйУдар&lt;/name&gt;
+    &lt;title&gt;Усиленный удар&lt;/title&gt;
+    &lt;description&gt;Наносит противнику 11 единиц урона&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;ЧитКод&lt;/name&gt;
+    &lt;title&gt;Чит-код&lt;/title&gt;
+    &lt;description&gt;Мгновенная победа над противником. Но у тебя ведь не хватит энергии? Или хватит?&lt;/description&gt;
+    &lt;cost&gt;10&lt;/cost&gt;
+  &lt;/card&gt;    
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>

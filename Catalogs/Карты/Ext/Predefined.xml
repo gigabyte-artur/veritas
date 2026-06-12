@@ -264,6 +264,18 @@
 		<Description>Укрытие</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="ca2ead94-d0d7-419d-a10f-c9a258cffa7d">
+		<Name>УсиленнаяЗащита</Name>
+		<Code>000000051</Code>
+		<Description>Усиленная защита</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3de0daa5-b9e1-4efe-aea7-b3104d9005d8">
+		<Name>УсиленныйУдар</Name>
+		<Code>000000052</Code>
+		<Description>Усиленный удар</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="f10ddfcf-6a2f-447a-8ada-6d8d6b415a8e">
 		<Name>Фокус</Name>
 		<Code>000000050</Code>
@@ -274,6 +286,12 @@
 		<Name>ЧистыйКонтракт</Name>
 		<Code>000000038</Code>
 		<Description>Чистый контракт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c39635f8-003d-4f5f-9438-d2a8adf2abd9">
+		<Name>ЧитКод</Name>
+		<Code>000000053</Code>
+		<Description>Чит-код</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="17958a4e-6b6a-43cd-83db-de0c7588b64a">
