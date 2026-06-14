@@ -204,8 +204,8 @@
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаДействияПротивника.Form" id="c68f39bf-0691-4d7a-9f92-7cd88b15c8fa.0" configVersion="408da84ed1bad94bb007d666bcea741b00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаИнформацииОБое" id="f7e923c1-5a4d-4b8f-9c72-1e3d0a8b5c6d" configVersion="e2f8235bcfcb734982113b3af0e73fee00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаИнформацииОБое.Form" id="f7e923c1-5a4d-4b8f-9c72-1e3d0a8b5c6d.0" configVersion="deb2dc1a597247458eba4d926a488a2100000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНаградаСерии" id="ce2cb158-09e0-4aa3-a421-2bc9095c4f34" configVersion="b2a03cc58d0a6c4596d6cc10705adf2a00000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНаградаСерии.Form" id="ce2cb158-09e0-4aa3-a421-2bc9095c4f34.0" configVersion="09f2dc66a9517646afaad0f216e1021200000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНаградаСерии" id="ce2cb158-09e0-4aa3-a421-2bc9095c4f34" configVersion="c8d00d4c2b21234b9685add840d71ca900000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНаградаСерии.Form" id="ce2cb158-09e0-4aa3-a421-2bc9095c4f34.0" configVersion="20cdabb315571a47aec7e60c3a0e761400000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНастроекВикторины" id="9493a178-85ce-40c1-af73-559f37a5fc71" configVersion="9c7dce797922124884b483917aff01e400000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНастроекВикторины.Form" id="9493a178-85ce-40c1-af73-559f37a5fc71.0" configVersion="1361dd6aa9a3b24ebdbcc7f0e641321600000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНачальныхНастроек" id="d11683ae-9f7d-4a9c-9cbf-c8447be83bff" configVersion="a785ebafb16be8459d71ad98e41b117300000000"/>

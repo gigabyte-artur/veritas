@@ -216,7 +216,7 @@
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Энергия Игрока</v8:content>
+									<v8:content>Энергия</v8:content>
 								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -265,7 +265,7 @@
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Здоровье Противника</v8:content>
+									<v8:content>Противник</v8:content>
 								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
