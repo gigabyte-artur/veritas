@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<LabelDecoration name="ДекорацияСерия" id="7">
 			<HorizontalStretch>true</HorizontalStretch>
@@ -30,110 +34,249 @@
 			<ContextMenu name="ДекорацияКартинкаСерияКонтекстноеМеню" id="20"/>
 			<ExtendedTooltip name="ДекорацияКартинкаСерияРасширеннаяПодсказка" id="21"/>
 		</PictureDecoration>
-		<LabelDecoration name="ДекорацияНадписьНаграды" id="10">
-			<HorizontalStretch>true</HorizontalStretch>
-			<Title formatted="false">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Выберите награду:</v8:content>
-				</v8:item>
-			</Title>
-			<HorizontalAlign>Center</HorizontalAlign>
-			<ContextMenu name="ДекорацияНадписьНаградыКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="ДекорацияНадписьНаградыРасширеннаяПодсказка" id="12"/>
-		</LabelDecoration>
-		<Button name="КомандаНаградаЭнергия" id="5">
-			<Type>UsualButton</Type>
-			<Representation>PictureAndText</Representation>
-			<Height>1</Height>
-			<HorizontalStretch>true</HorizontalStretch>
-			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<CommandName>Form.Command.КомандаНаградаЭнергия</CommandName>
+		<UsualGroup name="ГруппаКоманды" id="35">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Восстановить 1 энергию</v8:content>
+					<v8:content>Группа команды</v8:content>
 				</v8:item>
 			</Title>
-			<ExtendedTooltip name="КомандаНаградаЭнергияРасширеннаяПодсказка" id="6"/>
-		</Button>
-		<LabelDecoration name="ДекорацияРазделитель1" id="13">
-			<Visible>false</Visible>
-			<Title formatted="false">
+			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content> </v8:content>
+					<v8:content>Группа команды</v8:content>
 				</v8:item>
-			</Title>
-			<ContextMenu name="ДекорацияРазделитель1КонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="ДекорацияРазделитель1РасширеннаяПодсказка" id="15"/>
-		</LabelDecoration>
-		<Button name="КомандаНаградаЗолото" id="1">
-			<Type>UsualButton</Type>
-			<Visible>false</Visible>
-			<Representation>PictureAndText</Representation>
-			<Height>1</Height>
-			<HorizontalStretch>true</HorizontalStretch>
-			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<CommandName>Form.Command.КомандаНаградаЗолото</CommandName>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="36"/>
+			<ChildItems>
+				<LabelDecoration name="ДекорацияНадписьНаграды" id="10">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выберите награду:</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<ContextMenu name="ДекорацияНадписьНаградыКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ДекорацияНадписьНаградыРасширеннаяПодсказка" id="12"/>
+				</LabelDecoration>
+				<Button name="КомандаНаградаЭнергия" id="5">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<Height>1</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<CommandName>Form.Command.КомандаНаградаЭнергия</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Восстановить 1 энергию</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="КомандаНаградаЭнергияРасширеннаяПодсказка" id="6"/>
+				</Button>
+				<LabelDecoration name="ДекорацияРазделитель1" id="13">
+					<Visible>false</Visible>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияРазделитель1КонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ДекорацияРазделитель1РасширеннаяПодсказка" id="15"/>
+				</LabelDecoration>
+				<Button name="КомандаНаградаЗолото" id="1">
+					<Type>UsualButton</Type>
+					<Visible>false</Visible>
+					<Representation>PictureAndText</Representation>
+					<Height>1</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<CommandName>Form.Command.КомандаНаградаЗолото</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Забрать 5 золота</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="КомандаНаградаЗолотоРасширеннаяПодсказка" id="2"/>
+				</Button>
+				<LabelDecoration name="ДекорацияРазделитель2" id="16">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияРазделитель2КонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ДекорацияРазделитель2РасширеннаяПодсказка" id="18"/>
+				</LabelDecoration>
+				<Button name="КомандаНаградаУрон" id="22">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<Height>1</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<CommandName>Form.Command.КомандаНаградаУрон</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нанести 8 урона</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="КомандаНаградаУронРасширеннаяПодсказка" id="23"/>
+				</Button>
+				<LabelDecoration name="ДекорацияРазделитель3" id="24">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияРазделитель3КонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="ДекорацияРазделитель3РасширеннаяПодсказка" id="26"/>
+				</LabelDecoration>
+				<Button name="КомандаНаградаКарта" id="3">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<Height>1</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<CommandName>Form.Command.КомандаНаградаКарта</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получить 2 карты</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="КомандаНаградаКартаРасширеннаяПодсказка" id="4"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаИнформация" id="33">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Забрать 5 золота</v8:content>
+					<v8:content>Группа информация</v8:content>
 				</v8:item>
 			</Title>
-			<ExtendedTooltip name="КомандаНаградаЗолотоРасширеннаяПодсказка" id="2"/>
-		</Button>
-		<LabelDecoration name="ДекорацияРазделитель2" id="16">
-			<Title formatted="false">
+			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content> </v8:content>
+					<v8:content>Группа информация</v8:content>
 				</v8:item>
-			</Title>
-			<ContextMenu name="ДекорацияРазделитель2КонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="ДекорацияРазделитель2РасширеннаяПодсказка" id="18"/>
-		</LabelDecoration>
-		<Button name="КомандаНаградаУрон" id="22">
-			<Type>UsualButton</Type>
-			<Representation>PictureAndText</Representation>
-			<Height>1</Height>
-			<HorizontalStretch>true</HorizontalStretch>
-			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<CommandName>Form.Command.КомандаНаградаУрон</CommandName>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Нанести 8 урона</v8:content>
-				</v8:item>
-			</Title>
-			<ExtendedTooltip name="КомандаНаградаУронРасширеннаяПодсказка" id="23"/>
-		</Button>
-		<LabelDecoration name="ДекорацияРазделитель3" id="24">
-			<Title formatted="false">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content> </v8:content>
-				</v8:item>
-			</Title>
-			<ContextMenu name="ДекорацияРазделитель3КонтекстноеМеню" id="25"/>
-			<ExtendedTooltip name="ДекорацияРазделитель3РасширеннаяПодсказка" id="26"/>
-		</LabelDecoration>
-		<Button name="КомандаНаградаКарта" id="3">
-			<Type>UsualButton</Type>
-			<Representation>PictureAndText</Representation>
-			<Height>1</Height>
-			<HorizontalStretch>true</HorizontalStretch>
-			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<CommandName>Form.Command.КомандаНаградаКарта</CommandName>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Получить 2 карты</v8:content>
-				</v8:item>
-			</Title>
-			<ExtendedTooltip name="КомандаНаградаКартаРасширеннаяПодсказка" id="4"/>
-		</Button>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаИнформацияРасширеннаяПодсказка" id="34"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаЭнергия" id="37">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа энергия</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа энергия</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЭнергияРасширеннаяПодсказка" id="38"/>
+					<ChildItems>
+						<PictureDecoration name="ДекорацияКартинкаЭнергия" id="39">
+							<Width>2</Width>
+							<Height>1</Height>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Декорация картинка энергия</v8:content>
+								</v8:item>
+							</Title>
+							<PictureSize>Proportionally</PictureSize>
+							<Picture>
+								<xr:Ref>CommonPicture.Энергия</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ДекорацияКартинкаЭнергияКонтекстноеМеню" id="40"/>
+							<ExtendedTooltip name="ДекорацияКартинкаЭнергияРасширеннаяПодсказка" id="41"/>
+						</PictureDecoration>
+						<LabelDecoration name="ДекорацияЭнергияИгрока" id="27">
+							<Font ref="style:NormalTextFont" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Энергия Игрока</v8:content>
+								</v8:item>
+							</Title>
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<ContextMenu name="ДекорацияЭнергияИгрокаКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="ДекорацияЭнергияИгрокаРасширеннаяПодсказка" id="29"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаЗдоровьеПротивника" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа здоровье противника</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа здоровье противника</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЗдоровьеПротивникаРасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<PictureDecoration name="ДекорацияКартинкаЗдоровьеПротивника" id="44">
+							<Width>2</Width>
+							<Height>1</Height>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Декорация картинка здоровье противника</v8:content>
+								</v8:item>
+							</Title>
+							<PictureSize>Proportionally</PictureSize>
+							<Picture>
+								<xr:Ref>CommonPicture.Сердце</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ДекорацияКартинкаЗдоровьеПротивникаКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="ДекорацияКартинкаЗдоровьеПротивникаРасширеннаяПодсказка" id="46"/>
+						</PictureDecoration>
+						<LabelDecoration name="ДекорацияЗдоровьеПротивника" id="30">
+							<Font ref="style:NormalTextFont" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Здоровье Противника</v8:content>
+								</v8:item>
+							</Title>
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<ContextMenu name="ДекорацияЗдоровьеПротивникаКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="ДекорацияЗдоровьеПротивникаРасширеннаяПодсказка" id="32"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -141,6 +284,36 @@
 				<v8:Type>cfg:DataProcessorObject.ТестированиеЗнаний</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ЭнергияИгрока" id="2">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>0</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗдоровьеПротивника" id="3">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>0</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="МаксимальноеЗдоровьеПротивника" id="4">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>0</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -221,4 +394,36 @@
 			<Action>КомандаНаградаУрон</Action>
 		</Command>
 	</Commands>
+	<Parameters>
+		<Parameter name="ЭнергияИгрока">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ЗдоровьеПротивника">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="МаксимальноеЗдоровьеПротивника">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>3</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Parameter>
+	</Parameters>
 </Form>
