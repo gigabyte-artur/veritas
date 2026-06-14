@@ -130,3 +130,5 @@ dmypy.json
 ehthumbs.db
 Thumbs.db
 ```
+/.qwen/settings — копия.json
+/.qwen/settings.json
