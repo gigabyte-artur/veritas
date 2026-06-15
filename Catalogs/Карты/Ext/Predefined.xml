@@ -30,6 +30,12 @@
 		<Description>Благородный контракт</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="155b0b1d-7db0-43b8-8d92-f58103c406e5">
+		<Name>БумажнаяБроня</Name>
+		<Code>000000056</Code>
+		<Description>Бумажная броня</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="fcd4ad10-5dcf-4f6b-9e10-5857e10e402d">
 		<Name>БыстраяДетонация</Name>
 		<Code>000000039</Code>
@@ -66,10 +72,22 @@
 		<Description>Двойная инвестиция</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="dc511ab5-98cd-4ae4-b021-0e0342f73dcb">
+		<Name>Джеб</Name>
+		<Code>000000055</Code>
+		<Description>Джеб</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="a4fd4582-94e0-4a59-9f79-7deef6148a4e">
 		<Name>Единички</Name>
 		<Code>000000016</Code>
 		<Description>Единички</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fb4abcba-1d78-4203-9111-4e492abbc61d">
+		<Name>ЖгучееЗелье</Name>
+		<Code>000000057</Code>
+		<Description>Жгучее зелье</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="f107386a-9ab0-44da-8f98-506dc7fe8c1b">
@@ -286,6 +304,12 @@
 		<Name>Фокус</Name>
 		<Code>000000050</Code>
 		<Description>Фокус</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dbcb0b29-2e0f-4728-b936-53b9b5db5ffc">
+		<Name>Черновик</Name>
+		<Code>000000058</Code>
+		<Description>Черновик</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="e2cd32ff-2418-4c6e-ba6c-7eaac52c1f21">

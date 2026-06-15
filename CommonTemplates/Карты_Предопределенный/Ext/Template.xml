@@ -353,6 +353,24 @@
     &lt;description&gt;Разыграть все карты стомостью 0 дважды&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;   
+  &lt;card&gt;
+    &lt;name&gt;Джеб&lt;/name&gt;
+    &lt;title&gt;Джеб&lt;/title&gt;
+    &lt;description&gt;Наносит противнику 4 урона 2 раза&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;ЖгучееЗелье&lt;/name&gt;
+    &lt;title&gt;Жгучее зелье&lt;/title&gt;
+    &lt;description&gt;Нанести себе 5 урона, доберите 2 карты&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;Черновик&lt;/name&gt;
+    &lt;title&gt;Черновик&lt;/title&gt;
+    &lt;description&gt;Сбросьте 1 карту. Получите 8 щита&lt;/description&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;   
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>
