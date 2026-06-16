@@ -96,6 +96,12 @@
 		<Description>Перекус</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="48fc27f2-f6cc-4d54-a162-521c3df157a3">
+		<Name>ПлащМеркурия</Name>
+		<Code>000000028</Code>
+		<Description>Плащ Меркурия</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="059466f7-4301-4c0d-b8fa-fa9c353dd649">
 		<Name>Подсечка</Name>
 		<Code>000000005</Code>
@@ -130,6 +136,12 @@
 		<Name>ЧумнойНоситель</Name>
 		<Code>000000020</Code>
 		<Description>Чумной носитель</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="95ddc2ae-d4da-45a8-83e0-4c267cdb4935">
+		<Name>ШлемАфины</Name>
+		<Code>000000029</Code>
+		<Description>Шлем Афины</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="7d6dd3af-3356-480c-8d27-d82b787bf0d6">

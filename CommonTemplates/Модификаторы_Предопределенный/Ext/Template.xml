@@ -210,6 +210,27 @@
         &lt;description&gt;Даёт 7 щита при действии перемешивания стопки сброса&lt;/description&gt;
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;КровянойКлапан&lt;/name&gt;
+        &lt;title&gt;Кровяной клапан&lt;/title&gt;
+        &lt;description&gt;При избыточном лечении, лишнее здоровье обращается в щит&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;ПлащМеркурия&lt;/name&gt;
+        &lt;title&gt;Плащ Меркурия&lt;/title&gt;
+        &lt;description&gt;Позволяет выбирать золото (10) в награду за серию&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;ШлемАфины&lt;/name&gt;
+        &lt;title&gt;Шлем Афины&lt;/title&gt;
+        &lt;description&gt;Позволяет выбирать щит (5) в награду за серию&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;		
 &lt;/modifiers&gt;</v8:content>
 						</v8:item>
