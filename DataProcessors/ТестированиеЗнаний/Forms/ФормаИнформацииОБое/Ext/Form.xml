@@ -67,6 +67,18 @@
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<Format>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+							</Format>
+							<EditFormat>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+							</EditFormat>
 							<ContextMenu name="ЭффектыИгрокаТЗЗначениеПараметраКонтекстноеМеню" id="70"/>
 							<ExtendedTooltip name="ЭффектыИгрокаТЗЗначениеПараметраРасширеннаяПодсказка" id="71"/>
 						</InputField>
@@ -135,6 +147,18 @@
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<Format>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+							</Format>
+							<EditFormat>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+							</EditFormat>
 							<ContextMenu name="ЭффектыПротивникаТЗЗначениеПараметраКонтекстноеМеню" id="76"/>
 							<ExtendedTooltip name="ЭффектыПротивникаТЗЗначениеПараметраРасширеннаяПодсказка" id="77"/>
 						</InputField>
@@ -227,6 +251,7 @@
 					<CommandBarLocation>None</CommandBarLocation>
 					<ReadOnly>true</ReadOnly>
 					<AutoMaxWidth>false</AutoMaxWidth>
+					<Header>false</Header>
 					<UseAlternationRowColor>true</UseAlternationRowColor>
 					<DataPath>КартыТЗ</DataPath>
 					<SearchStringLocation>None</SearchStringLocation>
@@ -259,16 +284,56 @@
 						<ExtendedTooltip name="КартыТЗУправлениеПоискомРасширеннаяПодсказка" id="65"/>
 					</SearchControlAddition>
 					<ChildItems>
-						<InputField name="КартыТЗКарта" id="81">
-							<DataPath>КартыТЗ.Карта</DataPath>
+						<ColumnGroup name="КартыТЗГруппаКарты" id="93">
 							<ReadOnly>true</ReadOnly>
-							<EditMode>EnterOnInput</EditMode>
-							<ShowInHeader>false</ShowInHeader>
-							<ShowInFooter>false</ShowInFooter>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<ContextMenu name="КартыТЗКартаКонтекстноеМеню" id="82"/>
-							<ExtendedTooltip name="КартыТЗКартаРасширеннаяПодсказка" id="83"/>
-						</InputField>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Карты ТЗГруппа карты</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Карты ТЗГруппа карты</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>InCell</Group>
+							<ExtendedTooltip name="КартыТЗГруппаКартыРасширеннаяПодсказка" id="94"/>
+							<ChildItems>
+								<InputField name="КартыТЗКарта" id="81">
+									<DataPath>КартыТЗ.Карта</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ShowInHeader>false</ShowInHeader>
+									<ShowInFooter>false</ShowInFooter>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КартыТЗКартаКонтекстноеМеню" id="82"/>
+									<ExtendedTooltip name="КартыТЗКартаРасширеннаяПодсказка" id="83"/>
+								</InputField>
+								<InputField name="КартыТЗКартаСтоимость" id="90">
+									<DataPath>КартыТЗ.Карта.Стоимость</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ShowInHeader>false</ShowInHeader>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<Format>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧН=0</v8:content>
+										</v8:item>
+									</Format>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧН=0</v8:content>
+										</v8:item>
+									</EditFormat>
+									<ContextMenu name="КартыТЗКартаСтоимостьКонтекстноеМеню" id="91"/>
+									<ExtendedTooltip name="КартыТЗКартаСтоимостьРасширеннаяПодсказка" id="92"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
 					</ChildItems>
 				</Table>
 				<InputField name="КартыТЗКартаОписание" id="84">
