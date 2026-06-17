@@ -168,9 +168,9 @@
 				</LabelDecoration>
 				<Button name="КомандаНаградаЩит" id="50">
 					<Type>UsualButton</Type>
+					<Visible>false</Visible>
 					<Representation>PictureAndText</Representation>
 					<Height>1</Height>
-					<Visible>false</Visible>
 					<HorizontalStretch>true</HorizontalStretch>
 					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 					<CommandName>Form.Command.КомандаНаградаЩит</CommandName>

@@ -231,6 +231,27 @@
         &lt;description&gt;Позволяет выбирать щит (5) в награду за серию&lt;/description&gt;
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;РасширенныйАрхив&lt;/name&gt;
+        &lt;title&gt;Расширенный архив&lt;/title&gt;
+        &lt;description&gt;Позволяет взять на 1 карту в награду за серию правильных ответов больше&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;		
+	&lt;modifier&gt;
+        &lt;name&gt;СтирательнаяРезинка&lt;/name&gt;
+        &lt;title&gt;Стирательная резинка&lt;/title&gt;
+        &lt;description&gt;Каждый раз, когда игрок сбрасывает карту, противник получает 1 Яд&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;УздаДракона&lt;/name&gt;
+        &lt;title&gt;Узда дракона&lt;/title&gt;
+        &lt;description&gt;При розыгрыше карты стоимостью 2 или больше, игрок добирает 1 карту&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;		
 &lt;/modifiers&gt;</v8:content>
 						</v8:item>

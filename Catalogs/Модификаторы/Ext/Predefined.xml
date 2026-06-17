@@ -108,10 +108,22 @@
 		<Description>Подсечка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="e5c49f49-5200-4d80-a193-c761709b9e97">
+		<Name>РасширенныйАрхив</Name>
+		<Code>000000030</Code>
+		<Description>Расширенный архив</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="5ad4deb7-bc2a-4b91-95e4-2fe0c4c9f1dd">
 		<Name>СтальныеНаручи</Name>
 		<Code>000000017</Code>
 		<Description>Стальные наручи</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="906afe70-c7a7-403e-afed-fa80b555b0a5">
+		<Name>СтирательнаяРезинка</Name>
+		<Code>000000031</Code>
+		<Description>Стирательная резинка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="6c12d33c-2259-4709-968a-f23d491da8b9">
@@ -124,6 +136,12 @@
 		<Name>Туман</Name>
 		<Code>000000008</Code>
 		<Description>Туман</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7703d428-e54e-4b94-a7d6-2395ec974395">
+		<Name>УздаДракона</Name>
+		<Code>000000032</Code>
+		<Description>Узда дракона</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="d9fb8a7e-6fe0-4698-aa71-3f8e368be8ef">
