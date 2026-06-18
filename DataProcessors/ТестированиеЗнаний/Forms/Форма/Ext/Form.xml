@@ -493,8 +493,12 @@
 									<DataPath>СледующееДействиеПротивника</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<Width>8</Width>
+									<Hiperlink>true</Hiperlink>
 									<ContextMenu name="HUD_ТекстНамеренияКонтекстноеМеню" id="246"/>
 									<ExtendedTooltip name="HUD_ТекстНамеренияРасширеннаяПодсказка" id="247"/>
+									<Events>
+										<Event name="Click">HUD_ТекстНамеренияНажатие</Event>
+									</Events>
 								</LabelField>
 							</ChildItems>
 						</UsualGroup>
