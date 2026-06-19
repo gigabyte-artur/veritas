@@ -45,6 +45,16 @@
 			<ContextMenu name="ДекорацияПоздравлениеКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ДекорацияПоздравлениеРасширеннаяПодсказка" id="9"/>
 		</LabelDecoration>
+		<LabelDecoration name="ДекорацияОткрытия" id="12">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> </v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияОткрытияКонтекстноеМеню" id="13"/>
+			<ExtendedTooltip name="ДекорацияОткрытияРасширеннаяПодсказка" id="14"/>
+		</LabelDecoration>
 		<Button name="ЗакрытьФорму" id="10">
 			<Type>UsualButton</Type>
 			<HorizontalStretch>true</HorizontalStretch>
