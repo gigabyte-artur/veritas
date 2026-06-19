@@ -41,6 +41,7 @@
 			<Form>ФормаПросмотраКартинки</Form>
 			<Form>ФормаТорговца</Form>
 			<Form>ФормаУспешноеВосхождение</Form>
+			<Form>ФормаКолесоСудьбы</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
