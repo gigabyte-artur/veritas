@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.19">
+	<Item id="bed2c59f-8c76-424e-a386-428d85293594">
+		<Name>АдаптивнаяТактика</Name>
+		<Code>000000059</Code>
+		<Description>Адаптивная тактика</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="e05ba96a-856f-4e01-b34c-a1273f0f05a3">
 		<Name>Адреналин</Name>
 		<Code>000000003</Code>

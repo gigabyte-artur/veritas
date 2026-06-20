@@ -370,6 +370,12 @@
     &lt;title&gt;Черновик&lt;/title&gt;
     &lt;description&gt;Сбросьте 1 карту. Получите 8 щита&lt;/description&gt;
     &lt;cost&gt;0&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;АдаптивнаяТактика&lt;/name&gt;
+    &lt;title&gt;Адаптивная тактика&lt;/title&gt;
+    &lt;description&gt;Наносит 6 урона противнику. При сбросе: Получите 8 щита&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;   
 &lt;/cards&gt;</v8:content>
 						</v8:item>
