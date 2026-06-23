@@ -253,6 +253,41 @@
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;		
+	&lt;modifier&gt;
+        &lt;name&gt;Гонг&lt;/name&gt;
+        &lt;title&gt;Гонг&lt;/title&gt;
+        &lt;description&gt;Вы добираете на 1 карту больше в начале боя&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;МентальныйЩит&lt;/name&gt;
+        &lt;title&gt;Ментальный щит&lt;/title&gt;
+        &lt;description&gt;Первая ошибка в бою не активирует действие противника&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;	
+	&lt;modifier&gt;
+        &lt;name&gt;Поплавок&lt;/name&gt;
+        &lt;title&gt;Поплавок&lt;/title&gt;
+        &lt;description&gt;При правильном ответе: 20% шанс вернуть из сброса карту стоимостью 1 или больше&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;	
+	&lt;modifier&gt;
+        &lt;name&gt;Страховка&lt;/name&gt;
+        &lt;title&gt;Страховка&lt;/title&gt;
+        &lt;description&gt;При неверном ответе, 20% шанс, что он не засчитывается&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;Гарпун&lt;/name&gt;
+        &lt;title&gt;Гарпун&lt;/title&gt;
+        &lt;description&gt;При правильном ответе: 20% шанс вернуть из сброса карту стоимостью 1 или больше&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;		
 &lt;/modifiers&gt;</v8:content>
 						</v8:item>
 					</tl>

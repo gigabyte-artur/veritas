@@ -12,6 +12,12 @@
 		<Description>Волчий клык</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="b8965ebe-71b7-4c5f-b47b-3bf055fb8ef4">
+		<Name>Гарпун</Name>
+		<Code>000000037</Code>
+		<Description>Гарпун</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="6c42adbd-ccc7-4c33-a4b0-6a3571a7231a">
 		<Name>Гонг</Name>
 		<Code>000000033</Code>
