@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Gigabyte</Vendor>
-			<Version>1.5.4</Version>
+			<Version>1.5.5</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -327,6 +327,7 @@
 			<Enum>РежимыВикторины</Enum>
 			<Enum>СложностиПротивников</Enum>
 			<Enum>СложностиСборников</Enum>
+			<Enum>СобытияБоя</Enum>
 			<Report>ПрогрессОбучения</Report>
 			<DataProcessor>ЛучшиеТестированные</DataProcessor>
 			<DataProcessor>ОбновлениеСборников</DataProcessor>
