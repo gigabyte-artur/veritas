@@ -110,6 +110,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="e192a5c9-cf6d-495f-8ca1-9ad9ac8787d5">
+				<Properties>
+					<Name>МентальныйЩит</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ментальный щит</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="c12a5198-30f4-4e85-9dbe-f375208b1dd2">
 				<Properties>
 					<Name>Неуклюжесть</Name>

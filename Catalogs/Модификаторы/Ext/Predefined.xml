@@ -12,6 +12,12 @@
 		<Description>Волчий клык</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="6c42adbd-ccc7-4c33-a4b0-6a3571a7231a">
+		<Name>Гонг</Name>
+		<Code>000000033</Code>
+		<Description>Гонг</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="74c4eeee-14f7-4ca1-80ac-a8b497df893a">
 		<Name>ДозорныйВорон</Name>
 		<Code>000000026</Code>
@@ -78,6 +84,12 @@
 		<Description>Летучая мышь</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="5ec20229-b0df-4275-921e-deeb30466a22">
+		<Name>МентальныйЩит</Name>
+		<Code>000000034</Code>
+		<Description>Ментальный щит</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="e4c5b930-9248-477d-aef5-84549ccd65a6">
 		<Name>МифриловоеПокрытие</Name>
 		<Code>000000024</Code>
@@ -108,6 +120,12 @@
 		<Description>Подсечка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="82af1611-64d3-45b7-9698-2bed6faa9306">
+		<Name>Поплавок</Name>
+		<Code>000000035</Code>
+		<Description>Поплавок</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="e5c49f49-5200-4d80-a193-c761709b9e97">
 		<Name>РасширенныйАрхив</Name>
 		<Code>000000030</Code>
@@ -124,6 +142,12 @@
 		<Name>СтирательнаяРезинка</Name>
 		<Code>000000031</Code>
 		<Description>Стирательная резинка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="34ac845a-fbc8-4049-ba83-a9d1aa23fe09">
+		<Name>Страховка</Name>
+		<Code>000000036</Code>
+		<Description>Страховка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="6c12d33c-2259-4709-968a-f23d491da8b9">
