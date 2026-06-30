@@ -831,6 +831,31 @@
             &lt;/Action&gt;
         &lt;/ActionCycle&gt;
     &lt;/Enemy&gt;
+
+	&lt;!-- 27. Страж Истины --&gt;
+    &lt;Enemy id="guardian_of_truth_01"&gt;
+        &lt;Name&gt;Страж Истины&lt;/Name&gt;
+        &lt;Description&gt;Непреклонный древний конструкт, чей разум подстраивается под тактику любого противника. Он возводит непробиваемые барьеры и питается жизненной силой врагов, восстанавливая себя.&lt;/Description&gt;
+        &lt;MaxHealth&gt;75&lt;/MaxHealth&gt;
+        &lt;Difficulty&gt;Элитная&lt;/Difficulty&gt;
+        &lt;ActionCycle&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;АдаптивныйИнтеллект&lt;/Type&gt;
+                &lt;MinPower&gt;1&lt;/MinPower&gt;
+                &lt;MaxPower&gt;1&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;НаложитьЩит&lt;/Type&gt;
+                &lt;MinPower&gt;10&lt;/MinPower&gt;
+                &lt;MaxPower&gt;20&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+            &lt;Action&gt;
+                &lt;Type&gt;Вампиризм&lt;/Type&gt;
+                &lt;MinPower&gt;5&lt;/MinPower&gt;
+                &lt;MaxPower&gt;10&lt;/MaxPower&gt;
+            &lt;/Action&gt;
+        &lt;/ActionCycle&gt;
+    &lt;/Enemy&gt;
 &lt;/Enemies&gt;</v8:content>
 						</v8:item>
 					</tl>
