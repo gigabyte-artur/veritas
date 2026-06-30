@@ -38,6 +38,18 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
+			<EnumValue uuid="d2c59b88-7a48-4eca-a612-664edb230680">
+				<Properties>
+					<Name>АдаптивныйИнтеллект</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адаптивный интеллект</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="f71faad6-ea35-4873-b28a-07338d90d832">
 				<Properties>
 					<Name>АктивироватьБомбу</Name>
